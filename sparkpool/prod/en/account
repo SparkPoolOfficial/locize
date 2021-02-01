@@ -1,0 +1,346 @@
+{
+  "bindauthy": {
+    "stepone": {
+      "imok": "I have already downloaded it.",
+      "subtitle": "Download Google Authenticator App or Authy",
+      "title": "Bind Google Authentication"
+    },
+    "stepthree": {
+      "subtitle": "Open the authenticator and scan the QR code",
+      "title": "Turn on Google Authentication"
+    },
+    "steptwo": {
+      "alert": "Please be sure to save the secret key above. When you change the phone or lose the authenticator, you can retrieve it through the key, otherwise the account will not be able to login.",
+      "title": "Backup key"
+    },
+    "text": {
+      "authy": "Authy",
+      "authyDownload": "APK Download",
+      "googleauth": "Google Authenticator",
+      "inputkey": "Or input your private key"
+    }
+  },
+  "bindemail": {
+    "skip": "Skip binding",
+    "subtitle": "The mail can't be changed, please fill in carefully",
+    "text": {
+      "subtitle": "You can't change mail after binding"
+    },
+    "title": "Bind Email"
+  },
+  "bindinfo": {
+    "text": {
+      "subtitle": "Last step, bind your account and enjoy service."
+    },
+    "title": "Binding information"
+  },
+  "bindphone": {
+    "title": "Bind Phone"
+  },
+  "button": {
+    "bind": "Bind",
+    "binded": "Bound",
+    "bindemail": "Bind Email",
+    "bindphone": "Bind Phone",
+    "cancel": "Cancel",
+    "close": "Close",
+    "complete": "Finish",
+    "copy": "Copy",
+    "determine": "Confirm",
+    "login": "Login",
+    "loginbyemail": "Login by email",
+    "loginbyphone": "Login by phone",
+    "logout": "Log out",
+    "modify": "revise",
+    "nextstep": "Next",
+    "notbind": "Unbound",
+    "prevstep": "Previous",
+    "register": "Register",
+    "resendcode": "Resend",
+    "resetpwdbyemail": "Reset password via Email ",
+    "resetpwdbyphone": "Reset password via SMS",
+    "sendcode": "Send Code",
+    "set": "Settings",
+    "setted": "Already set",
+    "unbind": "Unbind",
+    "unbindByEmail": "Unbind by email",
+    "unbindByPhone": "Unbind by phone",
+    "unbindphone": "Unbind Phone",
+    "unbindwechat": "Unbind Wechat"
+  },
+  "changepaypwd": {
+    "text": {
+      "subtitle": "Remember the 6-digit payment password, which is the key to keep your account safe."
+    },
+    "title": "Change payment password"
+  },
+  "changephone": {
+    "title": "Change phone number"
+  },
+  "changepwd": {
+    "title": "Change login password"
+  },
+  "common": {
+    "footer": {
+      "title": "The Keeper of Blockchain Networks"
+    },
+    "minepool": "Mining Pool",
+    "nav": {
+      "default": "Default account",
+      "follow": "Following",
+      "helpcenter": "Help Center",
+      "home": "Home",
+      "mining": "Account mining",
+      "navTitle": "Settings",
+      "notice": "My Notice",
+      "usersetting": "Settings",
+      "wallet": "Wallet"
+    },
+    "support": {
+      "new": "Submit request",
+      "questions": "FAQ",
+      "tutorial": "Tutorial"
+    },
+    "text": {
+      "about": "About",
+      "bindauthcode": "How to bind Google 2-Step Verification?",
+      "contact": "Contact us",
+      "email": "Email",
+      "forgetpwdlogin": "Forgot password, how to log in?",
+      "improvesecurity": "How to improve account security?",
+      "lostauthcode": "What if I lost the two-step verification?",
+      "services": "Service"
+    }
+  },
+  "dialog": {
+    "bindphone": {
+      "content": "Please bind your Mail or WeChat before you binding phone number."
+    },
+    "default": {
+      "content": "Please bind Email before trying again.",
+      "title": "Tips"
+    },
+    "lostauthor": {
+      "content": "If you have any security questions, please contact us",
+      "title": "Successful! Will be automatically unbound after 24 hours"
+    },
+    "setpwd": {
+      "content": "Please bind the Email first, then set the login password."
+    },
+    "unbindphone": {
+      "content": "Please bind the Email or WeChat first, then unbind the phone."
+    },
+    "unbindwechat": {
+      "content": "Please bind the Email first, then unbind WeChat"
+    },
+    "updatepwd": {
+      "content": "Please bind the Email first, then change your password."
+    }
+  },
+  "forget": {
+    "title": "Forget password"
+  },
+  "forgetpaypwd": {
+    "text": {
+      "subtitle": "Forgot payment password"
+    },
+    "title": "Forgot payment password"
+  },
+  "home": {
+    "setting": {
+      "account": {
+        "email": "Email",
+        "phone": "Phone",
+        "title": "Account",
+        "wechat": "WeChat"
+      },
+      "safe": {
+        "authy": "Two-Factor Authentication",
+        "authytext": "please backup the private key to Google Authenticator for your asset security.",
+        "paypwd": "Payment password",
+        "paypwdtext": "Password for withdrawal, transfer and other scenarios.",
+        "pwd": "Login password",
+        "pwdtext": "Password for login",
+        "title": "Security"
+      },
+      "title": "User settings"
+    },
+    "userinfo": {
+      "created_at": "Registration date:",
+      "ip": "Last login:",
+      "lastlogin": "Last login:",
+      "title": "Personal information"
+    }
+  },
+  "html": {
+    "title": "UserCenter - SparkPool"
+  },
+  "link": {
+    "forget": "forget password",
+    "forgetpaypwd": "Forgot your payment password",
+    "forgetpwd": "Forgot your login password",
+    "login": "I have an account",
+    "register": "No account? Register",
+    "sparkpool": "SparkPool"
+  },
+  "login": {
+    "text": {
+      "forgetmessage": "For the user who logs in with the original mobile number, please set the new login password by \"Forgot Password\".",
+      "loginby": "Sign in with",
+      "subtitle": "Secure and Reliable Digital Wallet Service Platform",
+      "subtitle2": "World-leading mining pool service platform"
+    },
+    "title": "Login Spark"
+  },
+  "message": {
+    "code201": "operation failed",
+    "code310": "Not logged in",
+    "code311": "user name or password error",
+    "code312": "User does not exist",
+    "code321": "captcha error",
+    "code331": "Phone verification code error",
+    "code332": "The original phone number already exists",
+    "code333": "Mobile number already exists",
+    "code334": "Original phone verification code error",
+    "code341": "transaction password error",
+    "code351": "Two-Factor Authentication code error",
+    "code352": "Two-Factor Authentication is already set",
+    "code353": "Two-Factor Authentication is not set",
+    "code355": "Need to bind two-factor authentication",
+    "code360": "Already bound",
+    "code361": "You must bind other login methods at first",
+    "code362": "The WeChat has been bound by another account",
+    "code363": "Unable to unified target account",
+    "code364": "Has been bound by another account, force delete other accounts?",
+    "code365": "Data does not exist or the operation timed out",
+    "code366": "The bound WeChat account is abnormal.",
+    "phone": {
+      "sendcode": {
+        "success": "SMS has been sent, please check it on your phone"
+      }
+    },
+    "require": {
+      "agreement": "Please read and agree to 《the Terms of Service》 and 《Privacy Agreement》."
+    },
+    "required": {
+      "captchacode": "Please input captcha",
+      "code": "Please input verification code",
+      "email": "Input your email",
+      "email2": "Please enter a valid Email",
+      "newpaypwd": "Please enter new payment password",
+      "newpwd2": "The new password is the same as the original ",
+      "originpaypwd": "Please enter the original payment password",
+      "originpwd": "Please enter the original login password",
+      "paypwd": "Please input payment password",
+      "phone": "Please input phone number",
+      "phone2": "Invalid Phone Number",
+      "pwd": "Please input login password",
+      "pwddiff": "Passwords do not match",
+      "renewpaypwd": "Please confirm the new payment password",
+      "renewpwd": "Please confirm the new login password",
+      "repaypwd": "Please confirm payment password",
+      "repwd": "Please input confirmation login password",
+      "repwd2": "Passwords do not match",
+      "token": "Please input 6 digits"
+    },
+    "success": {
+      "authy": "Verification succeed!",
+      "bindauthy": "Binding succeed!",
+      "bindphone": "Succeed!",
+      "changepaypwd": "Change payment password succeed",
+      "changephone": "Change succeed!",
+      "changepwd": "Change login password succeed",
+      "copy": "Copy succeed, If failed, please copy it in the input bar.",
+      "merge": "Unified succeed!",
+      "resetpaypwd": "Payment password reset succeed!",
+      "setpaypwd": "Payment password set succeed!",
+      "setpwd": "Login password set succeed!",
+      "unbindauthy": "Unbind succeed!"
+    },
+    "warning": {
+      "authfail": "Two-Factor Authentication failed, please check."
+    }
+  },
+  "modal": {
+    "bindinfo": {
+      "code333": {
+        "content": "The phone has been bound by another account, so can't be bound to the current account.",
+        "title": "Phone binding failed"
+      },
+      "code363": {
+        "content": "The WeChat has been bound by another account and cannot be bound to the current account.",
+        "title": "Account binding failed"
+      },
+      "code364": {
+        "content1": "The WeChat account already exists. Clicking \"Forced Binding\" will delete the original WeChat account",
+        "content2": "Bind WeChat to the current account.",
+        "oktext": "Forced binding",
+        "title": "WeChat binding warning"
+      }
+    }
+  },
+  "notification": {
+    "email": {
+      "success": {
+        "description": "Please login to check",
+        "title": "Verification code has been sent"
+      }
+    }
+  },
+  "page404": {
+    "text": "Sorry, we can't find this page."
+  },
+  "placeholder": {
+    "authycode": "Input the 6-digit code on the authenticator",
+    "captchacode": "captcha",
+    "code": "Verification code",
+    "email": "Email",
+    "emailCode": "E-mail verification code",
+    "google": "Google",
+    "newpaypwd": "New payment password",
+    "newpaypwd2": "Please input 6-digit payment password",
+    "newpwd": "New login password",
+    "originpaypwd": "Original payment password",
+    "originpwd": "Original login password",
+    "paypwd": "New payment password",
+    "phone": "phone number",
+    "pwd": "Login password",
+    "registerpwd": "6-16 digit password, case sensitive",
+    "renewpaypwd": "Confirm new payment password",
+    "renewpwd": "Confirm new login password",
+    "repaypwd": "Confirm new payment password",
+    "repwd": "Please input your password again ",
+    "smsCode": "SMS verification code",
+    "token": "6-digit verification code"
+  },
+  "register": {
+    "text": {
+      "privacyagreement": "Privacy Policy",
+      "services1": "Read and agree",
+      "services2": "and",
+      "termsofservice": "Terms of Service"
+    },
+    "title": "Create an account"
+  },
+  "setpaypwd": {
+    "text": {
+      "subtitle": "Remember the 6-digit payment password, which is the key to keep your account safe"
+    },
+    "title": "Set payment password"
+  },
+  "setpwd": {
+    "title": "Set login password"
+  },
+  "unbindauthy": {
+    "text": {
+      "warning": "* For the security of your assets,  Please don't disable 2FA"
+    },
+    "title": "Turn off Two-Factor Authentication 2FA"
+  },
+  "unbindphone": {
+    "title": "Unbind phone"
+  },
+  "unbindwechat": {
+    "title": "Unbind Wechat"
+  }
+}

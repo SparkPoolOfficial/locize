@@ -1,0 +1,330 @@
+{
+  "bindauthy": {
+    "stepone": {
+      "imok": "我已经下载好",
+      "subtitle": "下载谷歌 Authenticator App 或者 Authy",
+      "title": "绑定二次验证"
+    },
+    "stepthree": {
+      "subtitle": "打开验证器，扫描二维码",
+      "title": "开启二次验证"
+    },
+    "steptwo": {
+      "alert": "请务必保存好以上的密钥。当你更换手机，或者丢失验证器，可以通过秘钥找回，否则账号将无法登陆。",
+      "title": "备份密钥"
+    },
+    "text": {
+      "authy": "Authy",
+      "googleauth": "谷歌验证器",
+      "inputkey": "或者你可以手动输入一下私钥"
+    }
+  },
+  "bindemail": {
+    "skip": "跳过绑定",
+    "subtitle": "邮箱不支持更换，请谨慎填写",
+    "text": {
+      "subtitle": "邮箱绑定后，不支持修改"
+    },
+    "title": "绑定邮箱"
+  },
+  "bindinfo": {
+    "text": {
+      "subtitle": "最后一步，绑定账号后可以畅快使用我们的服务了"
+    },
+    "title": "绑定信息"
+  },
+  "bindphone": {
+    "title": "绑定手机"
+  },
+  "button": {
+    "bind": "绑定",
+    "binded": "已绑定",
+    "bindemail": "绑定邮箱",
+    "bindphone": "绑定手机",
+    "cancel": "取消",
+    "close": "关闭",
+    "complete": "完成",
+    "copy": "复制",
+    "determine": "确定",
+    "login": "登录",
+    "loginbyemail": "使用邮箱登录",
+    "loginbyphone": "使用手机登录",
+    "logout": "退出登录",
+    "modify": "修改",
+    "nextstep": "下一步",
+    "notbind": "未绑定",
+    "prevstep": "上一步",
+    "register": "注册",
+    "resendcode": "再次发送",
+    "resetpwdbyemail": "邮箱重置密码",
+    "resetpwdbyphone": "短信重置密码",
+    "sendcode": "发送验证码",
+    "set": "设置",
+    "setted": "已设置",
+    "unbind": "解绑",
+    "unbindphone": "解绑手机",
+    "unbindwechat": "解绑微信"
+  },
+  "changepaypwd": {
+    "text": {
+      "subtitle": "请牢记 6 位数字支付密码，这是保障你的账号安全的关键"
+    },
+    "title": "修改支付密码"
+  },
+  "changephone": {
+    "title": "修改手机"
+  },
+  "changepwd": {
+    "title": "修改登录密码"
+  },
+  "common": {
+    "footer": {
+      "title": "价值网络守护者"
+    },
+    "minepool": "矿池",
+    "nav": {
+      "follow": "关注管理",
+      "helpcenter": "帮助中心",
+      "home": "首页",
+      "notice": "提醒设置",
+      "usersetting": "个人设置",
+      "wallet": "钱包"
+    },
+    "support": {
+      "new": "提交工单",
+      "questions": "常见问题",
+      "tutorial": "新手教程"
+    },
+    "text": {
+      "about": "关于",
+      "bindauthcode": "如何绑定 Google 两步验证？",
+      "contact": "联系方式",
+      "email": "邮箱",
+      "forgetpwdlogin": "忘记了密码，该如何登陆？",
+      "improvesecurity": "如何提高账户安全性？",
+      "lostauthcode": "两步验证丢失怎么办？",
+      "services": "服务"
+    }
+  },
+  "dialog": {
+    "bindphone": {
+      "content": "请先绑定邮箱或微信后，再来绑定手机"
+    },
+    "default": {
+      "content": "请先绑定邮箱后再尝试",
+      "title": "温馨提示"
+    },
+    "setpwd": {
+      "content": "请先绑定邮箱后，再来设置登录密码"
+    },
+    "unbindphone": {
+      "content": "请先绑定邮箱或微信后，再来解绑手机"
+    },
+    "unbindwechat": {
+      "content": "请先绑定邮箱后，再来解绑微信"
+    },
+    "updatepwd": {
+      "content": "请先绑定邮箱后，再来设置修改密码"
+    }
+  },
+  "forget": {
+    "title": "忘记密码"
+  },
+  "forgetpaypwd": {
+    "text": {
+      "subtitle": "忘记支付密码"
+    },
+    "title": "忘记支付密码"
+  },
+  "home": {
+    "setting": {
+      "account": {
+        "email": "邮箱",
+        "phone": "手机",
+        "title": "账号",
+        "wechat": "微信"
+      },
+      "safe": {
+        "authy": "二次验证",
+        "authytext": "即二步验证，保障资产安全的关键，注意备份",
+        "paypwd": "支付密码",
+        "paypwdtext": "提币、转账等场景需要验证密码",
+        "pwd": "登录密码",
+        "pwdtext": "账号登录时使用的密码",
+        "title": "安全"
+      },
+      "title": "用户设置"
+    },
+    "userinfo": {
+      "created_at": "注册日期：",
+      "ip": "最后登录 IP：",
+      "lastlogin": "最后登录日期：",
+      "title": "个人信息"
+    }
+  },
+  "html": {
+    "title": "用户中心 - 星火矿池 SparkPool"
+  },
+  "link": {
+    "forget": "忘记密码",
+    "forgetpaypwd": "忘记原支付密码",
+    "forgetpwd": "忘记原登录密码",
+    "login": "使用已有账户登录",
+    "register": "没有账号？注册",
+    "sparkpool": "星火矿池"
+  },
+  "login": {
+    "text": {
+      "forgetmessage": "原手机号登录的用户，请先通过「忘记密码」设置新的登录密码",
+      "loginby": "第三方登录",
+      "subtitle": "安全、可靠的数字钱包服务平台",
+      "subtitle2": "全球领先的矿池服务平台"
+    },
+    "title": "登录星火"
+  },
+  "message": {
+    "code201": "操作失败",
+    "code310": "未登录",
+    "code311": "用户名或密码错误",
+    "code312": "用户不存在",
+    "code321": "图片验证码错误",
+    "code331": "手机验证码错误",
+    "code332": "此账号已绑定手机",
+    "code333": "手机号码已存在",
+    "code334": "原手机验证码错误",
+    "code341": "交易密码错误",
+    "code351": "二次验证码错误",
+    "code352": "已绑定二次验证",
+    "code353": "未绑定二次验证",
+    "code355": "需要绑定二次验证",
+    "code360": "已绑定微信",
+    "code361": "必须先绑定其他登录方式",
+    "code362": "该微信已被其他账号绑定",
+    "code363": "无法合并目标账号",
+    "code364": "已被其他账号绑定，强制删除其他账号?",
+    "code365": "数据不存在或操作已超时",
+    "code366": "被绑定的微信账号存在异常",
+    "phone": {
+      "sendcode": {
+        "success": "短信已发送，请在手机上查看"
+      }
+    },
+    "require": {
+      "agreement": "请先阅读并同意《服务条款》和《隐私协议》"
+    },
+    "required": {
+      "captchacode": "请输入图形验证码",
+      "code": "请输入验证码",
+      "email": "请输入邮箱",
+      "email2": "请输入有效的邮箱",
+      "newpaypwd": "请输入新支付密码",
+      "newpwd2": "新密码与原密码一样",
+      "originpaypwd": "请输入原支付密码",
+      "originpwd": "请输入原登录密码",
+      "paypwd": "请输入支付密码",
+      "phone": "请输入手机号",
+      "pwd": "请输入登录密码",
+      "pwddiff": "两次输入的密码不一致",
+      "renewpaypwd": "请确认新支付密码",
+      "renewpwd": "请确认新登录密码",
+      "repaypwd": "请确认支付密码",
+      "repwd": "请输入确认登录密码",
+      "repwd2": "两次输入的密码不一致",
+      "token": "请输入 6 位校验码"
+    },
+    "success": {
+      "authy": "验证成功！",
+      "bindauthy": "绑定成功！",
+      "bindphone": "绑定手机成功！",
+      "changepaypwd": "修改支付密码成功",
+      "changephone": "修改手机成功！",
+      "changepwd": "修改登录密码成功",
+      "copy": "复制成功，如果失败，请在输入框内手动复制。",
+      "merge": "合并成功！",
+      "resetpaypwd": "重置支付密码成功！",
+      "setpaypwd": "设置支付密码成功！",
+      "setpwd": "设置登录密码成功！",
+      "unbindauthy": "解绑成功！"
+    },
+    "warning": {
+      "authfail": "二次验证绑定不通过，请检查后尝试。"
+    }
+  },
+  "modal": {
+    "bindinfo": {
+      "code333": {
+        "content": "该手机已经被其他账号绑定，无法绑定到当前账号。",
+        "title": "手机绑定失败"
+      },
+      "code363": {
+        "content": "该微信已经被其他账号绑定，无法绑定到当前账号。",
+        "title": "账号绑定失败"
+      },
+      "code364": {
+        "content1": "该微信账号已经存在，点击「强制绑定」将删除原微信账号，将微信",
+        "content2": "绑定到当前账号。",
+        "oktext": "强制绑定",
+        "title": "微信绑定警告"
+      }
+    }
+  },
+  "notification": {
+    "email": {
+      "success": {
+        "description": "请登录邮箱查看",
+        "title": "验证码已发送"
+      }
+    }
+  },
+  "page404": {
+    "text": "抱歉，我们找不到这个页面了"
+  },
+  "placeholder": {
+    "authycode": "输入验证器上面的 6 位校验码",
+    "captchacode": "图形验证码",
+    "code": "验证码",
+    "email": "邮箱",
+    "google": "谷歌",
+    "newpaypwd": "新支付密码",
+    "newpaypwd2": "请输入 6 位数字支付密码",
+    "newpwd": "新密码(8-20个字符，包含字母和数字)",
+    "originpaypwd": "原支付密码",
+    "originpwd": "原登录密码",
+    "paypwd": "新支付密码",
+    "phone": "手机号",
+    "pwd": "登录密码",
+    "registerpwd": "6-16位密码，区分大小写",
+    "renewpaypwd": "新支付密码确认",
+    "renewpwd": "确认密码",
+    "repaypwd": "新支付密码确认",
+    "repwd": "请再次输入密码确认",
+    "token": "6 位校验码"
+  },
+  "register": {
+    "text": {
+      "privacyagreement": "隐私协议",
+      "services1": "已阅读并同意",
+      "services2": "和",
+      "termsofservice": "服务条款"
+    },
+    "title": "创建账号"
+  },
+  "setpaypwd": {
+    "text": {
+      "subtitle": "请牢记 6 位数字支付密码，这是保障你的账号安全的关键"
+    },
+    "title": "设置支付密码"
+  },
+  "setpwd": {
+    "title": "设置登录密码"
+  },
+  "unbindauthy": {
+    "title": "关闭二次验证 2FA"
+  },
+  "unbindphone": {
+    "title": "解绑手机"
+  },
+  "unbindwechat": {
+    "title": "解绑微信"
+  }
+}

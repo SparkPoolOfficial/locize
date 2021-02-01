@@ -1,0 +1,44 @@
+{
+  "about": "About us",
+  "accountmining": "Account mining",
+  "addressBooks": "Address book",
+  "calculator": "Calculator",
+  "contact_us": "Contact us",
+  "download": "APP",
+  "help": {
+    "articles": "Historical articles",
+    "classroom": "Spark Classroom",
+    "order": "Submit request",
+    "question": "Help & Tutorial",
+    "requests": "My Requests",
+    "title": "Help Center"
+  },
+  "help_articles": "More Articles",
+  "help_classroom": "Spark Classroom",
+  "help_order": "Submit a Request",
+  "help_question": "FAQs",
+  "login": "Login",
+  "logout": "Logout",
+  "ming_tutorial": "Mining tutorial",
+  "miningFarm": "My farm",
+  "more": "Tools",
+  "news": "Announcement",
+  "offlineHistory": "Offline history",
+  "pool": "PoW Pool",
+  "products": "Products",
+  "register": "register",
+  "search": {
+    "placeholder": "Sub Account  / Wallet Address"
+  },
+  "title_help_center": "Help Center",
+  "title_home": "Home",
+  "title_pool": "SparkPool",
+  "user": {
+    "default": "Default account",
+    "follow": "Following management",
+    "myWorkers": "My Workers",
+    "notice": "Reminder settings",
+    "setting": "Personal settings"
+  },
+  "wallet": "Cloud Wallet"
+}

@@ -1,0 +1,672 @@
+{
+  "addressBook": {
+    "addFirst": "Please add to the whitelist",
+    "addList": "Add",
+    "addSuccess": "Done!",
+    "autoWIthdrawSetting": "Withdrawal Settings",
+    "autoWithdraw": {
+      "tip": "After setting, the mining income of the sub-account will be transferred out automatically in accordance with the rules after it is transferred to the account"
+    },
+    "autoWithdrawPercent": "Actual withdrawal ratio",
+    "bindPhone": "Bind Phone",
+    "currencyPlace": "All",
+    "delegate": "Automatic delegate ratio",
+    "deleteSuccess": "Delete successfully!",
+    "edit": "Edit",
+    "explain": {
+      "btn": "I know",
+      "c1": "Add addresses to whitelist in address book and set a withdrawal ratio for each sub-account; note: the whitelist is shared by all sub-accounts",
+      "c2": "The system will be triggered automatically when the payment bill is generated in the current sub-account.",
+      "c3": "You can withdraw today's mining income in bill. If multiple withdrawal addresses are configured and the total ratio is less than 100%, the remainder is stored in the balance",
+      "c4": "It will not be triggered when the corresponding amount in the address is less than the minimum withdrawal threshold of the system, or exceed the maximum limit for a single day. Please set the ratio of distribution reasonably.",
+      "c5": "Each sub-account only supports one solution; after switching the sub-accounts, a new splitting solution can be configured. For example, sp_a sets automatic withdrawal to A and B wallets, sp_b sets withdrawal to B and C wallets",
+      "q1": "1. How to turn on automatic withdrawal?",
+      "q2": "2. When will the automatic withdrawal be triggered?",
+      "q3": "3. Withdraw the current balance or the bill of today's mining income?",
+      "q4": "4. In what situation an automatic withdrawal will not be triggered?",
+      "q5": "5. How to configure multiple automatic payments of accounts?",
+      "title": "Notes on automatic withdrawal"
+    },
+    "modal": {
+      "addContract": "Add Receiver.",
+      "address": "Address",
+      "addressMange": "Address book",
+      "addressPlace": "Wallet address",
+      "cancel": "Cancel",
+      "cancelVIP": "Remove",
+      "cancelVIPTitle": "Are you sure to remove this address from the whitelist?",
+      "currency": "Currency",
+      "extData": "Remark",
+      "extDataPlace": "Maximum 20 characters",
+      "googlePlace": "Google code",
+      "isWhite": "Add to whitelist",
+      "maxField": "Maximum 10 addresses.",
+      "modifyExtDataSuccess": "Modify memo successfully!",
+      "noAddress": "Please input address",
+      "noCurrency": "Please select coin",
+      "noExtData": "Please input the memo!",
+      "noGoogleAndSms": "Please input Google code or SMS code!",
+      "save": "save",
+      "setExtData": "Set a memo",
+      "setVip": "Set as whitelist",
+      "settingPercent": "Set ratio",
+      "smsPlace": "SMS code",
+      "submit": "Confirm",
+      "switch": "Transfer Switch",
+      "switchCloseContent": "After turning-off, the automatic transfer will be stopped, and the mining income will be deposited into the balance",
+      "switchCloseTitle": "Turn-off auto transfer",
+      "switchOpenContent": "The system will be triggered automatically when the payment bill is generated in the current sub-account.",
+      "switchOpenTitle": "Auto transfer turn-on successfully",
+      "switchToGoogle": "Switch to Google verification",
+      "switchToPhone": "Switch to phone verification",
+      "tip": "Address book and whitelist Settings Shared by all sub-accounts; ETH/USDT Shared address book",
+      "title": "Add Withdrawal Address",
+      "vipTitle": "You are setting {{currency}}-{{ address }} as whitelist for withdrawal, you can withdraw quickly after setting.",
+      "whiteListMange": "Whitelist management"
+    },
+    "noConfig": "No configuration",
+    "noConfigDesc": "Please set the withdrawal ratio for the whitelisted address; all sub-accounts share the whitelist, and each sub-account has exclusive automatic withdrawal configuration",
+    "noData": "No data",
+    "setAutoWithdrawRate": "Set automatic withdrawal ratio",
+    "setScaleSuccess": "Setup successful!",
+    "setWithdraw": "Withdrawal management",
+    "showWhiteList": "Show whitelisted addresses only.",
+    "subTitle": "Quick withdrawal after setting up \"whitelist\"；Set the automatic withdrawal ratio and automatically transfer the daily mining income",
+    "table": {
+      "address": "Withdrawal address",
+      "autoWithdraw": "Auto-withdrawal Ratio",
+      "currency": "Coin",
+      "delete": "Delete",
+      "deleteTip": "Are you sure to delete this address?",
+      "extData": "Memo",
+      "isVip": "Whitelist",
+      "option": "Operation",
+      "time": "UpdateAt",
+      "tooltip": {
+        "icon": "NEW",
+        "title": "Add to whitelist, set different withdrawal ratio for each sub-account."
+      }
+    },
+    "title": "Addresses management",
+    "toBalancePercent": "The deposited balance ratio",
+    "withdrawPercent": {
+      "notRight": "Please input correct percent",
+      "tooFloat": "Support up to 2 decimal places!",
+      "tooMax": "Automatic withdrawal ratio cannot exceed 100%!",
+      "tooSmall": "The automatic withdrawal ratio should not be less than 0!"
+    },
+    "withdrawSetting": {
+      "content": "Each sub-account has 1 free withdrawal quota per day, and miner fees will be charged after exceeded. If it is automatic withdrawal, each receiving address occupies one quota",
+      "title": "Free withdrawal rules adjustment"
+    }
+  },
+  "autoWithdraw": {
+    "subTitle": "When the daily mining income arrives in the account, it can be automatically withdrawn, and only supports the whitelisted address; daily {{freeWithdrawTimes}} free quota",
+    "tip": "For daily mining income (excluding balance), coins will be automatically withdrawn to the whitelist;",
+    "title": "Withdrawal settings"
+  },
+  "billStatus": {
+    "ACCEPT": "Accepted",
+    "CANCEL": "Canceled",
+    "CANCEL_REFUNDING": "Pending",
+    "FAILED": "Failed",
+    "FAILED_REFUNDING": "Matching",
+    "INIT": "Processing",
+    "MAKING": "Matching",
+    "PAYING": "Pending",
+    "PENDING": "Processing",
+    "PENDING_FAILED": "Order Failed",
+    "PENDING_ORDER": "Preparing",
+    "PENDING_SUCCESS": "Order succeed",
+    "REFUNDING": "Refunding",
+    "SUCCESS": "Succeed"
+  },
+  "bills": {
+    "cancelExchange": "Cancel Order",
+    "currencyExchange": "Exchange list",
+    "gotoExchange": "Exchange",
+    "normal": "Bills"
+  },
+  "billsDetailPage": {
+    "getDetailFailed": "Failed, please try again!",
+    "systemWait": "Being processed, please be patient"
+  },
+  "billsKey": {
+    "bizType": "Type",
+    "currency": "Token",
+    "dstAddress": "Payee",
+    "dstCurrency": "Received",
+    "dstValue": "Received amount",
+    "fees": "Tx fee",
+    "gmtCreate": "Time",
+    "gmtModify": "Last update",
+    "note": "Note",
+    "price": "Price",
+    "srcAddress": "Payer",
+    "srcCurrency": "Token",
+    "srcValue": "Out amount",
+    "status": "Status",
+    "time": "Time",
+    "transactionRate": "Trans rate",
+    "txId": "Tx ID",
+    "type": "Type",
+    "uniqNo": "Tx flow",
+    "value": "Amount"
+  },
+  "billsPage": {
+    "bills": {
+      "exportBtnText": "Export bill",
+      "exportCancelText": "Cancel",
+      "exportContent": "It may take a long time to export the billing details of the past 3 months, please be patient.",
+      "exportOkText": "Continue",
+      "exportTitle": "Export bill",
+      "history": "Bill history"
+    },
+    "filter": {
+      "all": "All",
+      "currency": "Token:"
+    }
+  },
+  "bizType": {
+    "CURRENCY_EXCHANGE": "Exchange",
+    "DEMAND_INCOME": "Current",
+    "DEPOSIT": "Deposit",
+    "DEPOSIT_INCOME": "Interest of Holding",
+    "FAILED": "Failed",
+    "FIXED_DEPOSIT_PURCHASE": "Subscribe",
+    "FIXED_DEPOSIT_REDEMPTION": "Redeem",
+    "FIX_TIME_DEPOSIT": "Lock expires",
+    "FIX_TIME_DEPOSIT_EXPIRE": "Unlock",
+    "IN": "Deposit",
+    "INIT": "Waiting",
+    "INNER_TRANSFER": "INNER",
+    "MINING_INCOME": "Mining Income",
+    "OUT": "Withdraw",
+    "PENDING": "Ordering",
+    "POS_INCOME": "Staking income",
+    "POS_MINING": "Staking",
+    "RED_POCKET": "Red Pocket",
+    "SETH_EXCHANGE": "Swap",
+    "STAFF_BONUS_INCOME": "Bonus",
+    "STAFF_MONTH_INCOME": "Salary",
+    "STAFF_REIMBURSE_INCOME": "Reimbursement",
+    "SUCCESS": "Succeed",
+    "UNKNOW": "Unknown type",
+    "WITHDRAW": "Withdraw"
+  },
+  "breadcrumb": {
+    "ETHToCKB": "Mining Swap",
+    "asset": "My assets",
+    "bills": "My bill",
+    "billsDetail": "Bill details",
+    "home": "Homepage",
+    "sparkpool": "SparkPool",
+    "title": "Cloud Wallet",
+    "withdraw": "Withdraw"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "demandIncome": "Current",
+    "exchange": "Exchange",
+    "nextStep": "Next",
+    "ok": "Confirm",
+    "resend": "Resend",
+    "send": "Send",
+    "withdraw": "Withdraw",
+    "withdrawDisabled": " Withdraw"
+  },
+  "common": {
+    "btn": {
+      "expandOff": "Fold",
+      "expandOn": "Unfold"
+    },
+    "layout": {
+      "nav": {
+        "accountminingsetting": "Account Settings",
+        "bills": "Bill",
+        "financial": "Finance",
+        "wallet": "Wallet"
+      }
+    },
+    "text": {
+      "dateTime": {
+        "day": "day",
+        "hour": "hour",
+        "minute": "minute",
+        "month": "month",
+        "second": "second",
+        "week": "week",
+        "year": "year"
+      }
+    }
+  },
+  "confirm": {
+    "frozen": {
+      "content": "Your account has been frozen for some reason, please contact admin.",
+      "title": "Account frozen reminder"
+    },
+    "noGoogleAndPhone": {
+      "content": "For security, you can't operation until the Google Authenticator or sms is bound."
+    },
+    "noPermission": {
+      "cancelText": "Close",
+      "content": "You can fill the form to apply for our beta test.",
+      "okText": "Apply for the beta test",
+      "title": "Sorry, you are not a beta test user, you can't experience this product."
+    },
+    "withdraw": {
+      "cancelText": "Cancel",
+      "content": "For security, you can‘t withdraw your coins until your phone number or Google Authenticator are bound.",
+      "okText": "To bind",
+      "title": "Account security tips"
+    }
+  },
+  "currencyType": {
+    "CNY": "CNY",
+    "USD": "USD"
+  },
+  "exchange": {
+    "balance": "Balance",
+    "bill": {
+      "latest": "Recently Completed",
+      "sell": "Sell",
+      "waiting": "Waiting",
+      "waitingContent": "The waiting time is long, you can leave and see what else."
+    },
+    "btn": {
+      "disabled": "In maintenance",
+      "sell": "Sell ETH"
+    },
+    "cancelFailed": "Orders have already been matched and cannot be canceled. please wait patiently.",
+    "cancelOrde": "Cancel order",
+    "cancelOrderTitle": "Cancel the order or not?",
+    "cancelSuccess": "The order has been canceled.",
+    "latestSellCount": "The minimum quantity for sell cannot be less than 1",
+    "rule": {
+      "title": "Exchange Terms & Conditions",
+      "title1": "1. One-click sell is based on the services created by decentralized exchanges and mature market makers with high security.",
+      "title2": "2. The price is close to the centralized exchange.",
+      "title3": "3. It takes tens of seconds to several minutes to complete a small transaction. You can cancel the transaction at any time if it is incomplete.",
+      "title4": "4. If you need a wholesale exchange, please contact customer service"
+    },
+    "think": "Let me think again",
+    "title": "Flash Exchange"
+  },
+  "financial": {
+    "annualized": "APR",
+    "annualizedTip": "On the basis of the guaranteed return, there is a possibility of obtaining a higher return",
+    "btn": {
+      "buyContract": "Transfer in",
+      "comming": "About to begin",
+      "hideDividendPaid": "Hide dividends",
+      "myPostion": "My positions",
+      "submitBuyContract": "Confirm transfer"
+    },
+    "myPosition": {
+      "table": {
+        "title": "Fixed"
+      }
+    },
+    "myPostion": {
+      "title": "My positions"
+    },
+    "qa": {
+      "1text": "Deposit and withdraw as you want. Deposit today and accrue the next day, and no interest is calculated for less than 24 hours. Interest is distributed at 01:00 UTC+8 daily. ",
+      "1title": "What is a current product?",
+      "2text1": "Uses account mining in SparkPool",
+      "2text2": "The system automatically transfers the income to the cloud wallet",
+      "2text3": "Hold assets (balance >= 0.1 ETH) to earn daily demand income",
+      "2title": "How to participate in current product?",
+      "3text": "It is suitable for long-term optimism about the token and willing to hold the token in the medium and long term to obtain higher deposit interest. Deposit in SparkPool, the principal and income are guaranteed",
+      "3title": "What is a fixed product?",
+      "4text1": "After the transfer, the assets will be locked from the available balance",
+      "4text2": "Interest calculation starts on the value date, we will start liquidation after the due date and distribute interest. It is expected that the dividend will be completed within 24 hours of the redemption date",
+      "4text3": "Fixed products get at least the guaranteed annual interest rate, and there is a probability to get a higher interest",
+      "4title": "How to participate in fixed product?"
+    },
+    "regular": {
+      "agreement": "\"Service Agreement\"",
+      "agreementReaded": "Read and Agree",
+      "agreementRequired": "Please read and agree to the \"Service Agreement\"!",
+      "amountRequired": "Please enter the purchase amount!",
+      "annualizedDividend": "Dividend rate",
+      "balance": "Available Balance:",
+      "balanceOf": "Available Balance:",
+      "buyAmount": "Transfer amount",
+      "buyTime": "Subscription time",
+      "buyValues": "Subscribe quantity",
+      "deadline": "Subscription deadline",
+      "deadline2": "Subscribe countdown",
+      "endSubscribe": "Value date",
+      "endTime": "Due date",
+      "endTime2": "Redemption date",
+      "income": "Income",
+      "lockingdays": "Lock-up time",
+      "myPostionBalance": "Position amount",
+      "qaTitle": "Common problem",
+      "remainingAmount": "Remaining amount",
+      "startAt": "Begin in : ",
+      "startSubscribe": "Start subscription",
+      "status": "Status",
+      "status_DIVIDEND_PAID": "Dividend paid",
+      "status_LOCKING": "Accruing",
+      "status_REDEMPTION": "Redemption",
+      "status_SUBSCRIBE": "Under subscription",
+      "subscribeBalance": "Subscribed",
+      "subtitle": "Flexible customization, higher returns",
+      "title": "Fixed",
+      "totalBalance": "Total"
+    },
+    "status": {
+      "DIVIDEND_PAID": "Dividend paid",
+      "DIVIDEND_PAID2": "Over",
+      "LOCKING": "Accruing",
+      "REDEMPTION": "Redemption"
+    }
+  },
+  "homePage": {
+    "alert": {
+      "notSupportCharge": "The deposit function is not supported. The income from the “sub-account mining” will be automatically transferred to the cloud wallet every day.",
+      "notSupportChargeMore": "Sub-account mining Guide >"
+    },
+    "myAssets": {
+      "title": "My Assets",
+      "unUseAbled": "Frozen:",
+      "useAbled": "Available:"
+    },
+    "myBills": {
+      "allBills": "Bills",
+      "title": "Latest Bills"
+    },
+    "myWallet": {
+      "title": "My cloud wallet",
+      "totalAssetsTitle": "Estimated Value"
+    },
+    "toptip": {
+      "isFrozen": "Your withdrawal has been frozen, please contact admin.",
+      "noBalance": "You are unable to withdraw coins because balance is 0.",
+      "notSupport": "This token does not support account mining at the moment.",
+      "pauseTransfer": "System maintenance, please try again later."
+    }
+  },
+  "html": {
+    "desc": "SparkPool cloud wallet provides you with trustworthy financial products of crypto assets.",
+    "keywords": "Cloud wallet, SparkPool Cloud Wallet, Crypto Wallet, Deposit Mining, Blockchain-related Finance, Blockchain-related Financial Services, On-chain Banking.",
+    "title": "Cloud Wallet - SparkPool"
+  },
+  "largeAmountModal": {
+    "content": "For the safety of your assets, we recommend you withdraw a small amount at first. After confirming the receipt of payment, you can execute your wholesale withdrawal.",
+    "ok": "OK",
+    "title": "Wholesale withdrawal reminder"
+  },
+  "link": {
+    "billsHistory": "Bill history"
+  },
+  "message": {
+    "logout": {
+      "success": "Exited successfully."
+    },
+    "withdraw": {
+      "success": "Withdraw successfully"
+    }
+  },
+  "meta": {
+    "description": "SparkPool's wallet provides miners with secure, trusted encryption asset financial products",
+    "keywords": "Cloud Wallet, Starfire Mine Pool Cloud Wallet, Encrypted Wallet, Deposit Mining, Blockchain Finance, Blockchain Financial Services, Blockchain Banking"
+  },
+  "nervos": {
+    "exchange": "Lightning Swap",
+    "exchangeEnding": "Ended",
+    "exchangeMaintenance": "System Maintenance",
+    "exchangeTitle": "Mining Swap",
+    "message": {
+      "exchangeFailed": "Failed!",
+      "exchangeSuccess": "Succeed!",
+      "maxExchangeAmount": "Maximum swap quota{{ value }} !",
+      "minExchangeAmount": "Minimum swap quota{{ value }} !",
+      "minExchangeAmountUSDT": "The minimum swap amount cannot be less than {{value}} USDT!",
+      "noBalance": "Insufficient balance!",
+      "noCKB": "Please input the amount of CKB!",
+      "noETH": "Please input the amount of ETH!",
+      "noGoogle": "Please input google verification code!"
+    },
+    "modal": {
+      "availableETH": "Available ETH",
+      "balance": "Available",
+      "ckbCount": "Received amount",
+      "ckbInputCount": "100~100000",
+      "ethCount": "Transfer out amount",
+      "ethInputCount": "ETH",
+      "exchangeRate": "Exchange rate",
+      "google": "Please input Google verification code",
+      "wantBuy": "I want buy"
+    },
+    "noETH": "No ETH? Click to get",
+    "noGoogle": {
+      "content": "For security, you can't operation until the phone number or Google Authenticator is bound.",
+      "title": "You haven't bound Google authentication."
+    },
+    "price": {
+      "eth": "Reference Rate ETH / USDT",
+      "huobi": "Huobi",
+      "offline": "Network interruption",
+      "online": "Real time"
+    },
+    "progress": {
+      "exchanged": "Exchanged (CKB)",
+      "redeeme": "Exchangeable (CKB)"
+    },
+    "rule": {
+      "agree": "Agree",
+      "modelTitle": "Please read this clause carefully",
+      "more": "Know more",
+      "reject": "Refuse",
+      "rule1": "Nervos CKB is the only PoW multi-asset & store of value general purpose blockchain for the new crypto-economy.",
+      "rule2": "CKB exchange rate: 1 CKB = $0.01; ETH will be exchanged to CKB according to USDT real-time price; total maximum exchangeable amount: 50 million CKB, equivalent to $0.5 million USDT.",
+      "rule3": "The maximum exchange amount per person is 100000 CKB; the minimum exchange amount is 100 CKB. SparkPool has the right to adjust the quota limit according to the activity",
+      "rule4": "The exchange rate is based on the price of the server end. The number of CKB will be displayed in your asset details after exchanging. Transaction cannot be rolled back, SparkPool will not be responsible for the future CKB price.",
+      "rule5": "Cloud wallet will support CKB transfer after CKB mainnet launch.",
+      "rule6": "CKB swap is a high-risk behavior, please consider whether to participate or not according to your risk tolerance, so the risk is borne by yourself.",
+      "title": "Exchange conditions"
+    },
+    "startSoon": "Start soon",
+    "step": {
+      "ARCHIVE": "Out-of-service",
+      "DRAFT": "Draft",
+      "END": "End Exchange",
+      "MAINTENANCE": "Begin Swap",
+      "PREHEAT": "Warm up",
+      "STARTTS": "CKB transfer",
+      "bill": "My Exchange records",
+      "time1": "2019-10-12",
+      "time2": "2019-10-17 16:00",
+      "time3": "Reaching the limit",
+      "time4": "Nervos Mainnet launch",
+      "title": "Project Flow"
+    },
+    "title": "Exchange ETH to CKB in seconds"
+  },
+  "nervosDAO": {
+    "asset": {
+      "attend": "How to participate?",
+      "attend1": "1. Sub-account mining",
+      "attend2": "2. The system will send income to wallet automatically",
+      "attend3": "3.  Holding CKB (Balance >= 1000 CKB)",
+      "attendCKB": "3.  Holding {{ currency }} (Balance >= 1000 {{ currency }})",
+      "attendETH": "3.  Holding {{ currency }} (Balance >= 0.1 {{ currency }})",
+      "attendUSDT": "3.  Holding {{ currency }} (Balance >= 10 {{ currency }})",
+      "balance": "Balance ({{currency}})",
+      "day": "Day",
+      "month": "Month accumulative",
+      "sevenDay": "Seven days",
+      "startMining": "Start",
+      "yesterday": "Income of yesterday"
+    },
+    "bill": {
+      "benefitBalance": "Principal",
+      "title": "Bills"
+    },
+    "option": {
+      "balanceBenefit": "Gain interest by holding",
+      "withdraw": "Withdraw"
+    },
+    "subTitle": "We will calculate your interest after the day you deposit coins and help you maximize the incomes | No lockups. The actual interest is subject to our confirmation.",
+    "title": "Gain interest by holding {{currency}}",
+    "tokenMining": "Gain interest by holding"
+  },
+  "notification": {
+    "authen": {
+      "description1": "For security, you can‘t withdraw your coins until your phone number or Google Authenticator are bound.",
+      "description2": "Click to bind",
+      "description3": "For the security of your funds, non-whitelist withdrawals, please bind your mobile phone first",
+      "okText1": "To bind",
+      "title": "Account security tips"
+    }
+  },
+  "optionType": {
+    "CLEAR_INCOME": "Clear income",
+    "DEPOSIT": "Deposit",
+    "INNER_TRANSFER": "Internal transfer",
+    "TRANSFER": "Transfer",
+    "WITHDRAW": "Withdraw"
+  },
+  "selectDefaultAccount": {
+    "setting": "Setting default account?",
+    "title": "Please choose your account"
+  },
+  "seth": {
+    "autoExchange": {
+      "tooSmall": "The automatic swap ratio cannot be less than 0!"
+    },
+    "exchange": {
+      "btn": "Swap",
+      "title": "Start Swap",
+      "tooMax": "The automatic swap ratio cannot exceed 100%!"
+    },
+    "predict": {
+      "tip": "Estimated volume:"
+    },
+    "qa": {
+      "content1": "You can manually swap after daily income is automatically transferred to the cloud wallet",
+      "content2": "0%. No commission fee",
+      "content3": "sETH is an ERC20 token, which can be transferred to any supported wallet and can be withdrawn at any time without restriction",
+      "question1": "How to participate in the swap",
+      "question2": "How much is the commission fee?",
+      "question3": "How to withdraw sETH?",
+      "title": "Common problem"
+    },
+    "setting": {
+      "btn": "Confirm",
+      "success": "Set up successfully!",
+      "tip": "When the daily mining income is received, it can be automatically swapped into SETH; if the whitelist automatic withdrawal is set, the withdrawal operation will be performed after the swap is completed",
+      "title": "Automatic swap ratio setting"
+    },
+    "unlogin": {
+      "cancel": "Cancel",
+      "login": "Login",
+      "title": "Please login"
+    },
+    "update": "Modify"
+  },
+  "table": {
+    "title": {
+      "balance": "Balance",
+      "bizType": "Type",
+      "currency": "Token",
+      "currencyExchange": "Trading pair",
+      "detail": "Detail",
+      "dstAddress": "Withdrawal address",
+      "fees": "Fee",
+      "freezeBalance": "Frozen",
+      "note": "Remark",
+      "nums": "Amount",
+      "option": "Operation",
+      "status": "Status",
+      "time": "Time",
+      "totalAssets": "Total assets"
+    }
+  },
+  "withdrawModal": {
+    "form": {
+      "authenCode": "Two-Factor Authentication",
+      "authenCode_placeholder": "Google Two-Factor Authentication",
+      "authenCode_required": "Please input the Two-Factor verification code.",
+      "authenCode_validate": "Please enter a 6 digit verification code",
+      "emailCode": "Email verification code",
+      "emailCode_placeholder": "Email verification code",
+      "emailCode_validator": "Please input the email verification code",
+      "phoneCode": "Verification Code ",
+      "phoneCode_placeholder": "Verification Code ",
+      "phoneCode_required": "Please input SMS verification code"
+    },
+    "sendEmail": {
+      "notification": {
+        "description": "Please login mail to check.",
+        "message": "Email verification code sent successfully."
+      }
+    },
+    "sendSms": {
+      "notification": {
+        "description": "Check on your phone",
+        "message": "SMS sent successfully"
+      }
+    },
+    "title": "Withdrawal confirmation"
+  },
+  "withdrawPage": {
+    "addressList": {
+      "link": "Addresses management",
+      "noExtData": "No Memo",
+      "title": "Address book",
+      "tooltip": {
+        "content": "Quick withdrawal after setting up \"whitelist\"",
+        "title": "New features go live"
+      }
+    },
+    "asset": {
+      "Title": "Asset details"
+    },
+    "assets": {
+      "balance": "Available balance",
+      "freeze": "On orders",
+      "freezeTip": "Frozen assets include: assets transferred in or out",
+      "title": "Asset details"
+    },
+    "form": {
+      "address": "Receiving address",
+      "address_placeholder": "Payee address",
+      "address_required": "Please input receiving address",
+      "address_validator": "Please input a valid wallet address",
+      "fees": "Fee",
+      "message": "Tips:",
+      "message_24hwithdraw": "Accumulated withdrawal amount within 24 hours is <=",
+      "message_24hwithdraw2": ", you can't withdraw if the amount exceeds the limit",
+      "message_minExtractAmount": "The minimum receive amount need >=",
+      "note": "Note",
+      "note_placeholder": "Optional",
+      "trueSendValue": "Actual received",
+      "value": "Withdrawal amount",
+      "value_all": "All",
+      "value_maxValue": "Available: ",
+      "value_placeholder": "Withdrawal amount",
+      "value_required": "Please input transfer amount",
+      "value_validator_limit": "Transfer amount exceeds the transferable balance",
+      "value_validator_min": "The minimum withdrawal amount is",
+      "value_validator_trueSendvalue": "The receive amount need be equal or greater than"
+    },
+    "noData": "No Data",
+    "text": {
+      "agoD": "days ago",
+      "agoH": "hours ago",
+      "agoM": "months ago",
+      "agoMin": "minutes ago",
+      "agoS": "seconds ago",
+      "agoW": "weeks ago",
+      "agoY": "years ago"
+    },
+    "whitelist": "Whitelist",
+    "withdraw": {
+      "title": "Withdraw"
+    }
+  }
+}

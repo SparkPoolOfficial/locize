@@ -1,0 +1,17 @@
+{
+  "banding_times_error": "Deposit URL can only be changed once within 24 hours",
+  "deposit_url_error": "Wrong address. Please check exchange's tutorial and retry",
+  "email_code_error": "Email verification code error",
+  "email_code_send_faild": "Failed to send Mailbox verification code ",
+  "email_send_faild": "Failed to send Email",
+  "email_server_busy": "Email verification code service is tired, please try again later",
+  "email_url_dead": "Link has expired. Please try again",
+  "exchange_not_support": "Unsupported exchange",
+  "input_error": "Input errors. Please retry",
+  "mining_email_error": "You cannot bind address until the balance or hashrate is greater than 0. Please try again later.",
+  "mining_email_not_binding": "The mining address hasn't bound to the exchange, so the unbinding operation cannot be performed.",
+  "not_exist_receivables_address": "The address does not exist",
+  "params_error": "Parameter error",
+  "request_ repeated": "The request has been processed, please do not click repeatedly",
+  "unbanding_faild": "Error in data. Unbinding failed"
+}

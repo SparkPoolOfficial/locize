@@ -1,0 +1,1453 @@
+{
+  "appStoreGuidePage": {
+    "alert": "暂未上架中国大陆的应用市场，请切换到香港、美国、台湾的 APP Store 下载。\n以下提供的香港地区的账号可能无法登录，请使用自有账号进行下载。",
+    "button": {
+      "download": "已了解，继续下载",
+      "tip": "已经上架香港、美国、台湾应用市场，使用自有账号下载更可靠"
+    },
+    "step1": {
+      "title": "点击 App Store 首页右上角头像"
+    },
+    "step2": {
+      "title": "点击退出登录",
+      "title2": "重新输入 Apple ID 及密码"
+    },
+    "step3": {
+      "account": "账号",
+      "password": "密码",
+      "text": "为了防止您的手机信息泄露，请务必不要使用上方Apple ID登录iCloud使用参考Apple ID下载过App后，请您及时退出该账号。",
+      "title": "输入香港  iOS 账号",
+      "title2": "以下中国香港 ID 供参考使用（点击账号或密码可直接复制）"
+    },
+    "title": "切换到香港 iOS 账号"
+  },
+  "button": {
+    "cancel": "取消"
+  },
+  "calculator": {
+    "income": {
+      "day": "天",
+      "farmBtn": "进入我的矿场",
+      "farmTip": "预估矿场的成本和收益",
+      "message": "收益计算器是采用当前难度估算的 PPS+ 理论收益，可能与您的实际收益存在偏差，仅供参考",
+      "myhashrate": "我的算力",
+      "myincome": "预计收益",
+      "title": "收益计算器"
+    }
+  },
+  "chartMenu": {
+    "D": "日",
+    "M": "月",
+    "W": "周",
+    "Y": "年"
+  },
+  "ckb": {
+    "ckbTest": {
+      "content": "查询测试网络挖矿大赛的收益，请切换到 CKB 币种",
+      "title": "当前为 CKB 测试网络"
+    },
+    "ckt": {
+      "content": "该钱包仅供查看挖矿大赛账单，请勿用来挖矿",
+      "title": "该钱包地址为 CKB 测试网络钱包"
+    },
+    "expand": "在本次挖矿大赛中，您获得的主网币的数量：{{ amount }} CKB，主网上线后开启提现。「测试币/主网币」的兑换比例为 {{ ratio }}"
+  },
+  "common": {
+    "adminTitle": "管理员私信消息",
+    "billRefresh": "刷新",
+    "cancel": "取消",
+    "determine": "确定",
+    "exportCSV": "导出",
+    "goon": "继续",
+    "notification": {
+      "warningTitle": "异常提示"
+    },
+    "openInApp": "App内打开",
+    "refresh": "刷新",
+    "sparkpool": {
+      "title": "星火矿池"
+    },
+    "wechatscan": "打开微信，扫一扫",
+    "wrongEmailContent": "该邮箱不支持挖矿，请更换为个人邮箱。",
+    "wrongEmailTitle": "该邮箱不支持挖矿"
+  },
+  "commonFooter": {
+    "about": {
+      "brand": "品牌",
+      "contact": "联系方式",
+      "title": "关于",
+      "wechatQRcode": "微信二维码",
+      "xiaomiquan": "小密圈"
+    },
+    "copyright": "©2021 SparkPool.",
+    "icp": "浙ICP备18013814号-1",
+    "services": {
+      "farontier": "远境互联",
+      "help": "帮助中心",
+      "privacy": "隐私条款",
+      "protocol": "用户协议",
+      "title": "服务"
+    },
+    "startMining": {
+      "BEAM": "BEAM 挖矿教程",
+      "CKB": "CKB 挖矿教程",
+      "ETH": "ETH 挖矿教程",
+      "GRIN": "GRIN 挖矿教程",
+      "order": "提交工单",
+      "question": "常见问题",
+      "title": "开始挖矿"
+    },
+    "title": "价值网络守护者"
+  },
+  "commonHeader": {
+    "about": "关于我们",
+    "accountmining": "子账户挖矿",
+    "help": {
+      "articles": "历史文章",
+      "classroom": "星火课堂",
+      "order": "提交工单",
+      "question": "常见问题",
+      "title": "帮助中心"
+    },
+    "login": "登录",
+    "news": "公告",
+    "pool": "矿池",
+    "searchField": "子账户(如: 666) / 钱包地址",
+    "user": {
+      "account": "默认账户",
+      "accountmining": "挖矿账户",
+      "follow": "匿名挖矿",
+      "logout": "退出登录",
+      "myWorkers": "我的矿工",
+      "notice": "提醒设置",
+      "setting": "个人设置"
+    },
+    "wallet": "云钱包"
+  },
+  "downloadPage": {
+    "button": {
+      "android": "APK 下载",
+      "googleplay": "Google Play",
+      "ios": "iOS 正式版",
+      "iosMsg": "需非大陆 Apple ID",
+      "iosTestFlight": "iOS 体验版",
+      "iosTestFlightMsg": "无地区限制，",
+      "iosTestFlightMsgLink": "安装教程 >"
+    },
+    "feature1": {
+      "text": "星火 PoW 币种全面支持，ETH、BEAM、GRIN_29、GRIN_31",
+      "title": "专注而全面"
+    },
+    "feature2": {
+      "text": "功能完善，操作简便，轻松满足矿工一站式挖矿需求",
+      "title": "极简设计，轻松挖矿"
+    },
+    "feature3": {
+      "text": "子账户挖矿，自动转入云钱包，随时提现",
+      "title": "更多挖矿新体验"
+    },
+    "pageTitle": "星火矿池 APP 下载",
+    "subTitle": "星火矿池 APP 正式版",
+    "title": {
+      "wap": "SparkHub APP",
+      "wap2": "开启 PoS 挖矿之旅",
+      "web": "SparkHub APP"
+    },
+    "tutorial": {
+      "ios": "iOS 企业版教程",
+      "webLedger": "Ledger 委托？开始连接 "
+    },
+    "wechat": {
+      "click": "点击这里",
+      "open": "去浏览器打开"
+    }
+  },
+  "error": {
+    "search_account_invalid": "账号长度不合法！",
+    "search_beam_invalid": "无效的 BEAM 地址，请重新输入",
+    "search_btc_invalid": "无效的 BTC 地址！",
+    "search_ckb_invalid": "无效的 CKB 地址！",
+    "search_email_invalid": "无效的邮箱地址，请重新输入",
+    "search_eth_invalid": "无效的 ETH 地址，请重新输入"
+  },
+  "errorPage": {
+    "incomeUnlogin": {
+      "content": "账户所有者已设置访问权限，请登录后查看",
+      "title": "请先登录"
+    },
+    "noAccountName": {
+      "btn": "创建子账户",
+      "content": "请重新输入，或创建子账户后，再开始挖矿",
+      "title": "子账户名不存在或已删除"
+    },
+    "nonsupportAccountMining": {
+      "btn": "返回主页",
+      "content": "目前仅支持匿名挖矿",
+      "title": "该币种暂不支持账户挖矿"
+    },
+    "unLogin": {
+      "btnLogin": "登录",
+      "btnReturnHome": "返回主页",
+      "content": "该子账户已配置权限访问，请先登录",
+      "title": "请先登录"
+    },
+    "unLoginFarm": {
+      "content": "需要访问权限。匿名挖矿仅支持访问本人创建的矿场；账户挖矿支持配置访问权限",
+      "title": "请先登录"
+    },
+    "unauthorized": {
+      "content": "请联系账户所有者开通访问权限",
+      "returnHome": "返回主页",
+      "title": "无访问权限"
+    }
+  },
+  "export": {
+    "csv": {
+      "content": "导出所有矿机数据到本地？",
+      "download": "下载 Excel",
+      "title": "导出 Excel"
+    }
+  },
+  "help": {
+    "block": "出块",
+    "download": "软件下载",
+    "node": "节点",
+    "tutorial": "教程"
+  },
+  "homePage": {
+    "about": {
+      "item1": {
+        "text": "原创架构，多年深耕区块链，打造顶尖矿池",
+        "title": "技术驱动"
+      },
+      "item2": {
+        "text": "定期渗透测试和硬件级加密保障资金安全；商业级 DDoS 攻击防护",
+        "title": "安全稳定"
+      },
+      "item3": {
+        "text": "挖矿节点遍布全球，服务覆盖全球多数国家和地区",
+        "title": "全球节点"
+      },
+      "item4": {
+        "text": "收益分配规则公开透明，高效矿池可保障全网领先收益率",
+        "title": "收益领先"
+      },
+      "item5": {
+        "text": "专家客服实时在线，即时提供专业技术指导",
+        "title": "服务一流"
+      },
+      "item6": {
+        "text": "甄选优质币种，为矿工不断探索财富先机",
+        "title": "品牌信誉"
+      },
+      "text": "致力于提供专业的矿池服务、维持公链网络的稳定运行。三年来，我们潜心钻研技术、优化服务，每天为上万名用户保驾护航。凭借良好的社区声誉、稳定的矿池服务和公正的分配，SparkPool 已经成长为全球第一梯队的矿池",
+      "textStrong": "星火矿池 | SparkPool 是国际一流的矿池服务平台，",
+      "title": "关于星火矿池"
+    },
+    "app": {
+      "downloadBtn": "下载 APP",
+      "text1": "星火 PoW 币种全面支持，极简设计，轻松挖矿",
+      "text2": "随时监控矿机算力、查看收益、云钱包提现，打造一站式挖矿新体验",
+      "title": "SparkHub APP"
+    },
+    "banner": {
+      "alertmore": "更多"
+    },
+    "beginExplore": "立即探索",
+    "beginExploreInfo": "立即探索世界顶尖的矿池服务平台",
+    "beginMining": "开始挖矿",
+    "contact": {
+      "email": {
+        "address": "support@sparkpool.com",
+        "title": "邮箱"
+      },
+      "order": {
+        "text": "24 小时内反馈",
+        "title": "提交工单"
+      },
+      "qq": {
+        "text": "160142050",
+        "title": "QQ 群"
+      },
+      "title": "联系我们",
+      "vip": {
+        "text": "一对一服务",
+        "title": "大客户"
+      },
+      "wechat": {
+        "text": "在线客服",
+        "title": "微信客服"
+      }
+    },
+    "feature": {
+      "a": "最安全",
+      "a1": "冷热钱包，实时清算",
+      "b": "收益高",
+      "b1": "效率最高，费用最低 1%",
+      "c": "国际化",
+      "c1": "全球节点，故障自动转移",
+      "d": "最专业",
+      "d1": "团队成员来自全球顶尖互联网公司",
+      "f": "强服务",
+      "f1": "专业客服 7x24 在线",
+      "g": "领先的矿池服务平台"
+    },
+    "mean": "均值",
+    "minerInfo": "挖矿帮助",
+    "mingCompare": {
+      "account": {
+        "item1": {
+          "text": "一个子账户即可挖所有币种，一站式挖矿新体验，可随时查看算力、矿机及收益情况",
+          "title": "轻松注册，一站式体验"
+        },
+        "item2": {
+          "text": "多子账户；每日收益转入云钱包，可随时提现；持币生息、闪电兑换，拓展更多可能",
+          "title": "自动提现，按比例分账"
+        },
+        "subTitle": "注册子账户即可挖矿",
+        "title": "账户挖矿"
+      },
+      "anonymous": {
+        "item1": {
+          "text": "不同币种需配置不同的挖矿钱包，每日收益自动挖矿钱包，自己掌握钱包安全",
+          "title": "私钥自持，安全自控"
+        },
+        "item2": {
+          "text": "无需注册，拥有钱包地址即可挖矿，所有信息在链上公开，无法体验星火矿池高级功能",
+          "title": "无需注册，完全匿名"
+        },
+        "subTitle": "拥有钱包地址即可挖矿",
+        "title": "匿名挖矿"
+      },
+      "beginning": "开始挖矿"
+    },
+    "mining": {
+      "algo": "算法",
+      "block": "出块",
+      "download": "下载",
+      "fee": "费率",
+      "help": "帮助",
+      "model": "结算模式",
+      "name": "币种",
+      "node": " 节点",
+      "paymentLimit": "起付额度",
+      "paymentTime": "转账时间",
+      "server": "服务器地址",
+      "tutorial": " 教程"
+    },
+    "poolInfo": {
+      "block": "出块",
+      "except": "平均收益/日",
+      "grinTooltip": "Grin 支持 cuckARoo29（GPU）、cuckAToo31（ASIC）两种算法挖矿",
+      "income": "实时收益/日",
+      "miner": "矿工",
+      "networkHashrate": "全网",
+      "networkHashrateTip": "全网算力和价格的波动值为对比 24 小时之前",
+      "pool": "矿池",
+      "poolHashrate": "矿池算力",
+      "worker": "矿机"
+    },
+    "realTime": "实时",
+    "search": {
+      "BEAM": "钱包地址",
+      "GRIN": "邮箱",
+      "button": "搜索",
+      "default": "子账户(如: 666) / 钱包地址",
+      "history": "上次搜索:"
+    },
+    "startMining": {
+      "selectToken": "请选择挖矿币种",
+      "subTitle": "探索全球领先的矿池服务平台",
+      "title": "接入星火, 开始挖矿"
+    }
+  },
+  "input": {
+    "grin_email": "请输入挖矿钱包（个人邮箱）"
+  },
+  "introPage": {
+    "accountCurrent": "公开，任意人可以访问",
+    "accountMining": "子账户挖矿",
+    "accountPublic": "账户公开",
+    "accountPublicCurrent": "公开，任意人可以访问",
+    "accountPublicUpgrade": "自定义访问权限",
+    "accountStyle": "账户格式",
+    "accountStyleCurrent": "钱包地址(ETH&BEAM)、邮箱(GRIN)",
+    "accountStyleUpgrade": "子账户名，例如：sp_666",
+    "accountUpgrade": "*自定义访问权限",
+    "anonymousMining": "匿名挖矿",
+    "applyTest": "申请内测",
+    "beamWithdraw": "BEAM 提币",
+    "beamWithdrawCurrent": "每天定时操作",
+    "beamWithdrawUpgrade": "随时提取",
+    "bindEmail": "请先绑定邮箱",
+    "bindEmailContent": "为了您的账号安全，绑定邮箱后，才能配置账户挖矿",
+    "changeWallet": "更换收款地址",
+    "currencyMiningData": "查看所有币种的挖矿数据",
+    "current": "当前",
+    "feature": "特点",
+    "gotoMyAccount": "进入我的挖矿账户",
+    "grinExchange": "GRIN 绑定交易所地址",
+    "grinExchangeCurrent": "单独绑定和解绑",
+    "grinExchangeUpgrade": "随时提取",
+    "miningCurrency": "挖矿不同的币种",
+    "miningCurrencyCurrent": "基本不支持，需要重新申请钱包",
+    "miningCurrencyUpgrade": "支持所有币种",
+    "multiAccount": "多账户",
+    "notificationSetting": "掉线、转账提醒设置",
+    "notificationSettingCurrent": "手动添加关注",
+    "notificationSettingUpgrade": "无需添加，自动提醒",
+    "observe": "观察者模式",
+    "safety": "安全性",
+    "safetyCurrent": "自主管理的私钥，若丢失无法找回",
+    "safetyUpgrade": "企业级安全",
+    "scene": "场景",
+    "switchUSDT": "兑换成 USDT",
+    "switchUSDTCurrent": "转账去交易所完成",
+    "switchUSDTUpgrade": "*  一键兑换",
+    "tipOne": "星火不会关闭匿名挖矿模式",
+    "tipThree": "企业级安全，星火具备强劲的技术开发实力和完备的资产管理能力，如因星火的原因造成用户个人资产丢失，星火将会一力承担全部赔偿责任。",
+    "tipTwo": "* 号的项表还在开发中，我们将不断完善挖矿体验",
+    "upgrade": "升级后",
+    "withdraw": "提币",
+    "withdrawCurrent": "每日定时转账",
+    "withdrawUpgrade": "资产存在云钱包，任意时间，自主提币",
+    "workerConfig": "矿机配置举例",
+    "workerConfigCurrent": "钱包.矿机名，例如: 0x1235...abcd.0001",
+    "workerConfigUpgrade": "子账户名.矿机名，例如: sp_666.0001",
+    "workerData": "查看矿工数据",
+    "workerDataCurrent": "搜索钱包地址",
+    "workerDataUpgrade": "搜索子账户名"
+  },
+  "message": {
+    "added": {
+      "success": "添加成功"
+    },
+    "create": {
+      "success": "创建成功"
+    },
+    "delete": {
+      "success": "删除成功"
+    },
+    "update": {
+      "success": "更新成功"
+    }
+  },
+  "meta": {
+    "description": "星火矿池是全球领先的以太坊及 Cosmos 矿池服务平台，节点遍布全球，安全、专业、高效。"
+  },
+  "mineFieldGuide": {
+    "course": "挖矿教程",
+    "download": "矿场收益计算器",
+    "networkData": "全网数据",
+    "step1": {
+      "content": "查看",
+      "content1": "看看你的矿机是否合适。选择合适的",
+      "content2": "让你的收益更高",
+      "title": "选择矿机 & 挖矿软件"
+    },
+    "step2": {
+      "content": "将矿机连接到所在矿场的局域网",
+      "title": "连接局域网"
+    },
+    "step3": {
+      "content": "根据网络状况，选择最合适的地址服务器。",
+      "title": "设置服务器地址"
+    },
+    "step4": {
+      "content": "格式：子账户/钱包+英文句号+矿机编号。例如：",
+      "title": "配置账户和矿机名"
+    },
+    "step5": {
+      "content": "等待 5-10 分钟，即可看到挖矿数据。余额 20 分钟左右将会显示，长时间不显示，可以联系客服获取帮助",
+      "title": "完成"
+    }
+  },
+  "minerPage": {
+    "account": {
+      "goHome": "返回首页",
+      "gotoCreate": "创建子账户",
+      "unRegist": "子账户名不存在",
+      "unRegistContent": "请重新输入，或创建子账户后，再开始挖矿",
+      "unSupportCurrency": "暂不支持该币种账户挖矿"
+    },
+    "alert": "无效或延迟太高，请查看优化建议。",
+    "bad": "不健康",
+    "banner": {
+      "accountMining": "我的子账户",
+      "accountMiningLeftTip": "转账门槛: > {{limit}}，时间: {{time}}",
+      "anonymityMining": "关注的匿名钱包",
+      "balance": "余额",
+      "confirm": "已成熟余额",
+      "confirmTip": "可自主提取或转出中的收益",
+      "copied": "复制成功",
+      "copy": "复制",
+      "follow": "关注",
+      "followList": "关注的子账户",
+      "followSuccess": "关注成功",
+      "followed": "已关注",
+      "followedTip": "取消关注后，将不再收到任何通知",
+      "friendlyTip": "如果矿机运行正常，5 分钟左右会显示矿机列表，20 分钟显示余额",
+      "gotoWallet": "进入钱包",
+      "miningTip": "挖矿所得收益，每日系统定时生成账单转出",
+      "miningTipETH": "挖矿所得收益，系统每日15:30 自动转账",
+      "noBalance": "余额：0 (请耐心等待)",
+      "noMarked": "未备注",
+      "notConfirm": "余额",
+      "notLogin": "请先登录",
+      "notLoginContent": "登陆后，您才可以继续完成此操作",
+      "setDefault": "设置默认账户？",
+      "tooLongWalletName": "钱包备注不能超过15个字符！",
+      "unFollowSuccess": "已取消！",
+      "unfollow": "取消关注",
+      "unfollowTip": "关注钱包地址，及时收到「矿机掉线」和「钱包转账」通知",
+      "walletBalance": "转出中",
+      "withdraw": "提取"
+    },
+    "bindEmail": {
+      "binding": "前往绑定！",
+      "message": "该账号还未绑定邮箱，请 "
+    },
+    "bindExchange": {
+      "binding": "绑定交易所",
+      "bindingTip": "绑定后，系统每天自动将已成熟的余额转入对应的交易所账户",
+      "bound": "已绑定",
+      "confirmText1": "提取到自己的钱包有多步骤操作，请查看星火提币教程。如果您需要从自己的钱包转出，请参考官方教程。",
+      "confirmText2": "或者您也可以选择绑定交易所的充值地址，",
+      "confirmText3": "绑定后，我们会每天定时将钱包中的「已成熟余额」充值到您的交易所的 Grin 账户。",
+      "confirmTitle": "你确定提取 Grin 到自己的钱包吗",
+      "eunameRequire": "请输入充值 ID 或 URL",
+      "exchangeID": "请输入 {{exchange}} 的  {{id_email}}",
+      "incomeBtnTooltip": "可能需要几个小时，请耐心等待。如果地址填写错误，请联系交易所解决",
+      "initButtonBound": "提币到交易所",
+      "initTooltipBound": "转账失败，请确定提币 URL 后，点击按钮重试。",
+      "tooltip1Right": "的收款地址：",
+      "tooltip1left": "已绑定交易所",
+      "tooltip2": "绑定后，系统每天自动将已成熟的余额转入对应的交易所账户",
+      "withdraw": "提币",
+      "withdraw2": "提取"
+    },
+    "cannotFollowMore": "关注已达上限！",
+    "currency": {
+      "tooltip": "查看矿池数据"
+    },
+    "currentBtn": "当前",
+    "data": {
+      "hashrate": {
+        "24HMean": "日均算力",
+        "24HMeanTooltip": "24 小时的算力均值，衡量矿机效率和运行是否稳定的依据；请运行 24 小时后再观察",
+        "cornerTooltip": "值越小表示矿机表现越好；挖矿数据不足一天，无参考价值",
+        "current": "实时算力",
+        "currentTooltip": "最近 10 分钟算力，该值上下波动很大，代表矿机的最新运行状态",
+        "local24HMean": "日均本地算力",
+        "localHashrate": "本地算力"
+      },
+      "shares": {
+        "invalidShares": "无效份额",
+        "staleShares": "延迟份额",
+        "validShares": "有效份额"
+      },
+      "worker": "在线矿机"
+    },
+    "good": "健康",
+    "hashrate": "算力",
+    "hashrateReason": "损失原因：",
+    "hashrateReasonContent1": "1. 挖矿软件收费：1% - 2%",
+    "hashrateReasonContent2": "2. 网络传输损失：2% - 3% ",
+    "hashrateReasonContent3": "3. 计算任务切换损失：0.5% - 1% ",
+    "hashrateReasonContent4": "4. 严重超频损失：> 1%",
+    "hashrateReasonTitle": "即实际算力和本地算力的日均差值的比值。绝对值越小越好，5% 以内属于正常。",
+    "income": {
+      "24HIncome": "实时收益",
+      "commit": "Commit：",
+      "commit_h5": "Commit",
+      "coomitTooltip": "匿名币种的交易已经上链的凭证，等待收款方入账确认",
+      "count": "数量 ({{currency}})",
+      "count_h5": "数量",
+      "day": "一天",
+      "except": "预计收益",
+      "exchangeInfo": "收款方：",
+      "exchangeInfo_h5": "收款方",
+      "exchangePending": "正在充值到交易所",
+      "exchangePendingSubTitle": "如果长时间未到账，请联系收款平台解决",
+      "export": "导出账单",
+      "exportContent": "导出过去 3 个月的账单明细，可能时间会有点长，请耐心等待。",
+      "exportTitle": "账单导出？",
+      "getBeam": "提取",
+      "getDetailInWallet": "登录收款钱包查看",
+      "getPending": "请耐心等待",
+      "incomeStatistical": "收入统计",
+      "kernelId": "Kernel ID：",
+      "kernelIdTooltip": "星火矿池的转账唯一标号；如有订单问题，提供「订单编号」给客服",
+      "latestIncome": "最新收益",
+      "miningSending": "发送中",
+      "monthIncome": "每日收益",
+      "monthTotal": "30天累计",
+      "name": "收入",
+      "newBoundExchange": "更改绑定交易所24小时内不能提币！",
+      "noTime": "暂无时间",
+      "openInBrowser": "在区块链浏览器中打开",
+      "operateInPC": "请在 web 端进行提取操作",
+      "payee": "收款方",
+      "pendding": "处理中",
+      "process": {
+        "balance": "当前余额",
+        "dailyAmount": "每日",
+        "message": "余额 >= {{ value }} {{ currency }}, 每日 {{ time }} 左右将转账",
+        "threshold": "转账门槛",
+        "title": "账单进度",
+        "totalAmount": "累计"
+      },
+      "remark": "备注",
+      "repeatBill": "重复支付订单",
+      "sparkosBalance": "数量 ({{currency}})",
+      "sparkosCleared": "状态",
+      "sparkosTime": "时间",
+      "sparkosTitle": "FlintOS 账单",
+      "state": "状态",
+      "time": "时间",
+      "total": "总累计",
+      "transaction": "交易 ID",
+      "transfer": "转账",
+      "transferDetail": "账单列表",
+      "transferDone": "已转入云钱包",
+      "transferDoneSubTitle": "云钱包的实际到账时间可能有几分钟延迟",
+      "transferSuccess": "转账成功",
+      "uniqno": "订单编号：",
+      "uniqnoTooltip": "星火矿池的转账唯一标号；如有订单问题，提供「订单编号」给客服",
+      "uniqno_h5": "订单编号",
+      "week": "一周",
+      "withdrawIncome": "请提取收益"
+    },
+    "incomeAlert": "每天 UTC+8 时区 10:00 生成 BEAM 的账单。您可以在 10 点之后点击「提取」，保持钱包在线，系统 5-10分钟左右系统自动给您转账。",
+    "menu": {
+      "currency": "币种介绍",
+      "exchange": "绑定交易所",
+      "more": "更多资料",
+      "question": "常见问题",
+      "tutorial": "挖矿教程"
+    },
+    "miningIncome": {
+      "clearDate": "不足额度转账时间",
+      "collspace": "收起",
+      "everyday": "每日",
+      "everymonth": "每月",
+      "limit": "起付额度",
+      "modal": "结算模式",
+      "rate": "费率",
+      "time": "转账时间",
+      "title": "挖矿收益说明"
+    },
+    "noWorkers": {
+      "btn": "挖矿教程",
+      "content": "如果矿机运行正常，5 分钟左右会显示矿机列表，20 分钟显示余额。长时间不显示？请联系客服",
+      "title": "暂无数据"
+    },
+    "nodata": "无数据",
+    "notWallet": "没有可切换的钱包！",
+    "notice": {
+      "iknow": "我知道了"
+    },
+    "offline": "掉线矿机",
+    "online": "在线矿机",
+    "perfect": "极好",
+    "setWalletName": "设置钱包备注",
+    "setting": {
+      "autoWithdraw": "提现地址本",
+      "autoWithdrawTitle": "自动提现设置",
+      "copyLink": "复制链接",
+      "newFunction": "新功能",
+      "setDefault": "设为默认账户",
+      "settingNotice": "提醒设置",
+      "subaccount": "子账户设置"
+    },
+    "shares": "份额",
+    "status": "健康度",
+    "switch": "请选择挖矿账户",
+    "switchBtn": "切换",
+    "switchSubTitle": "如果无默认账户，则登录后需选择挖矿账户。可在「导航-工具-默认账户」中设置",
+    "switchWallet": {
+      "addMiningWallet": "创建子账户",
+      "addObserve": "添加关注"
+    },
+    "tab": {
+      "data": "数据",
+      "field": "矿场",
+      "income": "收益",
+      "worker": "矿机"
+    },
+    "tag": {
+      "account": "账户挖矿",
+      "anymonus": "匿名挖矿",
+      "observer": "观察者",
+      "owner": "所有者"
+    },
+    "tooltip": {
+      "more": "查看更多"
+    },
+    "updatePassword": {
+      "content": "星火的账户安全体系已经升级加固，为了您的账户安全，请修改密码。",
+      "title": "密码修改提示",
+      "updateLater": "稍后修改",
+      "updateNow": "修改密码"
+    },
+    "viewOnEtherScan": "在 etherscan.io 打开",
+    "withdraw": {
+      "applied": "已申请",
+      "autoTransfer": "「交易所挖矿钱包」每天自动转账",
+      "autoTransferTip": "开启后，系统每天 10:00 (UTC+8) 左右尝试转账。如果钱包未在线，导致转账失败，则需要您主动操作转账 。仅支持交易所的钱包",
+      "beamBindExchangeSuccess": "已开启自动转账！",
+      "beamUnbindExchangeSuccess": "已关闭自动转账！",
+      "beamWithdrawTip": "在确认收到转账前，请不要关闭该窗口",
+      "content": "由于该币种的特性，「收款钱包必须在线」才能进行转账，请保持钱包 24 小时在线。如果您的钱包「已经在线」，请点击下面的按钮",
+      "exit": "退出",
+      "finalized": "已上传，正在处理",
+      "offlineStats": "确认钱包在线",
+      "ok": "确认",
+      "onlineStats": "已经在线，处理中...",
+      "send": "已发送",
+      "sendMessage": "请保持钱包在线，耐心等待。",
+      "setting": "设置",
+      "submitedToUser": "上传回执文件",
+      "title": "已成熟余额提取",
+      "tooltip": "确认到账前，请保持钱包在线",
+      "withdrawSuccess": "申请成功！"
+    },
+    "worker": {
+      "all": "全部",
+      "closeFilter": "关闭筛选",
+      "filter": "筛选",
+      "filterResult": "匹配的机器数",
+      "hashrate": "实时算力",
+      "hashrateContent": "日均算力：每日 15:30 至前 24 小时的算力均值。数据仅供参考。1. 收益可能包含几天挖矿的数据；2. 日均算力和收益由不同系统统计，时间周期无法一致；",
+      "hashrateDiff": "算力差值",
+      "hashrateDiffTip": "值越小表示矿机表现越好；数据不足一天，无参考价值",
+      "hashrateTitle": "说明",
+      "hashrateUnit": "算力单位：{{h}}",
+      "hide": "不显示",
+      "invalidRate": "无效率",
+      "invalidWorker": "失效矿机",
+      "invalidWorkerTip": "掉线时间超过 1 天且小于 7 天的矿机",
+      "lastUpdate": "最后更新",
+      "lineheight": "行高",
+      "localHashrate": "日均本地算力",
+      "meanHashrate": "日均算力",
+      "more": "了解更多",
+      "name": "矿机名",
+      "newWorkerContent": "发现您有 {{workerCount}} 台机器连接到了矿池节点，请耐心等待，稍后查看算力统计",
+      "newWorkerTitle": "发现您有 {{-workerCount}} 台新矿机上线！",
+      "newWorkerTitle1": "新矿机连接通知",
+      "newWorkerTooltip": "暂无算力显示，请耐心等待，可能 10 分钟左右会显示在数据列表中。",
+      "num": "编号",
+      "offline": "离线 {{ value }}",
+      "offlineWorker": " 离线矿机",
+      "online": "在线 {{ value }}",
+      "onlineWorker": "在线矿机",
+      "reset": "重置",
+      "show": "显示",
+      "staleRate": "延迟率",
+      "workerCount": "矿机数: {{count}}台",
+      "workerStatus": "矿机状态"
+    },
+    "worst": "极不健康"
+  },
+  "miningFarmPage": {
+    "alert": {
+      "message": "所有统计数据根据您输入的算力、电费等值和矿池的收益报价、实际币价计算得出。均为理论值，仅供参考",
+      "title": "矿场功能说明"
+    },
+    "button": {
+      "allFarm": "所有矿场",
+      "createFarm": "创建矿场",
+      "createFarmWorker": "添加矿机",
+      "deleteFarm": "删除矿场",
+      "deleteFarmWorker": "删除矿机",
+      "edit": "编辑",
+      "save": "保存"
+    },
+    "chart": {
+      "message": "每日收益 = 估算算力 * 当日预计收益 * 当日币价；净利润 = 收益 - 电费 - 其他支出",
+      "totalFees": "总支出:",
+      "totalIncome": "30 天总收益:",
+      "totalNetIncome": "总净利润:"
+    },
+    "farmInfos": {
+      "dailyElecPrice": "日电费",
+      "dailyOutput": "日产值",
+      "expand": {
+        "amount": "矿机台数",
+        "costTitle": "成本",
+        "dailyIncome": "日产值",
+        "dailyOutput": "日产币数",
+        "day": "天",
+        "days": "回本天数",
+        "elecprices": "电价",
+        "elecprices2": "电费",
+        "fees": "其他支出/天(托管/运维费)",
+        "fees2": "其他支出",
+        "incomeTitle": "收益",
+        "month": "月",
+        "netIncome": "净利润",
+        "powers": "总功耗",
+        "prices": "矿机总价值",
+        "week": "周"
+      },
+      "hashrate": "估算算力",
+      "netIncome": "日净利润",
+      "rate": "电费占比"
+    },
+    "form": {
+      "currency": {
+        "label": "币种选择"
+      },
+      "delete": {
+        "cancelText": "取消",
+        "content": "删除后将无法恢复。且关联的矿机也会被删除(不影响挖矿)",
+        "okText": "删除",
+        "title": "确定删除该矿场吗？"
+      },
+      "elecPrice": {
+        "label": "电价",
+        "required": "请输入电价",
+        "required2": "输入的电价不能为负数"
+      },
+      "fiatCurrency": {
+        "label": "法币单位"
+      },
+      "memo": {
+        "label": "备注",
+        "placeholder": "选填"
+      },
+      "miner": {
+        "label": "关联挖矿账户",
+        "placeholder": "钱包/子账户"
+      },
+      "name": {
+        "label": "矿场名",
+        "placeholder": "取个高大上的名字吧",
+        "required": "请输入矿场名"
+      }
+    },
+    "form2": {
+      "amount": {
+        "label": "矿机台数",
+        "required": "矿机台数输入范围 1-1000000"
+      },
+      "delete": {
+        "cancelText": "取消",
+        "content": "删除后将无法恢复",
+        "okText": "删除",
+        "title": "确定删除该矿机吗？"
+      },
+      "fees": {
+        "label": "其他支出/天/台",
+        "placeholder": "托管费、运维费等",
+        "required": "其他支出费用不能小于 0"
+      },
+      "hashrate": {
+        "label": "算力",
+        "required": "请输入矿机算力"
+      },
+      "name": {
+        "label": "矿机型号",
+        "option_custom": "自定义矿机",
+        "option_gps": "热门矿机",
+        "option_hashrate": "算力",
+        "option_name": "矿机名",
+        "option_power": "功耗",
+        "placeholder": "型号或输入自定义名字",
+        "required": "请输入矿机型号",
+        "required2": "矿机名不能超过 20 个字符"
+      },
+      "power": {
+        "label": "功耗",
+        "required": "请输入矿机功耗",
+        "required2": "功耗不能大于 10000 W"
+      },
+      "price": {
+        "label": "矿机单价",
+        "placelholder": "每台矿机的价格",
+        "required": "矿机价格不能小于 0"
+      }
+    },
+    "modal": {
+      "farm": {
+        "title": "创建矿场",
+        "title2": "矿场编辑"
+      },
+      "farmWorker": {
+        "title": "添加矿机",
+        "title2": "矿机编辑"
+      }
+    },
+    "noFarmWorker": "添加矿机即可跟踪成本收益",
+    "noPermission": {
+      "message": "仅子账户所有者可以创建矿场",
+      "title": "暂未创建矿场"
+    },
+    "table": {
+      "amount": "台数",
+      "dailyElecPrice": "日电费",
+      "dailyIncome": "日产值",
+      "days": "回本天数",
+      "edit": "编辑",
+      "fees": "其他支出",
+      "hashrate": "算力",
+      "name": "矿机型号",
+      "netIncome": "日净利润",
+      "power": "功耗",
+      "prices": "矿机单价",
+      "rate": "电费占比"
+    },
+    "title": {
+      "allFarm": "所有矿场",
+      "create": "创建矿场",
+      "createTitleText": "轻松预估您的矿场的成本和收益",
+      "farmIncome": "每日统计",
+      "farmInfos": "矿场估算",
+      "farmWorkers": "矿机列表",
+      "myFarm": "我的矿场"
+    }
+  },
+  "nodePage": {
+    "all": "所有",
+    "tableTitle": {
+      "area": "地区",
+      "currency": "币种",
+      "domain": "域名",
+      "port": "端口",
+      "port2": "备用端口",
+      "tutorial": "教程",
+      "view": "查看"
+    },
+    "title": "矿池节点"
+  },
+  "notification": {
+    "authen": {
+      "description1": "为了确保您的资金安全，请先绑定邮箱",
+      "okText1": "去绑定",
+      "title": "账号安全提示"
+    },
+    "email": {
+      "success": {
+        "description": "请登录邮箱查看",
+        "title": "验证码已发送"
+      }
+    },
+    "offline": {
+      "account": "账户",
+      "channel": "渠道",
+      "header": "掉线历史",
+      "offlineCount": "掉线数量",
+      "phone": "手机",
+      "time": "时间",
+      "wechat": "微信",
+      "worker": "矿机名"
+    }
+  },
+  "page": " 页",
+  "pageTopNotice": {
+    "more": "查看详情",
+    "title": "系统消息"
+  },
+  "regin": {
+    "USA": "美国",
+    "asia": "亚洲",
+    "china": "中国大陆",
+    "chinaBackup": "中国大陆备用",
+    "europe": "欧洲",
+    "japen": "日本",
+    "korea": "韩国",
+    "name": "地区",
+    "southeastAsia": "东南亚",
+    "taiwan": "中国台湾"
+  },
+  "setting": {
+    "defaultAccount": {
+      "account": "账户名",
+      "accountPlace": "子账户 / 钱包地址",
+      "currency": "币种",
+      "pool": "矿池",
+      "poolTip": "点击「我的矿工」，将进入到该默认账户。账户名的可选值：子账户 / 钱包地址",
+      "success": "设置成功！",
+      "successContent": "点击「我的矿工」将跳转到该账户。也可在「导航-工具-默认账户」中设置",
+      "title": "默认账户设置",
+      "wallet": "云钱包",
+      "walletTip": "进入云钱包时，将选择默认账户"
+    }
+  },
+  "settingLayout": {
+    "menu": {
+      "bills": "账单",
+      "financial": "理财",
+      "myWallet": "我的云钱包"
+    }
+  },
+  "settingPage": {
+    "accountMining": {
+      "accountList": {
+        "desc": "每个子账户的矿工和钱包、设置数据相互独立",
+        "title": "我的子账户"
+      },
+      "actionSuccess": "设置成功！",
+      "addWatcherMsg": {
+        "content": "你的朋友可以访问这个子账户了",
+        "title": "添加成功"
+      },
+      "canuse": "太好了，这个地址可以使用",
+      "createBtn": "创建子账户",
+      "createBtn2": "新建子账户",
+      "createSuccess": "创建成功",
+      "createTitle": "创建子账户",
+      "deleteAccount": {
+        "btnText": "删除子账户",
+        "confirmContent": "将删除该子账户的所有数据，且无法搜索和在列表中展示该子账户，如果存在未提取余额也将无法找回",
+        "confirmContent1": "请输入子账户名：{{name}} 完成操作",
+        "confirmOkText": "我已明白风险，删除子账户",
+        "confirmTitle": "确认删除该子账户吗？",
+        "confirmValidatorMsg1": "账户名不匹配",
+        "text": "将删除该子账户的所有数据，且无法搜索和在列表中展示该子账户，如果存在未提取余额也将无法找回",
+        "title": "删除子账户            "
+      },
+      "immatureBalance": "余额",
+      "intro1": "一个子账户挖多个币种；配置提现白名单，每日收益自动转出，一站式挖矿新体验",
+      "intro1More": "设置教程",
+      "intro2": "用账户挖矿，挖矿收益每日自动转入云钱包；设置白名单，每天自动提现",
+      "intro2More": "了解更多",
+      "memo": "备注",
+      "memoPlaceholder": "请输入备注",
+      "memoPlaceholder2": "最多 20 个字符或者 10 个汉字",
+      "memoRequireMsg": "备注过长，最多 20 个字符或者 10 个汉字",
+      "modifyProfile": "修改矿机配置",
+      "modifyProfileMsg": "请登录矿机，替换原「钱包地址」为账户名，例如：",
+      "modifyProfileMsgMore": "操作教程",
+      "name": "子账户名",
+      "nameInfo": "地址唯一，设置后无法修改",
+      "namePlaceholder": "格式：小写字母和数字，3-10个字符",
+      "nameValidate1": "请输入子账户名",
+      "nameValidate2": "请输入 3-10 个小写英文或数字",
+      "nameValidate3": "请输入小写英文或数字",
+      "noData": "暂无数据",
+      "noDataWatcherList": "请联系子账户的所有者在「账户挖矿-设置」中，添加您为观察者",
+      "noPermissionBtn": "了解账户挖矿",
+      "noPermissionText": "暂未获得内测资格，立即申请让你的挖矿体验更加流畅",
+      "noPermissionTitle": "申请账号挖矿内测资格",
+      "notSupport": "暂不支持账户挖矿，敬请期待",
+      "notuse": "该名字已经存在，请换一个",
+      "observer": {
+        "title": "隐私设置"
+      },
+      "options": "操作",
+      "owner": "所有者",
+      "permission": {
+        "addressBook": {
+          "btnText": "去设置",
+          "msg": "支持设定白名单后，手动快速提现；或设定比例，将每日挖矿收益提现到多个收款地址",
+          "title": "提现地址本  / 按比例分账设置"
+        },
+        "bill": {
+          "msg": "开启后，仅您本人在登录后，可访问收益、账单数据",
+          "title": "隐藏收益数据"
+        },
+        "login": {
+          "msg": "关闭后，无需登录即可查看您的矿机和收益、矿场的数据；",
+          "msg1": "开启后，仅「所有者和观察者」可以访问子账号挖矿数据。云钱包数据仅所有者可以访问",
+          "title": "私密"
+        }
+      },
+      "save": "保存",
+      "setMoemoModal": {
+        "cancelText": "取消",
+        "okText": "确认",
+        "title": "设置备注"
+      },
+      "setting": {
+        "accountTitlte": "挖矿账户",
+        "cancelWatcher": "取消观察",
+        "cancelWatcherModal": {
+          "cancelText": "取消",
+          "content": "取消后将无法收到掉线等提醒",
+          "okText": "确定",
+          "title": "取消观察该账户"
+        },
+        "memoTitle": "我的备注",
+        "owner": "子账户所有者: ",
+        "permissionTitle": "权限",
+        "title": "基本信息",
+        "watcherList": {
+          "addWatcherEmail": "账户邮箱",
+          "deleteModal": {
+            "cancelText": "取消",
+            "okText": "确定",
+            "title": "确定要移除这个管理员吗？"
+          },
+          "desc": "子账户开启「私密」后，观察者可访问子账户数据、接收转账和掉线等通知；且无法访问「云钱包」数据",
+          "table": {
+            "actiontitle": "操作",
+            "createAttitle": "添加时间",
+            "observerEmailtitle": "邮箱",
+            "observerNicktitle": "用户名"
+          },
+          "title": "观察者（运维 / 只读账号）"
+        }
+      },
+      "settingTitle": "账户挖矿-设置",
+      "title": "子账户列表",
+      "unWatch": {
+        "btnText": "退出观察",
+        "confirmCancelText": "取消            ",
+        "confirmContent": "退出后将无法查看该账户的相关数据",
+        "confirmOkText": "确定            ",
+        "confirmTitle": "确定对出观察者吗？",
+        "text": "退出后将无法查看该账户的相关数据",
+        "title": "退出观察"
+      },
+      "viewMinerData": "查看挖矿数据",
+      "watcher": "观察者",
+      "watcherList": {
+        "btnCancel": "拒绝",
+        "btnOk": "接受",
+        "desc": "您是这些子账户的观察者，拥有只读访问、接收转账和掉线等通知的权限；只能联系「子账户的所有者」添加您为观察者",
+        "title": "我关注的子账户"
+      },
+      "watcherNoMemo": "未备注",
+      "watcherStatus": {
+        "delete": "移除",
+        "pending": "待确认",
+        "success": "已添加"
+      }
+    },
+    "accoutming": {
+      "email": {
+        "required": "请输入邮箱"
+      }
+    },
+    "bindExchange": {
+      "alertDescription": "除了已经支持的交易所，您还可以选择「自定义充值地址」，在填写之前，请联系交易所确认是否支持。",
+      "alertMessage": "支持绑定所有「能正常充值 Grin 的 URL 地址」",
+      "changeBind": "更换绑定",
+      "comingsoon": "更多交易所正在上线中",
+      "currencyRequire": "请选择币种",
+      "customizeUrl": "自定义提币地址",
+      "euname": "在交易所充值地址处复制",
+      "eunameDefaultLabel": "充值 URL",
+      "exchangeName": "提币选择（交易所）",
+      "exchangeNameRequire": "请选择提币方式",
+      "plselectExchange": "请选择交易所",
+      "resultFailed": "绑定失败，请重新尝试！",
+      "resultSuccess": "恭喜您，绑定成功！已成熟的余额将每天自动转到交易所",
+      "subTitle1": "绑定交易所的收款地址，您不需要再申请提币。我们会每天定时将您已成熟余额转账到你的提币地址。",
+      "subTitle2": "且新的提交会覆盖以前的设置，在同一时刻只能绑定一个交易所收款地址。",
+      "subTitleLi1": "想更换绑定地址？更换后需要 24 小时之后才会再次给您转账。您还可以通过重复提交表单",
+      "subTitleLi2": "已经绑定，又想提币到本地钱包？",
+      "subTitleLi3": "提币到自定义地址？只要「提币地址」是基于 Grin 的官方实现即可",
+      "submitNext": "绑定交易所信息已经发送到您的邮箱，请查收邮箱执行下一步操作！",
+      "title": "Grin 转账到交易所设置",
+      "tutorial": "交易所绑定教程",
+      "unbind": "解除提币绑定",
+      "withdrawUrl": "提币地址",
+      "withdrawUrlLabel": "「自定义提币 URL」请确定收款方支持后填写。填错导致丢币，用户承担损失，请谨慎填写！",
+      "withdrawUrlRequire": "请输入提币地址"
+    },
+    "follow": {
+      "accountMiningError": "无需关注「子账户」，创建后即可收到掉线和转账等提醒。接收其他子账户提醒？请联系所有者添加您为观察者"
+    },
+    "followlist": {
+      "currency": "币种",
+      "default": "默认",
+      "defaultTooltip": "设置默认后，点击「我的矿工」将跳转到该钱包页面",
+      "name": "备注",
+      "nameError": "备注名请不要包含特殊字符！",
+      "pleaseinputwallet": "请输入钱包地址！",
+      "title": "关注列表",
+      "unfollow": "取消关注",
+      "wallet": "钱包地址"
+    },
+    "modelMessage": "确认「取消关注」钱包吗？取消关注后将不再收到该钱包的信息推送。",
+    "navTitle": "设置",
+    "notice": {
+      "bindInfo": {
+        "bind": "绑定",
+        "bound": "已绑定",
+        "follow": "关注",
+        "followed": "已关注",
+        "none": "无",
+        "phone": "手机号:",
+        "phoneModel": "已登录手机:",
+        "wechat": "微信绑定",
+        "wechatModalTitle": "绑定微信",
+        "wechatSubscribe": "关注微信公众号",
+        "wechatSubscribe_text": "打开微信，扫一扫，或搜索公众号「星火矿池」"
+      },
+      "customTime": {
+        "allDay": "全天 24 小时",
+        "custom": "自定义时间",
+        "title": "通知接收时间"
+      },
+      "message": {
+        "app": "更新成功！请确定已在 SparkHub APP登录，且版本号大于 v1.5",
+        "phone": "更新成功！请确定已绑定手机",
+        "wechat": "更新成功！请确定已关注的微信公众号 「星火矿池」"
+      },
+      "mins": "分钟",
+      "mode": {
+        "close": "关闭提醒",
+        "nowechat": "你还未关注微信公众号",
+        "nowechatlink": "前往关注微信公众号",
+        "sms": "手机短信提醒",
+        "title": "提醒方式",
+        "wechat": "微信公众号「星火矿池」消息推送"
+      },
+      "offlineSetting": {
+        "offlineDelay": "掉线时间判断",
+        "offlineDelayTip": "指定时间内未提交份额，则认为掉线。矿机算力越小，提交份额的间隔越长",
+        "offlineInterval": "通知推送间隔",
+        "offlineIntervalTip": "如设置 10 分钟，则 10 分钟内「每个钱包的掉线消息」仅推送一次，可防止重复打扰。ps: 不同钱包的推送间隔互不影响",
+        "title": "矿机掉线设置"
+      },
+      "type": {
+        "checkbox": {
+          "app": "APP",
+          "phone": "短信",
+          "wechat": "微信公众号"
+        },
+        "income": "挖矿收益转账",
+        "incomedescription": "每日账单生成时(不同币种的转账时间不一样)",
+        "offline": "矿机掉线",
+        "offlinedescription": "长时间未提交工作证明(份额)，您可以自定义时间",
+        "subTitle": "提醒范围：我的子账户和关注的子账户、关注的匿名钱包；请确保通知接收渠道已经配置好",
+        "title": "消息通知",
+        "wallet": "云钱包 - 提现成功",
+        "walletdescription": "提现订单上链成功，通过高度确认"
+      }
+    },
+    "subscribe": {
+      "add": "添加",
+      "address": "地址",
+      "currency": "币种",
+      "default": "默认",
+      "name": "备注",
+      "subTitle": "关注钱包地址，及时收到「矿机掉线」和「钱包转账」通知。",
+      "title": "添加关注",
+      "wallet": "挖矿邮箱",
+      "walletRequire": "请输入挖矿邮箱"
+    },
+    "unbindExchange": {
+      "emailCode": "邮箱验证码",
+      "emailCodeRequire": "请输入邮箱验证码",
+      "noInfo": "没找到您的绑定信息，请确认信息后重新尝试！",
+      "resend": "重新发送",
+      "send": "发送",
+      "subTitle1": "解绑后，您将可以提币到本地钱包。或者您也可以重新提交信息，",
+      "subTitle2": "变换交易所充值地址 >",
+      "success": "解绑成功",
+      "tips": "星火将不再自动帮你转出 Grin，你可以选择手动提取收益",
+      "title": "解除提币绑定",
+      "unbind": "解除绑定"
+    }
+  },
+  "submit": "提交",
+  "support": {
+    "articles": {
+      "update_at": "更新于"
+    }
+  },
+  "text": {
+    "agoD": "天前",
+    "agoH": "小时前",
+    "agoM": "个月前",
+    "agoMin": "分钟前",
+    "agoS": "秒前",
+    "agoW": "周前",
+    "agoY": "年前"
+  },
+  "title": "星火矿池 | SparkPool - 全球领先的以太坊矿池",
+  "title2": "矿池 - 星火矿池",
+  "tokenPage": {
+    "chartMessage": "日收益的法币价格是基于当日平均币价",
+    "countdown": {
+      "epoch": {
+        "eth": {
+          "subtitle": "以太坊每 30000 高度(100 小时)将调整 epoch，软件或系统版本过旧的机器可能会受到影响，机器不能正常工作，",
+          "subtitle2": "请重启或更新软件。",
+          "title": "Epoch 切换倒计时"
+        }
+      },
+      "eth": {
+        "form": {
+          "label": "当前显存占用",
+          "submit": "计算截止日期"
+        },
+        "four": {
+          "title": "常用 4G 显卡矿机"
+        },
+        "one": {
+          "text1": "即有向无环图，所有 Ethash 算法的币种均有该特性，以提供工作量证明。DAG 文件在每个挖矿 epoch 生成，其大小会随着 epoch 的增加而增加，并会在每个 epoch 中改变。一个 epoch 是 30000 块",
+          "text2": "DAG 文件直接位于您的 GPU 内存中。如果 DAG 文件大于您的 GPU 内存，那么您的 GPU 将无法继续挖矿。且您的系统运行也需要占用一定的 GPU 内存，所以能挖的时间会远小于我们预估的时间",
+          "title": "什么是 DAG 文件?"
+        },
+        "subtitle": "预计 {{ date }} 后，4G 显卡矿机将不能继续挖矿",
+        "subtitle2": "对于 4G 显卡，系统显存占用 + DAG < 3.99 G 即可正常挖矿。",
+        "subtitle2More": "如何查看",
+        "three": {
+          "status": {
+            "blockNumber": "块高",
+            "dagsize": "DAG 大小",
+            "now": "当前",
+            "point": "临界点"
+          },
+          "text1": "当前的日均出块时间: {{ timestep }}s。块高达到临界点后，DAG 的大小将大于 4G",
+          "text2": "操作系统运行时会占用一定的显存，所以能挖的时间会小于我们预估的时间。「系统占用显存 + DAG <= 显卡内存」 才能正常运行",
+          "title": "DAG 临界点"
+        },
+        "title": "4G 显卡挖 ETH 倒计时",
+        "two": {
+          "text1": "切换系统。将矿机由 Windows 系统切换到 Linux 系统，Linux 系统对显卡的占用率更低。建议切换到",
+          "text2": "改装。将 4G 显存扩展到 6G 或 8G，但改装成本每张卡在数百元，需要计算是否划算",
+          "text3": "显卡换代，采购高容量显存的新卡或者二手卡",
+          "title": "解决办法"
+        }
+      },
+      "expand": "展开",
+      "text": {
+        "day": "天",
+        "hour": "时",
+        "minute": "分",
+        "second": "秒"
+      },
+      "unExpand": "收起"
+    },
+    "difficulty": "全网难度",
+    "exoloreUrl": "区块链浏览器",
+    "hashrateAndDiff": "全网算力&难度",
+    "hashrateAndPrice": "全网算力&币价",
+    "help": {
+      "title": "帮助和公告",
+      "viewmore": "查看全部",
+      "viewmore2": "篇文章"
+    },
+    "hotGpus": {
+      "dailyElectricity": "日电费",
+      "dailyIncome": "日产值",
+      "dailyOutput": "日产币数",
+      "electricity": "电费",
+      "hashrate": "算力",
+      "message": "矿机数据部分为星火实测数据，部分是理论数据，仅供参考",
+      "name": "矿机型号",
+      "netIncome": "净利润",
+      "power": "功耗",
+      "price": "币价",
+      "rate": "电费占比",
+      "title": "热门矿机",
+      "unitPower": " 算力/W",
+      "watt": "W"
+    },
+    "income": "日收益",
+    "intro": {
+      "title": "简介"
+    },
+    "marketValue": "总市值",
+    "marketValueUnit": "亿",
+    "networkStats": {
+      "algo": "算法",
+      "difficulty": "难度",
+      "output": "理论日产量",
+      "price": "价格",
+      "reward": "区块奖励",
+      "supply": "最大供应量",
+      "time": "区块间隔",
+      "title": "全网数据"
+    },
+    "poolStats": {
+      "clearDate": "清算时间",
+      "clearDateTip": "余额不足起付额度，且 7 日未挖矿，将在这天支付。ETH 需满足：余额 > 0.01",
+      "dailyOutput": "出块(24H)",
+      "income": "预计日收益(实时)",
+      "limit": "每日起付额度",
+      "meanIncome24": "预计日收益(日均)",
+      "miners": "矿工数",
+      "modal": "结算模式",
+      "poolHashrate": "矿池算力",
+      "rate": "费率",
+      "time": "转账时间",
+      "title": "矿池数据",
+      "works": "矿机数"
+    },
+    "priceAndIncome": "价格&日收益",
+    "rank": "市值排名",
+    "servers": {
+      "area": "地区",
+      "clusterWap": "支持集群管理",
+      "others": "其他",
+      "port": "端口",
+      "port2": "备用端口",
+      "port2Wap": "备用：",
+      "server": "服务器",
+      "title": "服务器",
+      "tutorial": "配置教程"
+    },
+    "software": {
+      "cluster": "集群管理",
+      "cluster_n": "否",
+      "cluster_y": "是",
+      "download": "软件下载",
+      "name": "软件名",
+      "options": "操作",
+      "system": "系统",
+      "title": "挖矿软件",
+      "type": "推荐矿机"
+    },
+    "webSite": "官网"
+  },
+  "update": {
+    "success": "更新成功"
+  },
+  "upload": {
+    "close": "关闭",
+    "error": "上传失败",
+    "fileHelp": "Grin收款工具",
+    "subTitle": "星火已经给您的挖矿邮箱发送了「交易文件」，为了正常收款，您可以选择以下两种办法上传「回执文件」",
+    "success": "上传成功",
+    "tip1": "使用星火「收款工具」自动上传文件，在收款软件操作后，订单状态会自动改变，点击「关闭」即可。",
+    "tip2": "手动签名交易文件，然后上传「回执文件」",
+    "title": "上传回执文件",
+    "upload": "上传"
+  },
+  "workersGroup": {
+    "addGroup": "添加分组",
+    "create": {
+      "description": "（最多输入10个字符，且分组名不能重复）",
+      "placeholder": "分组名称",
+      "subTitle": "每个分组可以管理一批矿机",
+      "title": "创建分组"
+    },
+    "createSuccess": "创建成功，请从「全部分组」中选择矿机，移动到分组",
+    "footer": {
+      "delete": "从本分组中删除",
+      "move": "移动到分组",
+      "selected": "已选择（{{ value }}）"
+    },
+    "inputGroupName": "输入分组名",
+    "inputNameNoEmpty": "分组名不能为空！",
+    "inputNameTooMax": "分组名不能超过10个字符！",
+    "invalid": "失效({{ value }})",
+    "isNotOwnerOrObserver": "仅所有者和观察者可以进行操作！",
+    "menu": {
+      "all": "全部",
+      "manage": "编辑分组"
+    },
+    "modifyGroupNameSuccess": "修改成功！",
+    "moveWorkerSuccess": "设置成功！",
+    "offline": "离线({{value}})",
+    "online": "在线({{value}})",
+    "pleaseSelectedGroup": "请先选择一个分组！",
+    "removeWorkerConfirm": "确定要从该分组中移除？",
+    "removeWorkerGroupConfirm": "确定要删除该分组吗？",
+    "removeWorkerSuccess": "移除成功！",
+    "search": "搜索矿机名",
+    "selectGroup": "选择分组",
+    "table": {
+      "group": "分组"
+    },
+    "title": "管理分组"
+  }
+}

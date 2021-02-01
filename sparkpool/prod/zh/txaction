@@ -1,0 +1,19 @@
+{
+  "BeginRedelegate": "更换委托",
+  "Delegate": "委托",
+  "EditValidator": "更新验证者",
+  "ModifyWithdrawAddress": "修改提取地址",
+  "Send": "转账",
+  "Undelegate": "赎回本金",
+  "WithdrawDelegationReward": "提取收益",
+  "WithdrawDelegationRewardDelegate": "复投收益",
+  "WithdrawValidatorCommission": "提取佣金",
+  "amount": "数量",
+  "delegator_address": "委托者地址",
+  "delegator_amount": "委托数量",
+  "from_address": "转出地址",
+  "memo": "Memo",
+  "shares_amount": "数量",
+  "to_address": "收款地址",
+  "validator_address": "验证者地址"
+}

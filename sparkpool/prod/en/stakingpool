@@ -1,0 +1,91 @@
+{
+  "about": {
+    "ability": "- Ability -",
+    "abilityItem1": {
+      "description": "Worldwide distributed nodes, multi-locational data centers to survive accident.",
+      "title": "High Efficiency, low latency"
+    },
+    "abilityItem2": {
+      "description": "Stake to SparkPool, earn your Lambo.",
+      "title": "Select the most potential coins."
+    },
+    "abilityItem3": {
+      "description": "KMS Hardware Security, professional DDoS protection and 24/7 monitoring",
+      "title": "Security first"
+    },
+    "abilityItem4": {
+      "description": "Our strength in R&D and operations can boost the development of blockchain ecosystem.",
+      "title": "Enormous R&D Strength"
+    },
+    "abilityItem5": {
+      "description": "Your delegation is ensured by strong and secure technical architecture.",
+      "title": "Easy delegation"
+    },
+    "abilityItem6": {
+      "description": "Discover more investment opportunities",
+      "title": "Real-time data statistics and analysis"
+    },
+    "data": "- DATA -",
+    "dataDesc": "The data above was collected on Aug 9th, 2019",
+    "dataETHHashrate": "of overall ETH hashrate",
+    "dataETHPoolRange": "ETH mining pool",
+    "dataMinerCount": "PoW miners",
+    "dataPowCardCount": "GPUs",
+    "desc": "Founded in August, 2016, SparkPool is rooted in EthFans, the Chinese Ethereum Community started in 2015. As a mining pool, SparkPool is dedicated to providing professional services to miners and maintaining a stable operation of public blockchain networks. Over the past three years, SparkPool has been striving to improve its architectural infrastructure and diversify its services, which include mining pools for ETH, Beam and Grin, a staking pool for Cosmos, and Spark OS. Thanks to clients' trust and preference for its technical team, and the recognition of its accurate insight into the mining industry, SparkPool has grown into the largest Ethereum mining pool and the largest all-purpose GPU hashrate platform worldwide.",
+    "title": "About SparkPool"
+  },
+  "banner": {
+    "button": "Know more",
+    "subTitle": "The Keeper of Blockchain Networks",
+    "title": "SparkPool"
+  },
+  "case": {
+    "button": "Know more",
+    "dataIsWhat": "Achievements",
+    "delegatorCount": "Delegators",
+    "delegatorRange": "Ranking",
+    "delegatorSize": "Voting Power",
+    "delegatorSizeRange": "Ranking",
+    "organCount": "Institutional partners",
+    "subtitle": "Cosmos is an ecosystem of Blockchains that enables the interoperability between chains. It's powered by BFT-based PoS protocol. ",
+    "title": "Successful Case | COSMOS",
+    "what": "Contributions",
+    "whatOneContent": "We've developed a product that integrates a centralized wallet and a block explorer to meet all user demands such as transfer, delegation and reinvestment.",
+    "whatOneTitle": "A multi-functional product",
+    "whatThreeContent": "With continuous content creation and various offline activities, we've been working to boost the healthy development of public chain ecosystem, increase the publicity of Cosmos and attract more investors to participate in staking.",
+    "whatThreeTitle": "a boost to the healthy development of public chain ecosystem",
+    "whatTwoContent": "With years of experience in big data analysis, SparkPook has made a statistical analysis of COSMOS from all dimensions, including users‘ daily rewards, the overall annualized yield, and the real yield of nodes, in order to satisfy user demands.",
+    "whatTwoTitle": "Data collection, statistics and analysis"
+  },
+  "description": "SparkPool - The Keeper of Blockchain Networks.",
+  "node": {
+    "button": "Contact SparkPool",
+    "delegate": "Delegate",
+    "desc": "As the keeper of blockchain networks, SparkPool will provide support for more outstanding PoS projects.",
+    "mainnet": "Mainnet",
+    "organ": "I'm an institutional investor.",
+    "organDesc": "SparkPool provides investors with professional asset management services, such as asset allocation, management and appreciation.",
+    "owner": "I'm a token holder.",
+    "ownerDesc": "SparkPool will cooperate with more public blockchains, continue to develop steady and efficient products, offer high-quality and attentive services and bring more choices for token holders.",
+    "plan": "Projects",
+    "project": "I'm a PoS project operator. ",
+    "projectDesc": "SparkPool is committed to discovering high-quality public-chain projects and becoming their node operator, so as to maintain the network stability and sound community development. ",
+    "testnet": "Testnet",
+    "title": "SparkPool Node"
+  },
+  "partner": {
+    "title": "Cooperative Partner"
+  },
+  "staking": {
+    "comingSoon": "Coming soon",
+    "content1": "The market size of PoS tokens is $ 13.6 billion, only accounting for 5.1% of the overall crypto market. And the proportion will gradually increase.",
+    "content2": "Delegation is a risk-free way for token holders to earn income steadily. The annualized return of major PoS public chains is generally 5-25%. ",
+    "content3": "Reinvestment can greatly enhance the return on investment. For example, if the annualized return is 10% , the 5-year return will be 61% .",
+    "data": "DATA",
+    "desc": "\"Staking\" Economy is a new form of business emerged with the implementation of PoS public chains. It creates a new way for token holders to engage in the operation of blockchains. Token holders can participate in the network by staking their tokens and get rewarded according to the amount of tokens staked. Many leading PoS projects allow regular token holders to delegate their tokens to one or more nodes. Through cooperation with the most promising PoS projects, our staking pool will make you a winner of \"Staking\" Economy.",
+    "mode": "Mode",
+    "moreProject": "More projects",
+    "title": "Staking Economy"
+  },
+  "title": "SparkPool Staking | Proof of Stake Coins (POS)"
+}

@@ -1,0 +1,44 @@
+{
+  "about": "关于我们",
+  "accountmining": "账户挖矿",
+  "addressBooks": "提现地址本",
+  "calculator": "收益计算器",
+  "contact_us": "联系我们",
+  "download": "APP 下载",
+  "help": {
+    "articles": "历史文章",
+    "classroom": "星火课堂",
+    "order": "提交工单",
+    "question": " 帮助和教程",
+    "requests": "我的工单",
+    "title": "帮助中心"
+  },
+  "help_articles": "历史文章",
+  "help_classroom": "星火课堂",
+  "help_order": "提交工单",
+  "help_question": "常见问题",
+  "login": "登录",
+  "logout": "退出登录",
+  "ming_tutorial": "挖矿教程",
+  "miningFarm": "我的矿场",
+  "more": "工具",
+  "news": "公告",
+  "offlineHistory": "矿机掉线历史",
+  "pool": "矿池",
+  "products": "产品",
+  "register": "注册",
+  "search": {
+    "placeholder": "子账户(如: 666) / 钱包地址"
+  },
+  "title_help_center": "帮助中心",
+  "title_home": "首页",
+  "title_pool": "矿池",
+  "user": {
+    "default": "默认账户",
+    "follow": "匿名挖矿",
+    "myWorkers": "我的矿工",
+    "notice": "提醒设置",
+    "setting": "个人设置"
+  },
+  "wallet": "云钱包"
+}

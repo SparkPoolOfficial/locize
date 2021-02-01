@@ -1,0 +1,1453 @@
+{
+  "appStoreGuidePage": {
+    "alert": "Please switch to US/HK/TW APP Store and use your own Apple ID to download. \nThe Apple IDs provided below maybe unable to login.",
+    "button": {
+      "download": "Download",
+      "tip": "APP released in US/HK/TW application market, use your own ID is more reliable."
+    },
+    "step1": {
+      "title": "Click profile photo at top right corner of App Store"
+    },
+    "step2": {
+      "title": "Click to logout",
+      "title2": "Re-enter Apple ID and Password"
+    },
+    "step3": {
+      "account": "Account",
+      "password": "Password",
+      "text": "In case of the leak of information, please do not use the above Apple IDs to login iCloud. After downloading the app with the provided Apple ID, please logout at once.",
+      "title": " Enter Apple ID of Hong Kong",
+      "title2": "The following Apple IDs of Hong Kong are just for reference (Click ID or PW for copy)"
+    },
+    "title": "Switch Apple ID"
+  },
+  "button": {
+    "cancel": "Cancel"
+  },
+  "calculator": {
+    "income": {
+      "day": "Day",
+      "farmBtn": "Enter My Farm",
+      "farmTip": "Estimate farm's cost and profit",
+      "message": "The calculator uses the current difficulty to get the PPS+ theoretical income, which may be deviated from your actual income, the result is just for reference.",
+      "myhashrate": "My hashrate",
+      "myincome": "Estimated income",
+      "title": "Income calculator"
+    }
+  },
+  "chartMenu": {
+    "D": "D",
+    "M": "M",
+    "W": "W",
+    "Y": "Y"
+  },
+  "ckb": {
+    "ckbTest": {
+      "content": "Please switch to CKB to check the income of testnet mining competiton",
+      "title": "This is CKB testnet"
+    },
+    "ckt": {
+      "content": "This wallet is only for viewing the testnet competition's bill, please do not use it for mainnet mining.",
+      "title": "This address is for CKB testnet"
+    },
+    "expand": "The mainnet CKB you got during CKB mining competition was: {{ amount }} CKB, you can withdraw them when mainnet launches. The convert ratio of 「Testnet CKB/Mainnet CKB」is {{ ratio }}"
+  },
+  "common": {
+    "adminTitle": "System Message",
+    "billRefresh": "Refresh",
+    "cancel": "Cancel",
+    "determine": "OK",
+    "exportCSV": "Export",
+    "goon": "Go",
+    "notification": {
+      "warningTitle": "Abnormal prompt"
+    },
+    "openInApp": "Open in App",
+    "refresh": "Refresh",
+    "sparkpool": {
+      "title": "SparkPool"
+    },
+    "wechatscan": "Scan via WeChat",
+    "wrongEmailContent": "This email does not support mining, please change to personal email！",
+    "wrongEmailTitle": "This email does not support mining"
+  },
+  "commonFooter": {
+    "about": {
+      "brand": "Brand",
+      "contact": "Contacts",
+      "title": "About",
+      "wechatQRcode": "WeChat QR Code",
+      "xiaomiquan": "Xiaomiquan"
+    },
+    "copyright": "©2021 SparkPool.",
+    "icp": "浙ICP备18013814号-1",
+    "services": {
+      "farontier": "Farontier",
+      "help": "Support",
+      "privacy": "Privacy Policy",
+      "protocol": "User Agreement",
+      "title": "Service"
+    },
+    "startMining": {
+      "BEAM": "BEAM Tutorial",
+      "CKB": "CKB Tutorial",
+      "ETH": "ETH Tutorial",
+      "GRIN": "GRIN Tutorial",
+      "order": "Submit a Request",
+      "question": "FAQs",
+      "title": "Start Mining"
+    },
+    "title": "The keeper of blockchain networks"
+  },
+  "commonHeader": {
+    "about": "About Us",
+    "accountmining": "Sub-account mining",
+    "help": {
+      "articles": "More Articles",
+      "classroom": "Spark Classroom",
+      "order": "Submit a Request",
+      "question": "FAQs",
+      "title": "Support"
+    },
+    "login": "Login",
+    "news": "News",
+    "pool": "Home",
+    "searchField": "Sub Account  / Wallet Address",
+    "user": {
+      "account": "Default account",
+      "accountmining": "Mining account",
+      "follow": "Following",
+      "logout": "Logout",
+      "myWorkers": "My Workers",
+      "notice": "My Notice",
+      "setting": "Settings"
+    },
+    "wallet": "Cloud wallet"
+  },
+  "downloadPage": {
+    "button": {
+      "android": "Download APK",
+      "googleplay": "Google Play",
+      "ios": "iOS official version",
+      "iosMsg": "Download from App Store",
+      "iosTestFlight": "iOS TestFlight",
+      "iosTestFlightMsg": "No regional restrictions, ",
+      "iosTestFlightMsgLink": "Installation Guide>"
+    },
+    "feature1": {
+      "text": "SparkHub is in support of multiple PoW tokens, including ETH, BEAM, GRIN_29, GRIN_31.",
+      "title": "Multi-token Support"
+    },
+    "feature2": {
+      "text": "SparkHub is a fully functional and easy-to-operate app which provides one-stop service for miners. ",
+      "title": "Multi-functionality and Simplicity"
+    },
+    "feature3": {
+      "text": "Simply and reliable",
+      "title": "New Mining Experience"
+    },
+    "pageTitle": "SparkPool APP Download",
+    "subTitle": "Welcome to download SparkHub APP!",
+    "title": {
+      "wap": "SparkHub",
+      "wap2": "Welcome to Be Our PoS miners",
+      "web": "SparkHub APP"
+    },
+    "tutorial": {
+      "ios": "Tutorial for iOS Enterprise App",
+      "webLedger": "Connect Ledger to PC on Web"
+    },
+    "wechat": {
+      "click": "Click here",
+      "open": "Open in browser"
+    }
+  },
+  "error": {
+    "search_account_invalid": "Account name is too long!",
+    "search_beam_invalid": "Invalid BEAM address, please re-input.",
+    "search_btc_invalid": "The address is invalid!",
+    "search_ckb_invalid": "The address is invalid!",
+    "search_email_invalid": "Invalid email address, please re-enter",
+    "search_eth_invalid": "Invalid ETH Wallet"
+  },
+  "errorPage": {
+    "incomeUnlogin": {
+      "content": "The account owner has set access permissions, please login to check",
+      "title": "Please login"
+    },
+    "noAccountName": {
+      "btn": "Create sub-account",
+      "content": "Please re-enter or create a sub-account before starting mining",
+      "title": "The sub-account not exist or deleted"
+    },
+    "nonsupportAccountMining": {
+      "btn": "Back to homepage",
+      "content": "Only supports anonymous mining currently",
+      "title": "We do not support account mining of this coin for the moment."
+    },
+    "unLogin": {
+      "btnLogin": "Login",
+      "btnReturnHome": "Back to homepage",
+      "content": "The sub-account has been configured with permission access, please login ",
+      "title": "Please login"
+    },
+    "unLoginFarm": {
+      "content": "Access is required. Anonymous mining only supports access to farms created by yourself; account mining supports configuration access permissions",
+      "title": "Please login"
+    },
+    "unauthorized": {
+      "content": "Please contract the owner",
+      "returnHome": "Return homepage",
+      "title": "Unauthorized"
+    }
+  },
+  "export": {
+    "csv": {
+      "content": "Export all rigs' data to the local?",
+      "download": "Download Excel",
+      "title": "Export Excel"
+    }
+  },
+  "help": {
+    "block": "Mined Blocks",
+    "download": "Download",
+    "node": "Node",
+    "tutorial": "Tutorial"
+  },
+  "homePage": {
+    "about": {
+      "item1": {
+        "text": "To build a top mining pool with an originally designed architecture and years of experience in blockchain technology",
+        "title": "Technical Strength"
+      },
+      "item2": {
+        "text": "We ensure asset security through regular penetration testing and KMS hardware security and commercial-level Anti-DDoS ",
+        "title": "Security and Stability"
+      },
+      "item3": {
+        "text": "We have deployed mining nodes across the world and provide service for miners in most part of the world",
+        "title": "Worldwide Nodes"
+      },
+      "item4": {
+        "text": "We ensure a leading yield rate with an open and transparent rule for yield distribution",
+        "title": "Leading Yield"
+      },
+      "item5": {
+        "text": "We offer 24/7 expert customer service and professional technical guidance",
+        "title": "First-class Services"
+      },
+      "item6": {
+        "text": "We select superior coins for miners to make a fortune",
+        "title": "Brand Reputation"
+      },
+      "text": "Over the past three years, focusing on professional mining pool services and stable operation of public chain networks, Sparkpool is dedicated to optimizing technology and services, while providing safe and stable services for thousands of users everyday. With a good reputation in community, stable mining pool services and fair allocation of rewards, we are now one of the globally leading pools.",
+      "textStrong": "SparkPool | Advanced Mining Pool Platform, ",
+      "title": "About SparkPool"
+    },
+    "app": {
+      "downloadBtn": "Download APP",
+      "text1": "Easy mining experience covers all of coins supported by SparkPool with a minimalist design",
+      "text2": "A seamless mining experience enables real-time monitoring of miner hashrate, reward check and withdrawal from a cloud wallet ",
+      "title": "SparkHub APP"
+    },
+    "banner": {
+      "alertmore": "More"
+    },
+    "beginExplore": "Explore Now",
+    "beginExploreInfo": "Explore the world's top mining pool platform now",
+    "beginMining": "Start Mining",
+    "contact": {
+      "email": {
+        "address": "support@sparkpool.com",
+        "title": "Email"
+      },
+      "order": {
+        "text": "Feedback within 24h",
+        "title": "Submit request"
+      },
+      "qq": {
+        "text": "160142050",
+        "title": "QQ Group"
+      },
+      "title": "Contact us",
+      "vip": {
+        "text": "One-to-one service",
+        "title": "VIP"
+      },
+      "wechat": {
+        "text": "Online service",
+        "title": "Wechat service"
+      }
+    },
+    "feature": {
+      "a": "Most Secured",
+      "a1": "Cold & Hot wallet, Real-time Settlement",
+      "b": "High Profitability",
+      "b1": "Most Efficient, and Low Fee 1%",
+      "c": "International",
+      "c1": "Worldwide Nodes, Auto Failover",
+      "d": "Most professional",
+      "d1": "Experts form world top-notch companies",
+      "f": "Best Services",
+      "f1": "24/7 Support",
+      "g": "Advanced Mining Pool Platform"
+    },
+    "mean": "Avg",
+    "minerInfo": "Mining Info",
+    "mingCompare": {
+      "account": {
+        "item1": {
+          "text": "A sub-account can handle all of coins supported by SparkPool and create seamless mining experience, with a dashboard showing real-time hashrate, miner and rewards ",
+          "title": "Easy-to-register and seamless experience"
+        },
+        "item2": {
+          "text": "Multi sub-accounts; daily rewards are sent to the cloud wallet and can be withdrawn anytime; more features are offered such as earning interests by staking and lightning-swap",
+          "title": "Withdraw your rewards as your demand, and upgrade your mining experience "
+        },
+        "subTitle": "To register a sub-account and start your mining journey",
+        "title": "Account Mining"
+      },
+      "anonymous": {
+        "item1": {
+          "text": "Different coins need to configure different mining addresses, and everyday rewards are sent to your address directly",
+          "title": "Self-holding private key"
+        },
+        "item2": {
+          "text": "As long as you have a wallet address, you can start mining with no need of registration. Everything relevant is public on-chain. But you cannot experience advanced features provided by SparkPool",
+          "title": "No need to register, totally anonymous."
+        },
+        "subTitle": "Mine directly with an address",
+        "title": "Anonymous Mining"
+      },
+      "beginning": "Start Mining"
+    },
+    "mining": {
+      "algo": "Algo",
+      "block": "Mined Blocks",
+      "download": "Download",
+      "fee": "Fee",
+      "help": "Help",
+      "model": "Payment Model",
+      "name": "Tokens",
+      "node": "Node",
+      "paymentLimit": "Minimum Payout",
+      "paymentTime": "Schedule (UTC +8)",
+      "server": "Server URL",
+      "tutorial": "Tutorial"
+    },
+    "poolInfo": {
+      "block": "Mined Blocks",
+      "except": "Income/Day (Avg)",
+      "grinTooltip": "Grin supports cuckARoo29(GPU),cuckAToo31(ASIC)two algorithms mining",
+      "income": "Income/Day",
+      "miner": "Miner",
+      "networkHashrate": "Network",
+      "networkHashrateTip": "The fluctuation value in hashrate and price is the comparison of 24 hours ago",
+      "pool": "Pool",
+      "poolHashrate": "Pool",
+      "worker": "Worker"
+    },
+    "realTime": "Real Time",
+    "search": {
+      "BEAM": "Wallet Address",
+      "GRIN": "Email",
+      "button": "Search",
+      "default": "Sub Account(eg:666) / Wallet Address",
+      "history": "History: "
+    },
+    "startMining": {
+      "selectToken": "Select a mining coin",
+      "subTitle": "Explore the world's leading mining pool platform",
+      "title": "Connect to SparkPool and start mining"
+    }
+  },
+  "input": {
+    "grin_email": "Input your wallet address (Personal Email)"
+  },
+  "introPage": {
+    "accountCurrent": "Accessible for anyone",
+    "accountMining": "Sub-account Mining",
+    "accountPublic": "Openness of Account",
+    "accountPublicCurrent": "accessible for anyone",
+    "accountPublicUpgrade": "user-defined access right",
+    "accountStyle": "Account Format",
+    "accountStyleCurrent": "wallet address (ETH&BEAM) or e-mail address(GRIN) ",
+    "accountStyleUpgrade": "sub-account name, such as sp_666",
+    "accountUpgrade": "*user-defined access right",
+    "anonymousMining": "Anonymous Mining",
+    "applyTest": "Apply for Closed Beta",
+    "beamWithdraw": "Withdrawal of BEAM",
+    "beamWithdrawCurrent": "at a fixed time daily",
+    "beamWithdrawUpgrade": "withdrawable at any time",
+    "bindEmail": "Please bind your email first!",
+    "bindEmailContent": "For the safety of your account, you need to bind email before you use account mining. ",
+    "changeWallet": "Change the Recipient Address",
+    "currencyMiningData": "View the Mining Stats of All the Coins Supported",
+    "current": "current version",
+    "feature": "Features",
+    "gotoMyAccount": "Enter my mining account",
+    "grinExchange": "Your Grin-binded Exchange Address",
+    "grinExchangeCurrent": "need to bind and unbind separately",
+    "grinExchangeUpgrade": "withdrawable at any time",
+    "miningCurrency": "Multi-token Mining",
+    "miningCurrencyCurrent": "need to offer multiple wallet addresses",
+    "miningCurrencyUpgrade": "cover all the crypto coins supported",
+    "multiAccount": "Multi-accounts",
+    "notificationSetting": "Offline, transfer notifications",
+    "notificationSettingCurrent": "Add to watchlist manually.",
+    "notificationSettingUpgrade": "No need to add watchlist, auto-reminder",
+    "observe": "Observer Model",
+    "safety": "Security",
+    "safetyCurrent": "irretrievable private key to be managed by yourself",
+    "safetyUpgrade": "offer enterprise-class security",
+    "scene": "Scenes",
+    "switchUSDT": "Conversion into USDT",
+    "switchUSDTCurrent": "OTC trading",
+    "switchUSDTUpgrade": "*one-click conversion",
+    "tipOne": "Sparkpool will not terminate the service of anonymous mining. ",
+    "tipThree": "Enterprise-class security means that Sparkpool is strong in technological development and assets management.  In case of any loss of assets caused to users by Sparkpool, Sparkpool will assume the liability for compensation.",
+    "tipTwo": "The starred item is still in development. We will continue improving the mining experience.",
+    "upgrade": "upgraded version",
+    "withdraw": "Withdrawal",
+    "withdrawCurrent": "rewards to be paid at regular time daily",
+    "withdrawUpgrade": "rewards deposited into a cloud wallet to be freely withdrawn",
+    "workerConfig": "Mining Machine Configuration Example",
+    "workerConfigCurrent": "wallet address. mining machine number, such as 0x1235...abcd.0001",
+    "workerConfigUpgrade": "sub-account name. mining machine number, such as sp_666.0001",
+    "workerData": "View Your Stats",
+    "workerDataCurrent": "enter your [mining wallet] in the search box",
+    "workerDataUpgrade": "enter your sub-account name in the search box"
+  },
+  "message": {
+    "added": {
+      "success": "Add successfully"
+    },
+    "create": {
+      "success": "Create successfully"
+    },
+    "delete": {
+      "success": "Delete successfully"
+    },
+    "update": {
+      "success": "Update successfully"
+    }
+  },
+  "meta": {
+    "description": "SparkPool is the world’s leading Ethereum mining pool and Cosmos staking pool, with great client support."
+  },
+  "mineFieldGuide": {
+    "course": "Mining Tutorial",
+    "download": "Farm Calculator",
+    "networkData": "Network Data",
+    "step1": {
+      "content": "Check",
+      "content1": "to see if your rigs are suitable. Choose an appropriate",
+      "content2": "to get a higher income.",
+      "title": "Choose Rig & Miner"
+    },
+    "step2": {
+      "content": "Connect your rigs to the LAN of the farm.",
+      "title": "Connect to LAN"
+    },
+    "step3": {
+      "content": "Choose an appropriate server according to your network status.",
+      "title": "Set Server"
+    },
+    "step4": {
+      "content": "Format: Sub-account/address+ / +rigID. For example: ",
+      "title": "Config Address and RigID"
+    },
+    "step5": {
+      "content": "Wait 5-10 minutes to see the mining data. The balance will be displayed in about 20 minutes, if it isn't displayed for a long time, you can contact customer service for help.",
+      "title": "Finish"
+    }
+  },
+  "minerPage": {
+    "account": {
+      "goHome": "Homepage",
+      "gotoCreate": "Create one",
+      "unRegist": "The account name is not exist!",
+      "unRegistContent": "Please change your account name!",
+      "unSupportCurrency": "The currency is unsupported!"
+    },
+    "alert": "High invalid or delay, check optimization suggestions ",
+    "bad": "Bad",
+    "banner": {
+      "accountMining": "Mining account",
+      "accountMiningLeftTip": "Daily threshold: > {{limit}}, Payment time: {{time}} (UTC+8)",
+      "anonymityMining": "Anonymous mining",
+      "balance": "Balance",
+      "confirm": "Matured",
+      "confirmTip": "You can pickup",
+      "copied": "Copied",
+      "copy": "Copy",
+      "follow": "Follow",
+      "followList": "My following",
+      "followSuccess": "Followed successfully!",
+      "followed": "Followed",
+      "followedTip": "You will not get notified after unfollowing ",
+      "friendlyTip": "Rigs will be shown on website in 5 minutes,balance in 20 minutes.",
+      "gotoWallet": "Go to my wallet",
+      "miningTip": "Mining income",
+      "miningTipETH": "Mining income, it will be transferred out automatically at 15:30 (UTC+8) everyday.",
+      "noBalance": "Balance: 0 (please wait)",
+      "noMarked": "Un marked",
+      "notConfirm": "Balance",
+      "notLogin": "Please login first!",
+      "notLoginContent": "You can do this after login!",
+      "setDefault": "Set it as default account?",
+      "tooLongWalletName": "Account nickname's length should less than 15!",
+      "unFollowSuccess": "Canceled!",
+      "unfollow": "Unfollow",
+      "unfollowTip": "Follow your wallet address and receive notifications about \"worker offline\" and \"payment\" in time",
+      "walletBalance": "Withdrawing",
+      "withdraw": "Withdraw"
+    },
+    "bindEmail": {
+      "binding": "Go Now",
+      "message": "Please bind your email address to the account!"
+    },
+    "bindExchange": {
+      "binding": "Binding exchange",
+      "bindingTip": "System will transfer your balance to wallet!",
+      "bound": "Bind",
+      "confirmText1": "There are many steps to extracting into your own wallet. Please check the Sparks coin tutorial. If you need to transfer from your wallet, please refer to the official tutorial.",
+      "confirmText2": "Or you can choose to bind the exchange's top-up address.",
+      "confirmText3": "Once bound, we will periodically flush the “Mature Credit” from the wallet to your exchange's Grin account.",
+      "confirmTitle": "Are you sure to extract Grin to your wallet?",
+      "eunameRequire": "Please enter a Deposit URL",
+      "exchangeID": "Input  {{exchange}} 's  {{id_email}}",
+      "incomeBtnTooltip": "It may take a few hours, please be patient. If the address is incorrectly filled, please contact the exchange to resolve",
+      "initButtonBound": "Withdraw to exchange",
+      "initTooltipBound": "Failed, please try agin.",
+      "tooltip1Right": "Collection address:",
+      "tooltip1left": "Bound exchange",
+      "tooltip2": "After binding, the system automatically transfers the mature balance to the corresponding exchange account every day.",
+      "withdraw": "Withdraw",
+      "withdraw2": "Withdraw"
+    },
+    "cannotFollowMore": "Cannot follow more!",
+    "currency": {
+      "tooltip": "Pool stats"
+    },
+    "currentBtn": "Current",
+    "data": {
+      "hashrate": {
+        "24HMean": "24h Avg",
+        "24HMeanTooltip": "Avg. hashrate within 24h, it is the basis for measuring the efficiency and stability of the rig; please observe after running for 24 hours",
+        "cornerTooltip": "The smaller the value, the better the performance of the rig; there is no reference value if the mining data is less than 24h.",
+        "current": "RealTime",
+        "currentTooltip": "The hashrate in the last 10 minutes, the value fluctuates greatly, representing the latest status of the rig",
+        "local24HMean": "Reported 24h Avg ",
+        "localHashrate": "Reported"
+      },
+      "shares": {
+        "invalidShares": "Invalid",
+        "staleShares": "Stale",
+        "validShares": "Valid"
+      },
+      "worker": "Online Workers"
+    },
+    "good": "Good",
+    "hashrate": "Hashrate",
+    "hashrateReason": "Detail",
+    "hashrateReasonContent1": "1. Mining software charges: 1% - 2%",
+    "hashrateReasonContent2": "2. Network transmission loss: 2% - 3%",
+    "hashrateReasonContent3": "3. Calculation task switching loss: 0.5% - 1%",
+    "hashrateReasonContent4": "4. Serious overclocking loss: > 1%",
+    "hashrateReasonTitle": "Local hashrate Description",
+    "income": {
+      "24HIncome": "Real-time Income",
+      "commit": "Commit:",
+      "commit_h5": "Commit",
+      "coomitTooltip": "The certificate of transaction had been broadcast , waiting for the recipient confirm",
+      "count": "Amount ({{currency}})",
+      "count_h5": "Amount",
+      "day": "Daily",
+      "except": "Income",
+      "exchangeInfo": "Address: ",
+      "exchangeInfo_h5": "Exchange Info",
+      "exchangePending": "Recharging to the exchange",
+      "exchangePendingSubTitle": "If the account is not received for a long time, please contact the receiving platform for settlement",
+      "export": "Export bill",
+      "exportContent": "It may take a long time to export the billing details of the past 3 months, please be patient.",
+      "exportTitle": "Export bill?",
+      "getBeam": "Withdraw",
+      "getDetailInWallet": "See detail in your wallet",
+      "getPending": "Wait please.",
+      "incomeStatistical": "Stats",
+      "kernelId": "Kernel ID:",
+      "kernelIdTooltip": "Unique ID of SparkPool's transaction; Any problem with the order? please provide this to the customer service",
+      "latestIncome": "Latest",
+      "miningSending": "Sending",
+      "monthIncome": "Daily Income",
+      "monthTotal": "30 Days",
+      "name": "Income",
+      "newBoundExchange": "You cannot withdraw within 24 hours after you change your exchange!",
+      "noTime": "No result",
+      "openInBrowser": "Open in blockchain browser",
+      "operateInPC": "Please upload your file in PC.",
+      "payee": "To",
+      "pendding": "In progress",
+      "process": {
+        "balance": "Balance",
+        "dailyAmount": "Daily",
+        "message": "You will receive payment at {{ time }} UTC+8 if your balance reach {{ value }} {{ currency }}",
+        "threshold": "Threshold",
+        "title": "Payment Progress",
+        "totalAmount": "Total"
+      },
+      "remark": "Remark",
+      "repeatBill": "Repeat Bill",
+      "sparkosBalance": "Amount ({{currency}})",
+      "sparkosCleared": "Status",
+      "sparkosTime": "Time",
+      "sparkosTitle": "FlintOS Bills",
+      "state": "Status",
+      "time": "Date",
+      "total": "Cumulative Total",
+      "transaction": "TxID",
+      "transfer": "Payment",
+      "transferDetail": "Payment Details",
+      "transferDone": "Success",
+      "transferDoneSubTitle": "The actual payment time of the cloud wallet may be delayed by several minutes",
+      "transferSuccess": "Success",
+      "uniqno": "Order ID: ",
+      "uniqnoTooltip": "Unique ID of SparkPool's transaction; Any problem with the order? please provide this to the customer service",
+      "uniqno_h5": "Uniq NO",
+      "week": "Weekly",
+      "withdrawIncome": "Withdraw"
+    },
+    "incomeAlert": "BEAM bill is generated every day at 10:00 am (UTC+8). You can click \"Withdraw\" after that. KEEP WALLET ONLINE, and you will get paid in 5 -10 minutes.",
+    "menu": {
+      "currency": "Token Info",
+      "exchange": "Exchnage Binding",
+      "more": "More",
+      "question": "FAQs",
+      "tutorial": "Mining Tutorial"
+    },
+    "miningIncome": {
+      "clearDate": "Liquidation date ",
+      "collspace": "Fold",
+      "everyday": "daily",
+      "everymonth": "Monthly",
+      "limit": "Daily threshold",
+      "modal": "Distribution mode",
+      "rate": "Fee",
+      "time": "Payment time",
+      "title": "Income description"
+    },
+    "noWorkers": {
+      "btn": "Mining Tutorial",
+      "content": "Keep workers running, information will show up on pool in 10 to 20 minutes. Contact support team if you didn't see that after 20 minutes.",
+      "title": "No result"
+    },
+    "nodata": "No result",
+    "notWallet": "No wallet available to switch！",
+    "notice": {
+      "iknow": "I know"
+    },
+    "offline": "Offline",
+    "online": "Online",
+    "perfect": "Perfect",
+    "setWalletName": "Set wallet name",
+    "setting": {
+      "autoWithdraw": "Auto withdraw",
+      "autoWithdrawTitle": "Auto Withdrawal Settings",
+      "copyLink": "Copy link",
+      "newFunction": "New function",
+      "setDefault": "Set as default",
+      "settingNotice": "Notification",
+      "subaccount": "Sub-account"
+    },
+    "shares": "Shares",
+    "status": "Condition",
+    "switch": "Switch Wallet",
+    "switchBtn": "Switch",
+    "switchSubTitle": "If there is no default account, you need to select a mining account. You can set in \"Navigation-Tools-Default Account\"",
+    "switchWallet": {
+      "addMiningWallet": "Add mining account",
+      "addObserve": "Follow"
+    },
+    "tab": {
+      "data": "Data",
+      "field": "Farm",
+      "income": "Income",
+      "worker": "Worker"
+    },
+    "tag": {
+      "account": "Account mining",
+      "anymonus": "Anonymous",
+      "observer": "Observer",
+      "owner": "Owner"
+    },
+    "tooltip": {
+      "more": "More"
+    },
+    "updatePassword": {
+      "content": "Our account system has been updated, please change your password for your account safety.",
+      "title": "Please change your password ",
+      "updateLater": "Change later",
+      "updateNow": "Change now"
+    },
+    "viewOnEtherScan": "View on etherscan.io",
+    "withdraw": {
+      "applied": "Applied",
+      "autoTransfer": "「Exchange' wallet」Daily Automatic Payouts",
+      "autoTransferTip": "If you choose opt-in, the system will automatically pay rewards to your wallet at 10 a.m. (UTC+8) every day.  If your wallet is offline, you need to handle it yourself. Support exchange' wallet only",
+      "beamBindExchangeSuccess": "Success!",
+      "beamUnbindExchangeSuccess": "Success!",
+      "beamWithdrawTip": "Do not close the window until you confirm receipt of the transfer",
+      "content": "Due to the nature of Beam, the receive wallet must be online to enable payment, please keep your wallet online at all times. Click the button to withdraw, keep your wallet online before confirmed.",
+      "exit": "Cancel",
+      "finalized": "Uploaded, processing",
+      "offlineStats": "Ensure this wallet is online",
+      "ok": "OK",
+      "onlineStats": "Online, in progress...",
+      "send": "Sent",
+      "sendMessage": "Keep your wallet online and wait a moment.",
+      "setting": "Setting",
+      "submitedToUser": "Upload transaction response file",
+      "title": "Balance withdraw",
+      "tooltip": "Keep your wallet online before confirmed.",
+      "withdrawSuccess": "Apply successed!"
+    },
+    "worker": {
+      "all": "All",
+      "closeFilter": "Close filter",
+      "filter": "Filter",
+      "filterResult": "Number of matched rigs",
+      "hashrate": "Hashrate",
+      "hashrateContent": "Mean hashrate: the mean hashrate from 15:30 daily to the first 24 hours may not be consistent with the time cycle of earnings, for reference only.",
+      "hashrateDiff": "Hashrate Diff",
+      "hashrateDiffTip": "The deviation of the difference between local hashrate and real-time hashrate to local hashrate. The smaller this value, the better performance of rigs.",
+      "hashrateTitle": "Instructions",
+      "hashrateUnit": "Hashrate：{{h}}",
+      "hide": "Hide",
+      "invalidRate": "Invalid Rate",
+      "invalidWorker": "Invalid rig",
+      "invalidWorkerTip": "The rig that has dropped more than 24 hours and less than 7 days",
+      "lastUpdate": "Last Update ",
+      "lineheight": "Line height",
+      "localHashrate": "Reported Avg",
+      "meanHashrate": "Avg Hashrate",
+      "more": "More",
+      "name": "Rig Name",
+      "newWorkerContent": "Found that you have {{workerCount}} machines connected to the pool node, please be patient, check the calculation statistics later.",
+      "newWorkerTitle": "New connected worker! {{-workerCount}}",
+      "newWorkerTitle1": "New mining machine connection notice",
+      "newWorkerTooltip": "No hashrate, please wait.",
+      "num": "Index",
+      "offline": "Offline {{ value }}",
+      "offlineWorker": "Offline",
+      "online": "Online {{ value }}",
+      "onlineWorker": "Online",
+      "reset": "Reset",
+      "show": "Unhide",
+      "staleRate": "Stale Rate",
+      "workerCount": "rigs: {{count}}",
+      "workerStatus": "Rig status"
+    },
+    "worst": "Worst"
+  },
+  "miningFarmPage": {
+    "alert": {
+      "message": "All statistical data are calculated based on the hashrate, electricity cost, the estimated income in pool, and the actual coin price. All are theoretical values, for reference only.",
+      "title": "Farm Intro"
+    },
+    "button": {
+      "allFarm": "All Farms",
+      "createFarm": "Create Farm",
+      "createFarmWorker": "Add Rigs",
+      "deleteFarm": "Delete Farm",
+      "deleteFarmWorker": "Delete Rig",
+      "edit": "Edit",
+      "save": "Save"
+    },
+    "chart": {
+      "message": "Daily income = Hashrate * Estimated income * Price; Profit = Daily income - Electricity Cost - other costs",
+      "totalFees": "Total costs:",
+      "totalIncome": "Monthly income:",
+      "totalNetIncome": "Total net profit:"
+    },
+    "farmInfos": {
+      "dailyElecPrice": "Daily electricity cost",
+      "dailyOutput": "Daily income",
+      "expand": {
+        "amount": "Quantity",
+        "costTitle": "Cost",
+        "dailyIncome": "Daily income",
+        "dailyOutput": "Daily yield",
+        "day": "Day",
+        "days": "Days to recoups investment",
+        "elecprices": "Electricity price",
+        "elecprices2": "Electricity cost",
+        "fees": "Other costs/d (Custody/MRO)",
+        "fees2": "Other costs",
+        "incomeTitle": "income",
+        "month": "Month",
+        "netIncome": "Net profit",
+        "powers": "Total power",
+        "prices": "Total rigs' value",
+        "week": "Week"
+      },
+      "hashrate": "Estimated Hashrate",
+      "netIncome": "Daily net profit",
+      "rate": "Electricity cost rate"
+    },
+    "form": {
+      "currency": {
+        "label": "Currency"
+      },
+      "delete": {
+        "cancelText": "Cancel",
+        "content": "Once deleted, it cannot be recovered. And the associated rigs will also be deleted (does not affect mining)",
+        "okText": "Delete",
+        "title": "Are you sure to delete the farm?"
+      },
+      "elecPrice": {
+        "label": "Electricity price",
+        "required": "Input electricity cost",
+        "required2": "electricity price can not be negative"
+      },
+      "fiatCurrency": {
+        "label": "Fiat unit"
+      },
+      "memo": {
+        "label": "Note",
+        "placeholder": "Optional"
+      },
+      "miner": {
+        "label": "Link mining account",
+        "placeholder": "Address/Sub-account"
+      },
+      "name": {
+        "label": "Farm name",
+        "placeholder": "Give a name to your farm",
+        "required": "Please input farm name"
+      }
+    },
+    "form2": {
+      "amount": {
+        "label": "Quantity",
+        "required": "Range from 1 to 1000000"
+      },
+      "delete": {
+        "cancelText": "Cancel",
+        "content": "It cannot be recovered after deletion",
+        "okText": "Delete",
+        "title": "Are you sure to delete the rig?"
+      },
+      "fees": {
+        "label": "Other costs / day / unit",
+        "placeholder": "Custody, MRO fee, etc.",
+        "required": "Other costs cannot be less than 0"
+      },
+      "hashrate": {
+        "label": "Hashrate",
+        "required": "Input rig's hashrate"
+      },
+      "name": {
+        "label": "Rig Model",
+        "option_custom": "Customized rig",
+        "option_gps": "Popular Rigs",
+        "option_hashrate": "Hashrate",
+        "option_name": "Rig name",
+        "option_power": "Power",
+        "placeholder": "Model or input customize name",
+        "required": "Input rig model",
+        "required2": "RigID cannot exceed 20 characters"
+      },
+      "power": {
+        "label": "Power",
+        "required": "Please input power of rig",
+        "required2": "Power can not be more than 10000 W"
+      },
+      "price": {
+        "label": "Rig's unit price",
+        "placelholder": "The price of each rig",
+        "required": "Rig price can not be less than 0"
+      }
+    },
+    "modal": {
+      "farm": {
+        "title": "Create Farm",
+        "title2": "Edit Farm"
+      },
+      "farmWorker": {
+        "title": "Add rigs",
+        "title2": "Edit Rig"
+      }
+    },
+    "noFarmWorker": "Add rigs to track the cost-benefit",
+    "noPermission": {
+      "message": "Only sub-account owners can create farms",
+      "title": "No farms"
+    },
+    "table": {
+      "amount": "Quantity",
+      "dailyElecPrice": "Daily electricity cost",
+      "dailyIncome": "Daily income",
+      "days": "Days to recoups investments",
+      "edit": "Edit",
+      "fees": "Other costs",
+      "hashrate": "Hashrate",
+      "name": "Rig model",
+      "netIncome": "Net profit",
+      "power": "Power",
+      "prices": "Rig price",
+      "rate": "Electricity cost rate"
+    },
+    "title": {
+      "allFarm": "All Farms",
+      "create": "Create Farm",
+      "createTitleText": "Easily estimate the costs and incomes of your farm",
+      "farmIncome": "Daily statistics",
+      "farmInfos": "Estimate",
+      "farmWorkers": "Rig list",
+      "myFarm": "My Farm"
+    }
+  },
+  "nodePage": {
+    "all": "All",
+    "tableTitle": {
+      "area": "Region",
+      "currency": "Tokens",
+      "domain": "URL",
+      "port": "Port",
+      "port2": "Failover Port",
+      "tutorial": "Tutorial",
+      "view": "Tutorial"
+    },
+    "title": "Nodes"
+  },
+  "notification": {
+    "authen": {
+      "description1": "For security, you can‘t withdraw your coins until your phone number and the Google Authenticator are bound.",
+      "okText1": "To Bind",
+      "title": "Account security tips"
+    },
+    "email": {
+      "success": {
+        "description": "Please login to check",
+        "title": "Verification code has been sent"
+      }
+    },
+    "offline": {
+      "account": "Account",
+      "channel": "Channel",
+      "header": "History",
+      "offlineCount": "Count",
+      "phone": "Phone",
+      "time": "Time",
+      "wechat": "Wechat",
+      "worker": "Worker"
+    }
+  },
+  "page": "page",
+  "pageTopNotice": {
+    "more": "Details",
+    "title": "Notice"
+  },
+  "regin": {
+    "USA": "US",
+    "asia": "Asia",
+    "china": "Mainland China",
+    "chinaBackup": "China backup",
+    "europe": "Europe",
+    "japen": "Japan",
+    "korea": "Korea",
+    "name": "Region",
+    "southeastAsia": "Southeast Asia",
+    "taiwan": "Taiwan"
+  },
+  "setting": {
+    "defaultAccount": {
+      "account": "Account name",
+      "accountPlace": "Sub-account / wallet address",
+      "currency": "Token",
+      "pool": "Pool",
+      "poolTip": "Click「My workers」to enter your default account. The optional account name: sub-account / wallet address",
+      "success": "Succeed",
+      "successContent": "Click \"My Worker\" to jump to the account. you can also set in \"Navigation-Tools-Default Account\"",
+      "title": "Default account setting",
+      "wallet": "Cloud Wallet",
+      "walletTip": "System will choose the default account when you enter cloud wallet"
+    }
+  },
+  "settingLayout": {
+    "menu": {
+      "bills": "Bill",
+      "financial": "Finance",
+      "myWallet": "My wallet"
+    }
+  },
+  "settingPage": {
+    "accountMining": {
+      "accountList": {
+        "desc": "Workers, wallet and setting data of each sub-account is independent.",
+        "title": "My sub-account"
+      },
+      "actionSuccess": "Succeed.",
+      "addWatcherMsg": {
+        "content": " Your friend can access this mining account",
+        "title": "Add successfully"
+      },
+      "canuse": "Great, this address is available.",
+      "createBtn": "Create an account",
+      "createBtn2": "Create new sub-account",
+      "createSuccess": "Done",
+      "createTitle": "Add a new account",
+      "deleteAccount": {
+        "btnText": "Delete sub-account",
+        "confirmContent": "All data of the sub-account will be deleted, and the sub-account cannot be searched and displayed in the list. If there is an undrawn balance, it cannot be retrieved",
+        "confirmContent1": "Please enter the sub-account name:{{name}} to complete the operation",
+        "confirmOkText": "I understand the risks, delete the sub-account",
+        "confirmTitle": "Are you sure to delete this sub-account?",
+        "confirmValidatorMsg1": "Account name does not match",
+        "text": "All data of the sub-account will be deleted, and the sub-account cannot be searched and displayed in the list. If there is an undrawn balance, it cannot be retrieved",
+        "title": "Delete sub-account            "
+      },
+      "immatureBalance": "Balance",
+      "intro1": "Mining multiple currencies in one sub-account; configuring a whitelist for withdrawal, automatic transfer of daily revenue",
+      "intro1More": "Setup Guide",
+      "intro2": "Account mining can protect your privacy and support flexible withdrawal.",
+      "intro2More": "Know more",
+      "memo": "Memo",
+      "memoPlaceholder": "Please input memo",
+      "memoPlaceholder2": "Upper limit is 20 characters or 10 Chinese characters.",
+      "memoRequireMsg": "Notes are too long, upper limit is 20 characters or 10 Chinese characters.",
+      "modifyProfile": "Modify rig configuration",
+      "modifyProfileMsg": "Please replace「wallet address」to your account name, for example:",
+      "modifyProfileMsgMore": "Operation Guide",
+      "name": "Account Name",
+      "nameInfo": "The address is unique and cannot be changed after setting.",
+      "namePlaceholder": "Lowercase characters and numbers, 3 - 10 chars",
+      "nameValidate1": "Please input your account name",
+      "nameValidate2": "Lowercase English letters and/or numbers with a length of 3-10 characters.",
+      "nameValidate3": "Please input lowercase English letters or numbers",
+      "noData": "No data",
+      "noDataWatcherList": "Please contact the owner of the sub-account in 「Account Mining - Settings」 to add you as an observer.",
+      "noPermissionBtn": "To know account mining",
+      "noPermissionText": "You haven't qualified to test account mining, apply immediately to experience more.",
+      "noPermissionTitle": "Apply for beta test for account mining.",
+      "notSupport": "Coming soon...",
+      "notuse": "Already existed, please change a new one.",
+      "observer": {
+        "title": "Privacy Settings"
+      },
+      "options": "Operation",
+      "owner": "Owner",
+      "permission": {
+        "addressBook": {
+          "btnText": "Go to set",
+          "msg": "Quickly withdrawal after setting whitelist; or set a ratio to withdraw daily mining income to multiple addresses",
+          "title": "Withdrawal Address Book / Proportionate Transfer Setting"
+        },
+        "bill": {
+          "msg": "After turning on, only you can access the income and bill data after logging in",
+          "title": "Income data-only visible to yourself"
+        },
+        "login": {
+          "msg": "After turning off, you can view the data of your rigs, income and farm without logging in;",
+          "msg1": "After turning on, only \"owner and observer\" can access the sub-account data. Cloud wallet data can only be accessed by the owner",
+          "title": "Login Required"
+        }
+      },
+      "save": "Save",
+      "setMoemoModal": {
+        "cancelText": "Cancel",
+        "okText": "Confirm",
+        "title": "Set notes"
+      },
+      "setting": {
+        "accountTitlte": "Mining account",
+        "cancelWatcher": "Cancel observation",
+        "cancelWatcherModal": {
+          "cancelText": "Cancel",
+          "content": "You will not be able to receive offline reminders after canceling.",
+          "okText": "Confirm",
+          "title": "Stop observing this account"
+        },
+        "memoTitle": "My note",
+        "owner": "Owner of sub-account: ",
+        "permissionTitle": "Permissions",
+        "title": "Basic Info",
+        "watcherList": {
+          "addWatcherEmail": "Email",
+          "deleteModal": {
+            "cancelText": "Cancel",
+            "okText": "Confirm",
+            "title": "Are you sure to remove this admin?"
+          },
+          "desc": "The observer has permission to read-only access and receive transfer & offline notifications, and cannot access the data of 「cloud wallet」.",
+          "table": {
+            "actiontitle": "Operation",
+            "createAttitle": "Added Time",
+            "observerEmailtitle": "Email",
+            "observerNicktitle": "Username"
+          },
+          "title": "Observer list"
+        }
+      },
+      "settingTitle": "Account mining - setting",
+      "title": "SubAccount List",
+      "unWatch": {
+        "btnText": "Exit the observation",
+        "confirmCancelText": "Cancel            ",
+        "confirmContent": "After you exit, you will not be able to view the data of the account",
+        "confirmOkText": "Confirm       ",
+        "confirmTitle": "Are you sure to exit the observation?",
+        "text": "After you exit, you will not be able to view the data of the account",
+        "title": "Exit the observation"
+      },
+      "viewMinerData": "Check mining data",
+      "watcher": "Observer",
+      "watcherList": {
+        "btnCancel": "Refuse",
+        "btnOk": "Accept",
+        "desc": "You are an observer of these sub-accounts, with permission of read-only access, receiving transfer and offline notifications; you can contact the 「sub-account owner」 to add you as an observer.",
+        "title": "My following accounts"
+      },
+      "watcherNoMemo": "Not noted",
+      "watcherStatus": {
+        "delete": "Remove",
+        "pending": "To be confirmed",
+        "success": "Added"
+      }
+    },
+    "accoutming": {
+      "email": {
+        "required": "Please input Email"
+      }
+    },
+    "bindExchange": {
+      "alertDescription": "You can also choose \"Customize Deposit URL\". Please contact the exchange to confirm support before filling out.",
+      "alertMessage": "Support for binding all \"Available Grin Deposit URL\"",
+      "changeBind": "Replace the binding",
+      "comingsoon": "More exchanges are online",
+      "currencyRequire": "Please select a currency",
+      "customizeUrl": "Custom Deposit URL",
+      "euname": "Deposit URL",
+      "eunameDefaultLabel": "Deposit URL",
+      "exchangeName": "Exchange name",
+      "exchangeNameRequire": "Please select your exchange",
+      "plselectExchange": "Select exchange",
+      "resultFailed": "The binding failed, please try again!",
+      "resultSuccess": "Congratulations, the binding is successful! The mature balance will be automatically transferred to the exchange every day.",
+      "subTitle1": "Once you bind the exchange address, you do not need to apply for a coin. We will transfer your mature balance to the account corresponding to the exchange every day.",
+      "subTitle2": "And the new submission will overwrite the previous settings, and only one exchange's payment address can be bound at the same time.",
+      "subTitleLi1": "Want to change the binding address? It takes 24 hours after the replacement to transfer money to you again. You can also re-submit ",
+      "subTitleLi2": "Already bound, and want to raise coins to the local wallet?",
+      "subTitleLi3": "Withdraw to a custom address? As long as the \"tender address\" is based on the official implementation of Grin",
+      "submitNext": "The binding exchange information has been sent to your mailbox, please check the mailbox to perform the next step! If you do not receive email for a long time, please contact the administrator.",
+      "title": "Grin transfer to exchange settings",
+      "tutorial": "Exchange binding tutorial",
+      "unbind": "Unbinding Deposit URL ",
+      "withdrawUrl": "Deposit URL ",
+      "withdrawUrlLabel": "\"Customize Deposit URL\", please confirm the recipient's support and fill it out. Filling in the wrong lead to the loss of Grin, the user bears the loss, please fill out carefully!",
+      "withdrawUrlRequire": "Please enter the Deposit URL"
+    },
+    "follow": {
+      "accountMiningError": "No need to follow「sub - account」, you will receive offline and transfer notifications after the account is created."
+    },
+    "followlist": {
+      "currency": "Token",
+      "default": "Default",
+      "defaultTooltip": "After setting as default, clike \"My Worker\" will go to this wallet page",
+      "name": "Note",
+      "nameError": "Please don't include special characters in the note",
+      "pleaseinputwallet": "Please enter the wallet address!",
+      "title": "Follow List",
+      "unfollow": "Unfollow",
+      "wallet": "Wallet Address"
+    },
+    "modelMessage": "Are you sure to unfollow this wallet? You will not get notifications after unfollowing.",
+    "navTitle": "Setting",
+    "notice": {
+      "bindInfo": {
+        "bind": "Bind",
+        "bound": "Already Bound",
+        "follow": "Follow",
+        "followed": "Following",
+        "none": "None",
+        "phone": "Phone:",
+        "phoneModel": "Logged in via phone:",
+        "wechat": "Bind wechat",
+        "wechatModalTitle": "Bind Wechat",
+        "wechatSubscribe": "Subscribe Wechat",
+        "wechatSubscribe_text": "Open WeChat to scan it, or search \"SparkPool\""
+      },
+      "customTime": {
+        "allDay": "All-day long(24h)",
+        "custom": "Customize time (UTC 8)",
+        "title": "Notification receiving time"
+      },
+      "message": {
+        "app": "Update successfully! Please ensure you have logged in SparkHub App.",
+        "phone": "Update successfully! Please ensure you have bound phone.",
+        "wechat": "Update successfully! Please ensure you have followed wechat 「SparkPool」"
+      },
+      "mins": "Minute",
+      "mode": {
+        "close": "Disable notifications",
+        "nowechat": "You have not subscribe our official WeChat channel.",
+        "nowechatlink": "Subscribe our official WeChat channel",
+        "sms": "SMS",
+        "title": "Notifications",
+        "wechat": "WeChat Channel \"星火矿池\" "
+      },
+      "offlineSetting": {
+        "offlineDelay": "Offline judgement",
+        "offlineDelayTip": "It is considered offline if the rig doesn't submit shares within a specific time. The smaller the hashrate of rig, the longer interval between submitted shares.",
+        "offlineInterval": "Notification push interval",
+        "offlineIntervalTip": "If you set it as 10 minutes, the \"offline message for each wallet\" will be pushed only once in 10 minutes to prevent double interruptions. Ps: Push intervals of different wallets do not affect each other",
+        "title": "Offline Reminder Settings"
+      },
+      "type": {
+        "checkbox": {
+          "app": "APP",
+          "phone": "SMS",
+          "wechat": "WeChat Official Account"
+        },
+        "income": "Payment notification",
+        "incomedescription": "(Different currencies have different payments time)",
+        "offline": "Worker offline",
+        "offlinedescription": "(No shares submitted in long time)",
+        "subTitle": "Reminder range: my sub-accounts, sub-accounts or anonymous wallet I followed.",
+        "title": "Notification type",
+        "wallet": "Cloud Wallet - Withdrawal successfully",
+        "walletdescription": "The withdrawal is on-chain."
+      }
+    },
+    "subscribe": {
+      "add": "Add",
+      "address": "address",
+      "currency": "Token",
+      "default": "Default",
+      "name": "Note",
+      "subTitle": "Follow your wallet, get notifications of \"worker offline\" and \"payment\" in time.",
+      "title": "Add Notifier",
+      "wallet": "Wallet Email",
+      "walletRequire": "Please enter the mining email"
+    },
+    "unbindExchange": {
+      "emailCode": "E-mail verification code",
+      "emailCodeRequire": "Please enter the email verification code",
+      "noInfo": "Did not find your binding information, please confirm the information and try again!",
+      "resend": "Resend",
+      "send": "send",
+      "subTitle1": "Once untied, you will be able to withdraw coins to your local wallet. Or you can resubmit the information.",
+      "subTitle2": "Change exchange Deposit URL >",
+      "success": "Untied successfully",
+      "tips": "SparkPoool will no longer automatically transfer you out of Grin, you can choose to manually withdraw income",
+      "title": "Unbinding Deposit URL ",
+      "unbind": "Unbind"
+    }
+  },
+  "submit": "Submit",
+  "support": {
+    "articles": {
+      "update_at": "Updated at"
+    }
+  },
+  "text": {
+    "agoD": "days ago",
+    "agoH": "hours ago",
+    "agoM": "months ago",
+    "agoMin": "minutes ago",
+    "agoS": "seconds ago",
+    "agoW": "weeks ago",
+    "agoY": "years ago"
+  },
+  "title": "SparkPool - Crypto Mining & Staking Pool. ETH Pool",
+  "title2": "Pool - SparkPool",
+  "tokenPage": {
+    "chartMessage": "The fiat price of daily income is based on the daily average crypto price",
+    "countdown": {
+      "epoch": {
+        "eth": {
+          "subtitle": "Ethereum adjusts its epoch every 30,000 heights (100 hours). Rigs with older miner or system may be affected and will not work properly. ",
+          "subtitle2": "Please restart or update the miner or system.",
+          "title": "Epoch switch countdown"
+        }
+      },
+      "eth": {
+        "form": {
+          "label": "Current memory usage",
+          "submit": "Calculate deadline"
+        },
+        "four": {
+          "title": "Commonly used 4GB cards"
+        },
+        "one": {
+          "text1": "DAG is a Directed Acyclic Graph. It is used in all Ethash coins to provide a proof of work.DAG file is generated every mining epoch and it increases from epoch to epoch and changes every epoch. One epoch is 30 000 blocks. ",
+          "text2": " DAG file is locating directly in your GPU memory. And if DAG file is bigger than your GPU memory so your GPUs become useless. Besides, your system also needs some GPU memory to run, so the mineable time will be much less than we expected.",
+          "title": "What is the DAG file?"
+        },
+        "subtitle": "4GB cards will become useless after {{ date }}",
+        "subtitle2": "4GB cards can mine normally when the system memory occupies + DAG < 3.99 G ",
+        "subtitle2More": "How to check?",
+        "three": {
+          "status": {
+            "blockNumber": "Block Height",
+            "dagsize": "DAG Size",
+            "now": "Current",
+            "point": "Critical point"
+          },
+          "text1": "Current avg block time: {{ timestep }}s. After the block reaches the critical point, the size of the DAG will be greater than 4G",
+          "text2": "The operating system needs a certain amount of GPU memory to run, so the time will be less than our estimated time. The system will run properly when「 System occupies GPU memory + DAG <= GPU memory 」 ",
+          "title": "DAG critical point"
+        },
+        "title": "Countdown for 4GB cards",
+        "two": {
+          "text1": "Switch the system. Switch the rig from Windows to Linux, the occupancy rate of cards in Linux system is lower than Windows. We suggest you switch to",
+          "text2": "Refit. Expand 4GB memory to 6GB or 8GB, but need to calculate whether it is cost-effective.",
+          "text3": "GPUs replacement, purchase new or used cards with high-capacity GPU memory",
+          "title": "Solutions"
+        }
+      },
+      "expand": "Unfold",
+      "text": {
+        "day": "Day",
+        "hour": "Hour",
+        "minute": "Minute",
+        "second": "Second"
+      },
+      "unExpand": "Fold"
+    },
+    "difficulty": "Difficulty",
+    "exoloreUrl": "Explorer\n",
+    "hashrateAndDiff": "Hashrate & Difficulty",
+    "hashrateAndPrice": "Network Hashrate & Price",
+    "help": {
+      "title": "Help and Notice",
+      "viewmore": "Check",
+      "viewmore2": "articles"
+    },
+    "hotGpus": {
+      "dailyElectricity": "Daily electricity cost",
+      "dailyIncome": "Revenue (24h)",
+      "dailyOutput": "Coins output (24h)",
+      "electricity": "Electricity cost",
+      "hashrate": "Hashrate",
+      "message": "A part of the rig data is measured data of SparkPool, and the other part is theoretical data, for reference only.",
+      "name": "Rig Type",
+      "netIncome": "Net profit",
+      "power": "Power",
+      "price": "Price",
+      "rate": "Electricity cost rate",
+      "title": "Rigs",
+      "unitPower": "Hashrate/W",
+      "watt": "W"
+    },
+    "income": "Daily income",
+    "intro": {
+      "title": "Intro"
+    },
+    "marketValue": "Market Cap",
+    "marketValueUnit": "Hundred million",
+    "networkStats": {
+      "algo": "Algorithm",
+      "difficulty": "Difficulty",
+      "output": "Theoretical yield / Day",
+      "price": "Price",
+      "reward": "Block rewards",
+      "supply": "Max Supply",
+      "time": "Block time\n",
+      "title": "Network Stats"
+    },
+    "poolStats": {
+      "clearDate": "Liquidation Date",
+      "clearDateTip": "We will send the unpaid balance which doesn't reach the payment threshold to you on this day.",
+      "dailyOutput": "Blocks (24h)",
+      "income": "Income/Day (RT)",
+      "limit": "Daily Threshold",
+      "meanIncome24": "Income/Day (Avg)",
+      "miners": "Miner",
+      "modal": "Distribution Mode",
+      "poolHashrate": "Pool Hashrate",
+      "rate": "Fee",
+      "time": "Payment time",
+      "title": "Pool Stats",
+      "works": "Worker"
+    },
+    "priceAndIncome": "Price & Income",
+    "rank": "Rank",
+    "servers": {
+      "area": "Region",
+      "clusterWap": "Cluster Support",
+      "others": "Others",
+      "port": "Port",
+      "port2": "Option port",
+      "port2Wap": "Failover Port",
+      "server": "Server",
+      "title": "Servers",
+      "tutorial": "Config Guide"
+    },
+    "software": {
+      "cluster": "Cluster management",
+      "cluster_n": "No",
+      "cluster_y": "Yes",
+      "download": "Download",
+      "name": "Miner",
+      "options": "Operation",
+      "system": "System",
+      "title": "Mining software",
+      "type": "Recommended rig"
+    },
+    "webSite": "Site"
+  },
+  "update": {
+    "success": "Update successfully"
+  },
+  "upload": {
+    "close": "Close",
+    "error": "Upload failed",
+    "fileHelp": "Grin Payment Tool",
+    "subTitle": "Spark has already sent a \"transaction file\" to your mining mailbox. In order to receive the Grin normally, you can choose to upload the \"transaction response file\" in the following two ways.",
+    "success": "Upload Success",
+    "tip1": "Use the SparkPool \"Payment Tool\" to automatically upload files. After the payment software is operated, the order status will be automatically changed. Click \"Close\".",
+    "tip2": "Manually sign the transaction response file and upload the \"return file\"",
+    "title": "Upload transaction response file",
+    "upload": "Upload"
+  },
+  "workersGroup": {
+    "addGroup": "Add a group",
+    "create": {
+      "description": "(Enter up to 20 characters, and the group name cannot be repeated)",
+      "placeholder": "Group Name",
+      "subTitle": "Each group can manage a batch of mining rigs",
+      "title": "Create a group"
+    },
+    "createSuccess": "Created successfully, please select the worker from the \"All group\" and move to the group you created.",
+    "footer": {
+      "delete": "Remove from this group",
+      "move": "Move to group",
+      "selected": "chosen({{ value }})"
+    },
+    "inputGroupName": "Input group name",
+    "inputNameNoEmpty": "The group name cannot be empty!",
+    "inputNameTooMax": "The group name cannot exceed 10 characters!",
+    "invalid": "Invalidation ({{ value }})",
+    "isNotOwnerOrObserver": "Only the owner and observers can operate!",
+    "menu": {
+      "all": "All",
+      "manage": "Create/Manage Group"
+    },
+    "modifyGroupNameSuccess": "Succeed!",
+    "moveWorkerSuccess": "Succeed!",
+    "offline": "Offline({{value}})",
+    "online": "Online({{value}})",
+    "pleaseSelectedGroup": "Please select a group first!",
+    "removeWorkerConfirm": "Are you sure you want to remove from this group?",
+    "removeWorkerGroupConfirm": "Are you sure you want to delete this group?",
+    "removeWorkerSuccess": "Successfully removed!",
+    "search": "Search miner name",
+    "selectGroup": "Select group",
+    "table": {
+      "group": "Group"
+    },
+    "title": "Manage group"
+  }
+}

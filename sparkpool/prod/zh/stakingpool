@@ -1,0 +1,91 @@
+{
+  "about": {
+    "ability": "- 能力 -",
+    "abilityItem1": {
+      "description": "全球分布式网络，异地多机房备份容灾",
+      "title": "高效、低延时"
+    },
+    "abilityItem2": {
+      "description": "跟随星火领跑收益榜",
+      "title": "甄选最具潜力币种"
+    },
+    "abilityItem3": {
+      "description": "KMS 硬件级加密，专业的 DDoS 防护和全天候监控",
+      "title": "安全牢不可破"
+    },
+    "abilityItem4": {
+      "description": "极强研发和运维能力，助力区块链生态蓬勃发展",
+      "title": "强大的研发实力"
+    },
+    "abilityItem5": {
+      "description": "强大和安全的技术架构让您委托无后顾之忧",
+      "title": "专业技术支持，轻松委托"
+    },
+    "abilityItem6": {
+      "description": "更多维度帮您洞见财富机会",
+      "title": "实时数据统计和分析"
+    },
+    "data": "- 数据 -",
+    "dataDesc": "* 数据于 2019.8.9 统计",
+    "dataETHHashrate": "ETH 算力占比",
+    "dataETHPoolRange": "ETH 矿池排名",
+    "dataMinerCount": "日均活跃 PoW 矿工",
+    "dataPowCardCount": "PoW 矿池显卡张数",
+    "desc": "星火矿池（SparkPool），2016 年 8 月脱胎于以太坊爱好者，致力于提供专业的矿池服务、维持公链网络的稳定运行。三年来，星火矿池潜心钻研技术、优化服务，先后推出了 ETH 矿池、Beam 矿池、Grin 矿池、Cosmos 权益池以及 SparkOS 等产品，凭借过硬的技术和对行业的精准洞察成为了全球第一大以太坊矿池，现已是全球最大的 GPU 通用算力平台",
+    "title": "关于星火矿池"
+  },
+  "banner": {
+    "button": "了解更多",
+    "subTitle": "价值网络守护者",
+    "title": "星火 PoS 权益矿池"
+  },
+  "case": {
+    "button": "了解更多",
+    "dataIsWhat": "数据是怎么样?",
+    "delegatorCount": "委托人数",
+    "delegatorRange": "委托人数排名",
+    "delegatorSize": "委托量",
+    "delegatorSizeRange": "委托量排名",
+    "organCount": "机构合作者",
+    "subtitle": "COSMOS 项目是由 Tendermint 团队研发的高度前瞻创新性的区块链跨链项目，在目前的 PoS 项目中市值排名前列。",
+    "title": "成功案例 | COSMOS",
+    "what": "我们做了什么?",
+    "whatOneContent": "我们研发了集去中心化钱包、区块浏览器等功能于一体的产品，帮助用户一站式解决转账、委托、复投等各类需求",
+    "whatOneTitle": "打造多功能产品",
+    "whatThreeContent": "我们通过持续不断的内容输出、形式多样的线下活动助力公链生态的健康发展，让更多用户知道、了解Cosmos，吸引更多投资者参与 staking 经济",
+    "whatThreeTitle": "助力公链生态健康发展",
+    "whatTwoContent": "星火矿池有多年大数据处理的分析能力，为 COSMOS 的做了更多维度的数据统计，包括用户的每日收益、全网的年化收益率、节点的实际收益率等，切实解决用户的需求",
+    "whatTwoTitle": "数据收集、统计及分析"
+  },
+  "description": "星火 PoS 权益矿池 - 价值网络守护者",
+  "node": {
+    "button": "联系星火",
+    "delegate": "委托",
+    "desc": "我们是区块链的基础设施，价值网络的守护者。我们将不断支持更多优秀的 PoS 项目",
+    "mainnet": "主网",
+    "organ": "我是机构投资者",
+    "organDesc": "星火具备强大的资产管理能力，将持续不断为投资者提供资产配置、管理、增值等服务",
+    "owner": "我是持币者",
+    "ownerDesc": "星火将支持更多优秀公链项目，不断研发稳定高效的产品，提供优质贴心的服务，为持币者带来更多选择",
+    "plan": "节点计划",
+    "project": "我是项目方",
+    "projectDesc": "星火致力于寻找优质的公链项目，成为多条公链的节点运营商，共同维护区块链的网络稳定和社区的健康发展",
+    "testnet": "测试网",
+    "title": "星火节点"
+  },
+  "partner": {
+    "title": "合作伙伴"
+  },
+  "staking": {
+    "comingSoon": "敬请期待",
+    "content1": "PoS 币种的市场规模 $136 亿，仅占数字货币的 5.1%，这个占比将会在未来逐步提升",
+    "content2": "持币委托是无风险且稳定得赚取收益的最佳途径，主流的 PoS 公链的年化收益 一般在 5-25%",
+    "content3": "复利的模式极大地提高投资者的回报率，如果年化 10%，五年的实际回报率为 61%",
+    "data": "数据",
+    "desc": "Staking 经济是随着权益证明（PoS）公链落地而兴起的新型业态，为持币者开启了参与区块链世界的新途径。持币者可以质押手中的代币参与网络共识，并根据质押量获得代币奖励。在多个主流 PoS 项目中，普通持币者只需将代币委托给节点，即可享受代币收益。星火矿池精选了技术过硬、前景光明的 PoS 项目，为您开辟 Staking 经济的制胜之路。",
+    "mode": "模式",
+    "moreProject": "更多项目",
+    "title": "Staking 经济"
+  },
+  "title": "星火 PoS 权益矿池"
+}

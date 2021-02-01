@@ -1,0 +1,452 @@
+{
+  "LedgerPage": {
+    "alert": "Please use a higher version of Chrome or Opera browser to open this page, otherwise your device cannot be detected",
+    "table": {
+      "address": "Wallet",
+      "balance": "Balance (Atom)",
+      "id": "ID",
+      "option": "Operate"
+    },
+    "text": {
+      "checked": "Your device has been successfully detected",
+      "checking": "Detecting",
+      "installapp": "Install Cosmos App",
+      "keyways": "Hardware derivation path",
+      "select": "Select",
+      "walletlists": "Wallet list"
+    },
+    "text1": "1. Upgrade the Ledger Live app to the latest version",
+    "text2": "2. Import Cosmos mnemonic to ledger (Maybe need to delete the original mnemonic)",
+    "text3": "3.Connect your Ledger to PC",
+    "text4": "4. Open Cosmos App in your Ledger."
+  },
+  "StartDelegated": {
+    "haveAtom": {
+      "address": "Delegate address:",
+      "commandLine": {
+        "Title": "Official CLI Wallet",
+        "text": "Officially recommended by Cosmos team, with third-party audited codes"
+      },
+      "download": "Download",
+      "gui": {
+        "Title": "Ledger",
+        "text": "Secure and reliable delegation way"
+      },
+      "imToken": {
+        "Title": "imToken Wallet",
+        "text": "A world-renowned crypto currency wallet"
+      },
+      "message": "Thanks for choosing SparkPool to delegate your Atom! For the security of your assets, we recommend to use the following tools.",
+      "recommend": "★",
+      "sparkhub": {
+        "Title": "SparkHub APP",
+        "text": "Developed by SparkPool team, with third-party audited codes"
+      },
+      "sparkpool": {
+        "Title": "Web Wallet",
+        "importkey": "Import wallet",
+        "text": "Convenient and efficient, but not recommended, only used for test."
+      },
+      "title1": "Validator Address",
+      "title2": "Delegation Tools",
+      "view": "Begin"
+    },
+    "idonthave": "I don't have",
+    "ihave": "I have",
+    "noAtom": {
+      "text1": "Cosmos transfer function hasn't been enabled at the moment, users who isn't a Cosmos Fundraiser can't get Atom.",
+      "text2": "Once mainnet enabled transfer function, you can buy atoms and participate in delegation, please stay tuned.",
+      "title": "Sorry, you can't participate in the delegation at the moment."
+    },
+    "prevStep": "Previous",
+    "question": "Do you have Atoms?"
+  },
+  "common": {
+    "delegate": {
+      "title": "Delegate Now"
+    }
+  },
+  "commonHeader": {
+    "addUser": "Import wallet",
+    "help": "Help Center",
+    "intro": "Introduction",
+    "logout": "logout",
+    "sparkpool": "SparkPool",
+    "startDelegrate": "Home"
+  },
+  "homePage": {
+    "button": {
+      "delegated": "Delegate Now",
+      "downloadApp": "Download APP",
+      "ledger": "Connect Ledger",
+      "search": "Search"
+    },
+    "chartText": {
+      "networkAnnualized": "Overall yield",
+      "sparkAnnualized": "SparkPool’s yield"
+    },
+    "delegated": {
+      "tutorial": "Delegation tutorial"
+    },
+    "help": {
+      "qq": "QQ group",
+      "qqText": "Group: 688726721",
+      "telegram": "Telegram",
+      "telegramText": "EtherSparkPool",
+      "title": "Talk to us",
+      "tutorial": {
+        "text": "Delegation tutorial for PoS mining"
+      },
+      "wechat": "Wechat Support",
+      "wechatText": "Professional customer service for you"
+    },
+    "intro": {
+      "income": {
+        "text": "The protocol is designed to reach an annual inflation rate of 7% - 20%, which will be proportionally distributed to delegators. A smaller proportion staked in the network will grant you a higher yield.",
+        "title": "Stake and Earn"
+      },
+      "punishment": {
+        "text1": "Misbehaving or unstable validators might have their stake",
+        "text2": " slashed by the protocol ",
+        "text3": "under the following conditions: Signing on conflict blocks will make your stake slashed by 5%, and simply\ngetting offline, by 0.01%.",
+        "title": "Slashing mechanism"
+      },
+      "text": "We provide various services namely but not restricted to Atom delegation, rewards withdrawal, redelegation and reward reinvestment through Ledger/web/wap to Cosmos users.",
+      "text2": " Delegate your Atom to SparkPool, earn your Atom on a few clicks.",
+      "title": "COSMOS",
+      "title2": "Cosmos is an ecosystem of Blockchains that enables the interoperability between chains. It's powered by BFT-based PoS protocol. Users can stake their Atom to secure the network and as a return, earn respective rewards.",
+      "validator": {
+        "text1": "Delegating your Atom to various validators might spread your risk to an extent, while the biggest if not the only factor on your yield is how much",
+        "text2": " commission ",
+        "text3": "the validators are taking. Choosing wisely an honest and low-commissioned validator may be a better option!",
+        "title": "Choose your Validator"
+      },
+      "wallet": "Official wallet",
+      "website": "Cosmos official web"
+    },
+    "link": {
+      "more": " Learn more"
+    },
+    "network": {
+      "test": "MainNet：cosmoshub-2"
+    },
+    "placeholder": {
+      "search": "Address / Tx ID"
+    },
+    "question": {
+      "a1": "Cosmos is a decentralized network of independent parallel blockchains, each powered by classical BFT consensus algorithms like Tendermint. The first blockchain in the Cosmos Network is the Cosmos Hub, whose native token is the Atom. Cosmos is a permissionless network, meaning that anybody can build a blockchain on it.",
+      "a10": "We have worldwide nodes",
+      "a11": "Of course. We are closely linked to the interests of our clients.",
+      "a12": "In this phase, we strongly recommend that you do not arrange to trade Atoms (eg. by legal contract as they will not be transferable yet) as there is the risk of state being reverted.",
+      "a13": "Please do not use Voyager at the launch of Cosmos, it is currently in alpha and undergoing development. A separate announcement will be made once Voyager is safer for use.",
+      "a14": "We charge 4% at the beginning of mainnet launch.  ",
+      "a15": "https://cosmos.network/",
+      "a16": "No. You can undelegate whenever you want, but notice that as a safety mechanism in protocol, you need to wait 3 weeks to retrieve your Atoms.",
+      "a17": "If a delegator wants to undelegate part or all of their stake, they needs to send an “Undelegate transaction”. From there, the delegator will have to wait 3 weeks to retrieve their Atoms. Delegators can also send a “Rebond Transaction” to switch from one validator to another, without having to go through the 3 weeks waiting period.",
+      "a2": "A delegator is an Atom holder who wants to stake but cannot or does not want to run a validator node. Users can delegate their Atoms to validators and earn income. Once delegation succeeds, the delegator and the validator will share the reward as well as their responsibility. If a validator doesn't behave under the protocol, delegators who delegate Atom to him will be penalized proportionally to their staked Atom. Make sure you choose wisely a reliable validator.",
+      "a3": "The Cosmos Hub is based on Tendermint, which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.",
+      "a4": "Block provisions: Native tokens of applications run by validators (e.g. Atoms on the Cosmos Hub) are inflated to produce block provisions. These provisions exist to incentivize Atom holders to bond their stake, as non-bonded Atom will be diluted over time.\nBlock rewards: For the Ethermint zone, block rewards are paid in Photons. Initial distribution of Photons will be hard spooned from Ethereum. This means Photons will be emitted 1:1 to Ether.\nTransaction fees: The Cosmos Hub maintains a whitelist of token that are accepted as fee payment.",
+      "a5": "If you participated in the fundraiser, you can check your suggested atom balance at fundraiser.cosmos.network. If not, you have to wait until the Cosmos Network launches and Atoms are traded on exchanges.",
+      "a6": "Public, decentralized networks require high levels of security and spam-prevention that are best achieved by economic means: participants in the consensus must incur some economic cost, and all transactions processed by the network must pay a fee. Since we want to use Proof-of-Stake validators instead of Proof-of-Work miners, we require validators of the Cosmos Hub to make a large security deposit in Atoms - if they misbehave, their Atoms are revoked by the protocol! The more Atoms in security deposits, the more stake on the line; the more skin-in-the-game; the greater the economic security. ",
+      "a7": "A validator has an active key involved in signing votes in the consensus protocol. A validator must also have some Atoms in a security deposit. Since there will only be a limited number of validators, other Atom holders can delegate to the validators, thereby contributing to the economic security of the system by putting their funds on the line if the validator misbehaves. In return, they earn a share of the transaction fees and any inflationary rewards.",
+      "a8": "Out of all the candidates that signaled themselves, the 100 with the most stake are the ones who are designated as validators. If a validator’s total stake falls below the top 100 then that validator loses its validator privileges. Over time, the maximum number of validators will increase to 300.",
+      "a9": "Sure, but need to run full node and total stake need to be the top 100.",
+      "more": "More",
+      "q1": "What is Cosmos?",
+      "q10": "Where are your nodes located?",
+      "q11": "Do you self-bond your Atoms?",
+      "q12": "Can I transfer Atoms?",
+      "q13": "Can I use Voyager at the moment?",
+      "q14": "How about your commission fee?",
+      "q15": "What is the official website of Cosmos?",
+      "q16": "Will I lose control of Atoms if I delegate my Atoms to a validator?",
+      "q17": "How long will I get coins after I withdrawing Atoms from a validator?",
+      "q2": "What's a Delegator?",
+      "q3": "What is a validator?",
+      "q4": "What is the incentive to stake?",
+      "q5": "How can I get Atoms?",
+      "q6": "What is the use of Atom?",
+      "q7": "What is the difference between a Delegator and a Validator?",
+      "q8": "How many validators are there in Cosmos?",
+      "q9": "Can delegators also be validators?",
+      "title": "FAQ"
+    },
+    "search": {
+      "error": "Please input the correct address!",
+      "tooltip": "Click “Search” for trial with no need to input your address"
+    },
+    "sparkpool": {
+      "text": "Started in 2016, SparkPool has been working on Ethereum PoW mining pool for 3 years and has earned its reputation in the community through the professionalism and a fair distribution of rewards, becoming the second largest mining pool in the world. Facing the mining 2.0 era, SparkPool would like to launch our Cosmos delegation service with accumulated experience in the market and continue to provide great client support.",
+      "text1": "Enterprise-Class Physical Data Center",
+      "text2": "Multi-locational data centers to survive accident",
+      "text3": "KMS Hardware Security",
+      "text4": "DDoS Protection",
+      "text5": "Third Party Penetration Test",
+      "text6": "24/7 client support",
+      "title": "Why SparkPool"
+    },
+    "stats": {
+      "annualized": "Daily Rewards/10K Atom",
+      "annualized2": "Annual Yield",
+      "annualized_tooltip": "Calculated by the income over the past 24 hours, Annual Yield: {{value}}",
+      "commissionRate": "Commission",
+      "selfDelegation": "Self-Bonded",
+      "tokens": "Bonded"
+    },
+    "success": {
+      "copy": "Copy succeed!"
+    },
+    "text": {
+      "cosmosfeature": "With no need of transfer, delegate your Atom to SparkPool, earn your returns on a few clicks.",
+      "datareference": "* The data is only for reference.",
+      "day": "Day",
+      "delegate": "Delegate Atom through Ledger/web/wap",
+      "quickstart": "Explore Now >",
+      "redelegate": "Redelegate"
+    },
+    "text1": "We provide various services namely but not restricted to Atom delegation, rewards withdrawal, redelegation and reward reinvestment to Cosmos users.",
+    "text2": "Delegate your Atom to SparkPool, earn your Atom on a few clicks.",
+    "title": {
+      "computincome": "Calculate rewards",
+      "dailyincome": "Check daily rewards",
+      "delegateAtom": "Delegate your Atom, Earn your Lambo.\n",
+      "forcosmosuser": "SparkPool enables Cosmos users to",
+      "sparknode": "SparkPool Node",
+      "sparkvalidator": "Cosmos",
+      "sparkvalidator2": "Staking Pool"
+    }
+  },
+  "page": {
+    "description": "SparkPool Cosmos official website supports delegation, select SparkPool to your validator, earn rewards easy",
+    "keywords": "COSMOS node,COSMOS validator,SparkPool Cosmos Validator ,ATOM delegation,PoS mining",
+    "title": "Cosmos Validator - SparkPool"
+  },
+  "txIdPage": {
+    "basic": {
+      "faile": "Failure",
+      "fees": "Fee:",
+      "gas": "Gas(used/wanted):",
+      "height": "Height:",
+      "status": "Status:",
+      "success": "Success",
+      "time": "Time:",
+      "title": "Information",
+      "txhash": "Tx ID:"
+    },
+    "search": {
+      "placeholder": "Address / Tx ID",
+      "warning": {
+        "txhash": "Address / Tx ID",
+        "validaotraddress": "Address / Tx ID"
+      }
+    },
+    "txData": {
+      "action": "Type",
+      "rawData": "RAW Data"
+    }
+  },
+  "walletPage": {
+    "account": {
+      "atomBalance": "Available:",
+      "atomReward": "Rewards:",
+      "delegated": "Delegated:",
+      "photinoBalance": "Available:",
+      "photinoReward": "Rewards:",
+      "totalAtom": "Balance (Atom)",
+      "totalPhotino": "Photino",
+      "unbonding": "Undelegating:"
+    },
+    "alert": {
+      "btn": "Backup private key",
+      "text": "Your private key and password are stored locally in the browser and will not be returned to the Spark server. Please confirm that you have backed up your private key or mnemonic!",
+      "title": "Cosmos has two kinds of native tokens: Atom and Photino . 1 Atom =  1000000 uatom"
+    },
+    "annualized": {
+      "text": "Daily Rewards(Atom)",
+      "title": "Annual Yield:",
+      "tooltip": "Calculated by the rewards over the past 24 hours"
+    },
+    "button": {
+      "changeValidator": "Redelegate",
+      "withdraw": "Withdraw rewards"
+    },
+    "confirm": {
+      "cancel": "Cancel",
+      "loginContent": "Import private key, mnemonic or connect Ledger",
+      "loginOk": "Login",
+      "loginTitle": "Please login",
+      "logoutContent": "You can logout first and then login wallet to operation.",
+      "logoutOk": "Logout",
+      "logoutTitle": "You don’t have permission of current account"
+    },
+    "dailyReward": "Daily reward",
+    "dailyRewardHasDelegateData": "Please wait. Rewards are calculated at 00:00 everyday.",
+    "dailyRewardNoDelegateData": "No data now. Rewards will be calculated on a daily basis after you delegate your Atoms to SparkPool.",
+    "dailyRewardStart": "Statistics from {{time}}",
+    "delegated": {
+      "atomReward": "Rewards",
+      "history": "Delegation history",
+      "title": "Delegating",
+      "unbonding": "Undelegating",
+      "validator": "Validator Address"
+    },
+    "forReference": "* The data is only for reference.",
+    "forReferenceMore": "More >",
+    "incomeDetail": "Rewards details",
+    "mywallet": "My wallet",
+    "sumReward": "Cumulative Rewards (Atom)",
+    "table": {
+      "amount": "Amount",
+      "endTime": "Time",
+      "fee": "Fee",
+      "hash": "Tx ID",
+      "height": "Height",
+      "time": "Time",
+      "txList": {
+        "action": "Type",
+        "time": "Time",
+        "title": "Transactions"
+      }
+    },
+    "text": {
+      "commission": "Commission"
+    },
+    "title": {
+      "otherDelegate": "Other delegations"
+    },
+    "tooltip": {
+      "changeValidator": "Delegate Atoms to SparkPool is more profitable. Once you redelegation to us, the available rewards are automatically transferred to the balance.",
+      "withdraw": "Withdraw rewards to wallet"
+    },
+    "txList": {
+      "processing": "Processing",
+      "staus": "Status"
+    }
+  },
+  "webWallet": {
+    "button": {
+      "selectWallet": "Select Wallet",
+      "sure": "Confirm",
+      "unbonding": "Undelegate"
+    },
+    "delegatedList": {
+      "text": "You can earn reward by delegating Atoms to validators while you are still in control of your tokens. If you want undelegate, you need to wait 21 days to get Atoms."
+    },
+    "delegation": {
+      "account": "Delegation amount",
+      "accountUnit": "Atom",
+      "button": "Confirm",
+      "delegate": "My wallet",
+      "fee": "Fee",
+      "feeMax": "Available fee: {{fee}}",
+      "gotoValidate": "Continue operation",
+      "input": "Import",
+      "maxDelegation": "Max account: {{count}}",
+      "myWallet": "My wallet",
+      "oldValidator": "From validator",
+      "title": "Delegation",
+      "tooltip": "You can get rewards by delegating your Atoms and can undelegate whenever you want, but need to wait for 21 days to get principal back.",
+      "validator": "To Validator"
+    },
+    "header": {
+      "mnemonic": "Import mnemonic",
+      "privateKey": "Import private key",
+      "simple": "Minimalist mode",
+      "words12": "12 digits",
+      "words24": "24 digits"
+    },
+    "message": {
+      "alert": "Please confirm that you are visiting https://cosmos.sparkpool.com. Spark will not store and transfer your private key and mnemonic, password, please keep them confidential. We recommend you use privacy mode in the browser, use trusted WIFI, manually enter mnemonics (Clipboard may be monitored by other software)",
+      "delegateFailed": "Delegation failed",
+      "delegateSuccess": "Operation succeed",
+      "delegateSuccessMsg": "Your tx has been broadcasted, please wait for tx to be on-chain and do not repeat the operation.",
+      "inputFailed": "Import failed",
+      "inputFee": "Recommended fee: 0.0001",
+      "inputInt": "For undelegating, you'd better keep 1 Atom",
+      "inputSuccess": "Import succeed",
+      "noAccount": "Delegation amount cannot be empty",
+      "noBalance": "The account does not have enough balance!",
+      "noFee": "Fee cannot be empty",
+      "noPassword": "Please Input your password",
+      "noPasswordAndRemark": "Note or password cannot be empty!",
+      "noRemark": "Please input note",
+      "password": "Pwd",
+      "pickupFailed": "Withdraw failed",
+      "pickupSuccess": "Withdraw broadcast succeed",
+      "pickupSuccessMsg": "Your rewards withdraw has been broadcast, need to wait blockchain confirm.",
+      "privateKeyTip": "Please input private key",
+      "pwdAlert": "Please set password. For account security, the password will be invalid after closing the browser, so you need to import the mnemonic or private key again.",
+      "remark": "Note",
+      "remarkAndPwdSuccess": "Set note password successfully",
+      "simpleTip": "Please enter mnemonic and separated by a space",
+      "tooltip": "Enter your mnemonics in order, or copy mnemonics to the input box",
+      "unMnemonic": "Please enter the full mnemonic!",
+      "validAccount": "The number of delegates must be greater than 0",
+      "validFee": "The fee must be greater than 0",
+      "validFeeAndAccount": "Delegation amount must be an integer!",
+      "validMnemonic": "Wrong Mnemonic,please try to check case",
+      "validPassword": "Password length cannot be less than 8 digits",
+      "validPrivateKey": "Wrong private key",
+      "wrongPassword": "Incorrect Password",
+      "wrongSign": "Sign failed! Please check if your amount or password is correctly"
+    },
+    "modal": {
+      "alert": "Mnemonic can be derived from countless wallet addresses, each address is independent, please select one to operate",
+      "balance": "Balance",
+      "select": "Select",
+      "title": "Select wallet",
+      "wallet": "Wallet"
+    },
+    "pickup": {
+      "alert": "You can delegate again after you withdraw your rewards to earn more coins.",
+      "pickAll": "Withdraw all rewards",
+      "reward": "Available rewards",
+      "title": "Withdraw rewards",
+      "tooltip": "You can delegate again after you withdraw your rewards to earn more coins."
+    },
+    "redelegate": {
+      "maxDelegation": "Available：{{count}}",
+      "title": "Redelegate",
+      "tooltip": "It will take effect once you redelegate. After redelegation, your rewards will be withdrawn to your available balance."
+    },
+    "redelivery": {
+      "reValidator": "To validator",
+      "reward": "Returnable earnings",
+      "title": "Reinvest Rewards",
+      "tooltip": "You will earn more after delegating your rewards.",
+      "validator": "From validator"
+    },
+    "reward": {
+      "title": "Reinvest rewards"
+    },
+    "sign": {
+      "content": "Open your Ledger, and complete your sign.",
+      "title": "Waiting for sign"
+    },
+    "step": {
+      "first": "Import wallet",
+      "second": "Set password",
+      "third": "Done"
+    },
+    "transfer": {
+      "address": "Receiver's Address",
+      "addressTip": "Please input receiver's address",
+      "amount": "Transfer Amount",
+      "balance": "Available: {{value}}",
+      "button": "Next",
+      "buttonLedger": "Confirmed",
+      "confirmTip": "Please input password after you confirm the info is correct.",
+      "confirmTipLedger": "Click “sign transaction” on Ledger after the info is confirmed.",
+      "confirmTitle": "Info confirmation",
+      "memo": "memo",
+      "title": "Transfer"
+    },
+    "unbonding": {
+      "maxUnbond": "Undelegate upper limit {{value}}",
+      "noUnbond": "Undelegate amount cannot be empty",
+      "title": "Undelegate",
+      "tooltip": "You can redeem any number of the delegated Atoms but need wait 21 days to get them. During this period you will not get any rewards, so we recommend you to choose「Redelegate」",
+      "unbond": "Undelegate amount"
+    }
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "addressBook": {
+    "addFirst": "请先添加白名单",
+    "addList": "添加白名单",
+    "addSuccess": "设置成功",
+    "autoWIthdrawSetting": "自动提币设置",
+    "autoWithdraw": {
+      "tip": "设置后，该子账户的挖矿收益到账后，将按照该规则自动转出\n"
+    },
+    "autoWithdrawPercent": "实际分账比例",
+    "bindPhone": "绑定手机",
+    "currencyPlace": "所有",
+    "delegate": "自动委托比例",
+    "deleteSuccess": "删除成功！",
+    "edit": "编辑",
+    "explain": {
+      "btn": "我知道了",
+      "c1": "设定后，每日挖矿收益到账时自动触发提币，或者按规则提币到多个收款钱包。设置方式：1. 添加收款地址 2. 设置白名单  3. 配置自动提币比例。如果累计分账比例不足 100%，剩余部分将存入余额",
+      "c2": "每日可以免费提币到：1 个地址，超出的部分将按照普通提币收取矿工费",
+      "c3": "仅对今日「挖矿收益」的账单金额进行分账。如果配置多个提币账户，如果累计分账比例不足 100%，剩余部分将存入余额",
+      "c4": "当收款钱包对应的今日分账金额 < 系统的最小提币阈值，或超过单日最大限制，则不会触发。请合理配置分账比例",
+      "c5": "每个子账户仅支持设置一套方案；切换子账户后，可配置新的分账方案。例如：sp_a 设置自动提币到 A、B 钱包， sp_b 设置提币到 B、C 钱包",
+      "q1": "1. 什么是自动分账？",
+      "q2": "2. 是否收费？",
+      "q3": "3. 自动提币的金额是今日的挖矿收益账单吗？",
+      "q4": "4. 什么情况不会触发「自动提币」？",
+      "q5": "5. 如何配置多种自动分账方案？",
+      "title": "自动提币说明"
+    },
+    "modal": {
+      "addContract": "新增收款人",
+      "address": "地址",
+      "addressMange": "地址本管理",
+      "addressPlace": "提币地址",
+      "cancel": "取消",
+      "cancelVIP": "取消白名单",
+      "cancelVIPTitle": "取消后，将删除和该地址关联的自动提币配置",
+      "currency": "币种",
+      "extData": "备注",
+      "extDataPlace": "备注最多 20 字符",
+      "googlePlace": "Google验证码",
+      "isWhite": "加入白名单(支持每日自动提币)",
+      "maxField": "一次最多添加10个地址！",
+      "modifyExtDataSuccess": "修改备注成功！",
+      "noAddress": "请输入地址",
+      "noCurrency": "请选择币种",
+      "noExtData": "请输入备注！",
+      "noGoogleAndSms": "请输入Google验证码或短信验证码！",
+      "save": "保存",
+      "setExtData": "设置备注",
+      "setVip": "设置为白名单",
+      "settingPercent": "设置分账比例",
+      "smsPlace": "短信验证码",
+      "submit": "确定",
+      "switch": "分账开关",
+      "switchCloseContent": "关闭后，将停止自动分账，挖矿收益将存入余额中",
+      "switchCloseTitle": "关闭分账",
+      "switchOpenContent": "挖矿收益自动到账时，将自动触发分账",
+      "switchOpenTitle": "自动分账开启成功",
+      "switchToGoogle": "切换至Google验证",
+      "switchToPhone": "切换至手机验证",
+      "tip": "所有子账户共享地址本和白名单设置；ETH/USDT 共享地址本",
+      "title": "添加提币地址",
+      "vipTitle": "您正在将 {{currency}}-{{ address }} 设置为白名单，设置后可快速提币",
+      "whiteListMange": "白名单管理"
+    },
+    "noConfig": "暂无配置",
+    "noConfigDesc": "请为白名单地址配置提现比例；所有子账户共用白名单，每个子账户独享自动提现配置",
+    "noData": "暂无记录",
+    "setAutoWithdrawRate": "设置自动提现比例",
+    "setScaleSuccess": "设置成功！",
+    "setWithdraw": "自动分账管理",
+    "showWhiteList": "只显示白名单地址",
+    "subTitle": "所有子账户共享地址本和白名单设置；设置「白名单」后可以快速提币",
+    "table": {
+      "address": "地址",
+      "autoWithdraw": "分账比例{{sumPercent}}",
+      "currency": "币种",
+      "delete": "删除",
+      "deleteTip": "将删除和该地址关联的自动提币配置？",
+      "extData": "备注",
+      "isVip": "白名单",
+      "option": "操作",
+      "time": "更新时间",
+      "tooltip": {
+        "icon": "NEW",
+        "title": "添加为白名单，为每个子账户设置不同的提币比例"
+      }
+    },
+    "title": "白名单管理",
+    "toBalancePercent": "存入余额比例",
+    "withdrawPercent": {
+      "notRight": "请输入正确的比例",
+      "tooFloat": "最多支持2位小数！",
+      "tooMax": "自动提币比例不能超过100%！",
+      "tooSmall": "自动提币比例不能小于0！"
+    },
+    "withdrawSetting": {
+      "content": "每个子账户每天都有免费提币 1 次，超出次数后将收取矿工费。如果是自动提币，则每个收款地址占用一次额度",
+      "title": "\n提币规则调整"
+    }
+  },
+  "autoWithdraw": {
+    "subTitle": "每日 {{freeWithdrawTimes}} 次 免费额度；如果未设置，则挖矿收益将存在余额中",
+    "tip": "\n对每日的挖矿收益(不包含余额)，自动提币到白名单；",
+    "title": "自动提币设置"
+  },
+  "billStatus": {
+    "ACCEPT": "处理中",
+    "CANCEL": "已取消",
+    "CANCEL_REFUNDING": "处理中",
+    "FAILED": "失败",
+    "FAILED_REFUNDING": "撮合中",
+    "INIT": "处理中",
+    "MAKING": "撮合中",
+    "PAYING": "处理中",
+    "PENDING": "处理中",
+    "PENDING_FAILED": "撮合中",
+    "PENDING_ORDER": "处理中",
+    "PENDING_SUCCESS": "撮合中",
+    "REFUNDING": "退款中",
+    "SUCCESS": "成功"
+  },
+  "bills": {
+    "cancelExchange": "取消订单",
+    "currencyExchange": "兑换账单",
+    "gotoExchange": "继续兑换",
+    "normal": "普通账单"
+  },
+  "billsDetailPage": {
+    "getDetailFailed": "获取订单详情失败，请重新尝试！",
+    "systemWait": "系统排队处理，请耐心等候"
+  },
+  "billsKey": {
+    "bizType": "业务类型",
+    "currency": "币种",
+    "dstAddress": "收款方",
+    "dstCurrency": "买入币种",
+    "dstValue": "成交量",
+    "fees": "手续费",
+    "gmtCreate": "时间",
+    "gmtModify": "最后更新",
+    "note": "备注",
+    "price": "单价",
+    "srcAddress": "发送方",
+    "srcCurrency": "币种",
+    "srcValue": "出售量",
+    "status": "状态",
+    "time": "时间",
+    "transactionRate": "汇率",
+    "txId": "交易ID",
+    "type": "类型",
+    "uniqNo": "交易流水",
+    "value": "数量"
+  },
+  "billsPage": {
+    "bills": {
+      "exportBtnText": "导出账单",
+      "exportCancelText": "取消",
+      "exportContent": "导出过去 3 个月的账单明细, 可能时间会有点长, 请耐心等待",
+      "exportOkText": "继续",
+      "exportTitle": "账单导出",
+      "history": "账单记录"
+    },
+    "filter": {
+      "all": "全部",
+      "currency": "币种："
+    }
+  },
+  "bizType": {
+    "CURRENCY_EXCHANGE": "闪兑",
+    "DEMAND_INCOME": "活期",
+    "DEPOSIT": "充币",
+    "DEPOSIT_INCOME": "持币利息",
+    "FAILED": "失败",
+    "FIXED_DEPOSIT_PURCHASE": "申购",
+    "FIXED_DEPOSIT_REDEMPTION": "赎回",
+    "FIX_TIME_DEPOSIT": "锁仓到期",
+    "FIX_TIME_DEPOSIT_EXPIRE": "锁仓转出",
+    "IN": "充值",
+    "INIT": "等待中",
+    "INNER_TRANSFER": "内部转账",
+    "MINING_INCOME": "挖矿收益",
+    "OUT": "提币",
+    "PENDING": "挂单中",
+    "POS_INCOME": "POS收益",
+    "POS_MINING": "POS挖矿",
+    "RED_POCKET": "红包",
+    "SETH_EXCHANGE": "兑换",
+    "STAFF_BONUS_INCOME": "奖金",
+    "STAFF_MONTH_INCOME": "月薪",
+    "STAFF_REIMBURSE_INCOME": "报销",
+    "SUCCESS": "交易成功",
+    "UNKNOW": "未知业务类型",
+    "WITHDRAW": "提币"
+  },
+  "breadcrumb": {
+    "ETHToCKB": "挖矿兑换",
+    "asset": "我的资产",
+    "bills": "我的账单",
+    "billsDetail": "订单详细",
+    "home": "主页",
+    "sparkpool": "星火矿池",
+    "title": "云钱包",
+    "withdraw": "提币"
+  },
+  "button": {
+    "cancel": "取消",
+    "demandIncome": "活期",
+    "exchange": "闪兑",
+    "nextStep": "下一步",
+    "ok": "确定",
+    "resend": "再次发送",
+    "send": "发送",
+    "withdraw": "提币",
+    "withdrawDisabled": "提币"
+  },
+  "common": {
+    "btn": {
+      "expandOff": "收起",
+      "expandOn": "展开"
+    },
+    "layout": {
+      "nav": {
+        "accountminingsetting": "子账户设置",
+        "bills": "账单",
+        "financial": "理财",
+        "wallet": "钱包"
+      }
+    },
+    "text": {
+      "dateTime": {
+        "day": "天",
+        "hour": "小时",
+        "minute": "分钟",
+        "month": "月",
+        "second": "秒",
+        "week": "周",
+        "year": "年"
+      }
+    }
+  },
+  "confirm": {
+    "frozen": {
+      "content": "因为某些原因，账号已经冻结，请在帮助中心联系管理员",
+      "title": "账号冻结提醒"
+    },
+    "noGoogleAndPhone": {
+      "content": "为了确保您的资金安全，您需要绑定手机或谷歌验证后，才能操作"
+    },
+    "noPermission": {
+      "cancelText": "关闭",
+      "content": "您也可以申请内测，简单填写表格就能完成申请。",
+      "okText": "申请内测",
+      "title": "很抱歉，您不是内测用户，不能体验这个产品"
+    },
+    "withdraw": {
+      "cancelText": "取消",
+      "content": "为了确保您的资金安全，您需要绑定手机或谷歌验证后，才能操作",
+      "okText": "去绑定",
+      "title": "账户安全提示"
+    }
+  },
+  "currencyType": {
+    "CNY": "人民币",
+    "USD": "美元"
+  },
+  "exchange": {
+    "balance": "可用",
+    "bill": {
+      "latest": "最近成交",
+      "sell": "卖出",
+      "waiting": "交易等待中",
+      "waitingContent": "等待时间是漫长的你可以再去看看别的"
+    },
+    "btn": {
+      "disabled": "维护中",
+      "sell": "出售 ETH"
+    },
+    "cancelFailed": "订单已经开始撮合，无法取消。请耐心等待",
+    "cancelOrde": "取消订单",
+    "cancelOrderTitle": "是否取消订单？",
+    "cancelSuccess": "订单已取消",
+    "latestSellCount": "出售数量不能为空！",
+    "rule": {
+      "title": "兑换细则",
+      "title1": "1. 一键卖币是基于去中心化交易所和成熟的做市商打造的服务，安全有保障",
+      "title2": "2. 价格可见即所得，价格直逼中心化交易所",
+      "title3": "3. 小额成交一般是几十秒到几分钟不等，如果没有成交可以随时取消",
+      "title4": "4. 如果有大额兑换需求，请联系星火客服"
+    },
+    "think": "我再想想",
+    "title": "闪电兑换"
+  },
+  "financial": {
+    "annualized": "年化利率",
+    "annualizedTip": "在保底收益率基础上，有概率获得更高的年化收益率",
+    "btn": {
+      "buyContract": "转入",
+      "comming": "即将开始",
+      "hideDividendPaid": "隐藏已派息",
+      "myPostion": "我的持仓",
+      "submitBuyContract": "确认转入"
+    },
+    "myPosition": {
+      "table": {
+        "title": "定期"
+      }
+    },
+    "myPostion": {
+      "title": "我的持仓"
+    },
+    "qa": {
+      "1text": "类似余额宝，随存随取。今日存、次日计息，不足 24 小时不计息。每日 01:00 派发昨日存款利息。利息已实际派发为准",
+      "1title": "什么是活期理财产品？",
+      "2text1": "星火矿池使用子账户挖矿",
+      "2text2": "系统自动将收益转入云钱包",
+      "2text3": "持有资产即可（余额 >= 0.1 ETH）赚取每日的活期收益",
+      "2title": "如何参加活期理财？",
+      "3text": "适合长期看好该 token，愿意中长期持有该币，以获取得更高的存款利息。在星火存款，本金、收益均由保障",
+      "3title": "什么是定期理财？",
+      "4text1": "转入后，资产将从可用余额中锁定",
+      "4text2": "起息日开始计息，星火将在到期日后开始清算，并派发利息，预计在赎回日 24 小时内完成派息",
+      "4text3": "定期产品至少获得保底年化利率，且有概率获得更高的波动利息",
+      "4title": "如何参加定期理财？"
+    },
+    "regular": {
+      "agreement": "《服务协议》",
+      "agreementReaded": "已阅读并同意",
+      "agreementRequired": "请阅读并同意《服务协议》！",
+      "amountRequired": "请输入购入金额！",
+      "annualizedDividend": "派息利率",
+      "balance": "可用余额：",
+      "balanceOf": "可用余额：",
+      "buyAmount": "转入金额",
+      "buyTime": "申购时间",
+      "buyValues": "申购数量",
+      "deadline": "申购截止",
+      "deadline2": "距离申购截止剩余",
+      "endSubscribe": "起息日",
+      "endTime": "到期日",
+      "endTime2": "赎回日",
+      "income": "收益",
+      "lockingdays": "锁仓时间",
+      "myPostionBalance": "持仓金额",
+      "qaTitle": "常见问题",
+      "remainingAmount": "剩余额度",
+      "startAt": "距离开始：",
+      "startSubscribe": "开始认购",
+      "status": "状态",
+      "status_DIVIDEND_PAID": "已派息",
+      "status_LOCKING": "计息中",
+      "status_REDEMPTION": "赎回中",
+      "status_SUBSCRIBE": "认购中",
+      "subscribeBalance": "已申购",
+      "subtitle": "灵活定制，收益更高",
+      "title": "定期理财",
+      "totalBalance": "总量"
+    },
+    "status": {
+      "DIVIDEND_PAID": "已派息",
+      "DIVIDEND_PAID2": "已结束",
+      "LOCKING": "计息中",
+      "REDEMPTION": "赎回中"
+    }
+  },
+  "homePage": {
+    "alert": {
+      "notSupportCharge": "不支持充值功能。每天通过「子账户挖矿」的收益将自动转入云钱包",
+      "notSupportChargeMore": "子账户挖矿教程 >"
+    },
+    "myAssets": {
+      "title": "我的资产",
+      "unUseAbled": "冻结:",
+      "useAbled": "可用:"
+    },
+    "myBills": {
+      "allBills": "我的账单",
+      "title": "最近账单"
+    },
+    "myWallet": {
+      "title": "我的云钱包",
+      "totalAssetsTitle": "总资产"
+    },
+    "toptip": {
+      "isFrozen": "提币被冻结，请联系管理员",
+      "noBalance": "余额为 0 无法提币",
+      "notSupport": "暂不支持账户挖矿，无法提币",
+      "pauseTransfer": "系统维护中，请稍后再试"
+    }
+  },
+  "html": {
+    "desc": "星火矿池云钱包为矿工提供安全,值得信赖的加密资产金融产品",
+    "keywords": "云钱包,星火矿池云钱包,加密钱包,持币生息,区块链金融,区块链金融服务,区块链银行",
+    "title": "云钱包 - 星火矿池"
+  },
+  "largeAmountModal": {
+    "content": "为了您的资产安全，大额转账前，建议使用小额提币，确认收款方到账后，再执行大额提币操作",
+    "ok": "我知道了",
+    "title": "大额提币提醒"
+  },
+  "link": {
+    "billsHistory": "历史账单"
+  },
+  "message": {
+    "logout": {
+      "success": "退出成功！"
+    },
+    "withdraw": {
+      "success": "提币成功"
+    }
+  },
+  "meta": {
+    "description": "星火矿池云钱包为矿工提供安全,值得信赖的加密资产金融产品",
+    "keywords": "云钱包,星火矿池云钱包,加密钱包,持币生息,区块链金融,区块链金融服务,区块链银行"
+  },
+  "nervos": {
+    "exchange": "闪电兑换",
+    "exchangeEnding": "兑换已结束",
+    "exchangeMaintenance": "请稍后",
+    "exchangeTitle": "挖矿兑换",
+    "message": {
+      "exchangeFailed": "兑换失败！",
+      "exchangeSuccess": "兑换成功！",
+      "maxExchangeAmount": "最大兑换额度{{ value }} !",
+      "minExchangeAmount": "最小兑换数量不能小于 {{ value }} ETH !",
+      "minExchangeAmountUSDT": "最小兑换金额不能小于 {{value}} USDT !",
+      "noBalance": "您的余额不足",
+      "noCKB": "请输入CKB数量！",
+      "noETH": "请输入ETH数量！",
+      "noGoogle": "请输入Google验证码！"
+    },
+    "modal": {
+      "availableETH": "可用 ETH",
+      "balance": "可用",
+      "ckbCount": "买入量",
+      "ckbInputCount": "100~100000",
+      "ethCount": "出售量",
+      "ethInputCount": "ETH",
+      "exchangeRate": "汇率",
+      "google": "请输入Google验证码",
+      "wantBuy": "我想买入"
+    },
+    "noETH": "没 ETH ？子账户挖矿",
+    "noGoogle": {
+      "content": "为了确保您的资金安全，您需要绑定手机或谷歌验证后，才能操作",
+      "title": "您还未绑定谷歌验证"
+    },
+    "price": {
+      "eth": "参考报价 ETH / USDT",
+      "huobi": "Huobi",
+      "offline": "网络中断",
+      "online": "实时"
+    },
+    "progress": {
+      "exchanged": "已兑换(CKB)",
+      "redeeme": "可兑换(CKB)"
+    },
+    "rule": {
+      "agree": "同意",
+      "modelTitle": "请仔细阅读此条款",
+      "more": "了解更多",
+      "reject": "拒绝",
+      "rule1": " Nervos Network 是一个开源的公链生态，包含以区块链技术为核心、相互兼容的一组分层协议，来解决区块链可扩展性上的困境。",
+      "rule2": "CKB 的兑换汇率： 1 CKB = $0.01；ETH 将按照 USDT 实时价格兑换 CKB；总计最大可兑换额度：5000W CKB，折合 $50 万",
+      "rule3": "每人的累计最大兑换额度为：10W CKB；单次最小兑换额度为 100 CKB。星火有权根据活动情况调整额度限制",
+      "rule4": "成交时的兑换价格以服务器端的价格为准，兑换后，CKB 的数量将您的资产明细中显示。兑换交易完成后无法回滚，星火不承担未来 CKB 价格下跌的责任",
+      "rule5": "CKB 主网上线后，云钱包将支持 CKB 转账",
+      "rule6": "CKB 兑换是高风险的行为，请根据自己的风险承受能力决定是否参与，因此带来的风险由本人承担",
+      "title": "兑换条件"
+    },
+    "startSoon": "即将开始",
+    "step": {
+      "ARCHIVE": "下架",
+      "DRAFT": "草稿",
+      "END": "结束兑换",
+      "MAINTENANCE": "开始兑换",
+      "PREHEAT": "预热",
+      "STARTTS": "CKB转账",
+      "bill": "我的兑换记录",
+      "time1": "2019-10-12",
+      "time2": "2019-10-17 16:00",
+      "time3": "额度兑完",
+      "time4": "Nervos 主网上线",
+      "title": "项目流程"
+    },
+    "title": "ETH 兑换 CKB 极速到账"
+  },
+  "nervosDAO": {
+    "asset": {
+      "attend": "参与方式",
+      "attend1": "1. 子账户挖矿",
+      "attend2": "2. 每日收益自动将转入云钱包",
+      "attend3": "3.  持有资产即可（余额 >= 1000 {{currency}}）",
+      "attendCKB": "3. 持有资产即可（余额 >= 1000 {{ currency }}）",
+      "attendETH": "3. 持有资产即可（余额 >= 0.1 {{ currency }}）",
+      "attendUSDT": "3. 持有资产即可（余额 >= 10 {{ currency }}）",
+      "balance": "当前余额 ({{currency}})",
+      "day": "预计日收益",
+      "month": "月累计",
+      "sevenDay": "7 日年化",
+      "startMining": "开始挖矿存币",
+      "yesterday": "昨日收益"
+    },
+    "bill": {
+      "benefitBalance": "计息本金",
+      "title": "收益账单"
+    },
+    "option": {
+      "balanceBenefit": "活期",
+      "withdraw": "提币"
+    },
+    "subTitle": "类似余额宝，当日存，次日计息，帮您利益最大化 | 无锁仓，随存随取。实际收益利率以发放为准",
+    "title": "{{ currency }} 活期",
+    "tokenMining": "活期"
+  },
+  "notification": {
+    "authen": {
+      "description1": "为了确保您的资金安全，您需要绑定手机或谷歌验证后，才能操作",
+      "description2": "点击前往，绑定",
+      "description3": "为了确保您的资金安全，非白名单提币，请先绑定手机",
+      "okText1": "去绑定",
+      "title": "账号安全提示"
+    }
+  },
+  "optionType": {
+    "CLEAR_INCOME": "清算收益",
+    "DEPOSIT": "充币",
+    "INNER_TRANSFER": "内部转账",
+    "TRANSFER": "转账",
+    "WITHDRAW": "提币"
+  },
+  "selectDefaultAccount": {
+    "setting": "设置默认账户？",
+    "title": "请选择子账户"
+  },
+  "seth": {
+    "autoExchange": {
+      "tooSmall": "自动兑换比例不能小于0！"
+    },
+    "exchange": {
+      "btn": "兑换",
+      "title": "开始兑换",
+      "tooMax": "自动兑换比例不能超过100%！"
+    },
+    "predict": {
+      "tip": "预计成交量："
+    },
+    "qa": {
+      "content1": "账户挖矿，每日收益自动转入云钱包，即可手动兑换",
+      "content2": "0%。不收取任何手续费",
+      "content3": "sETH 是 ERC20 代币，可以转入任意支持的钱包，随时提币，不受限制",
+      "question1": "如何参与兑换",
+      "question2": "手续费收多少？",
+      "question3": "如何提币 sETH？",
+      "title": "常见问题"
+    },
+    "setting": {
+      "btn": "确定",
+      "success": "设置成功！",
+      "tip": "每日挖矿收益到账时，即可自动转换成 SETH；如果设置了白名单自动提款，将在兑换完成后，再执行提款操作",
+      "title": "自动兑换比例设置"
+    },
+    "unlogin": {
+      "cancel": "取消",
+      "login": "登录",
+      "title": "请先登录"
+    },
+    "update": "修改"
+  },
+  "table": {
+    "title": {
+      "balance": "可用余额",
+      "bizType": "业务类型",
+      "currency": "币种",
+      "currencyExchange": "交易对",
+      "detail": "明细",
+      "dstAddress": "提币地址",
+      "fees": "手续费",
+      "freezeBalance": "冻结",
+      "note": "备注",
+      "nums": "数量",
+      "option": "操作",
+      "status": "状态",
+      "time": "时间",
+      "totalAssets": "总资产"
+    }
+  },
+  "withdrawModal": {
+    "form": {
+      "authenCode": "谷歌验证码",
+      "authenCode_placeholder": "谷歌验证码",
+      "authenCode_required": "请输入谷歌验证码",
+      "authenCode_validate": "请输入 6 位数字验证码",
+      "emailCode": "邮箱验证码",
+      "emailCode_placeholder": "邮箱验证码",
+      "emailCode_validator": "请输入邮箱验证码",
+      "phoneCode": "短信验证码",
+      "phoneCode_placeholder": "短信验证码",
+      "phoneCode_required": "请输入短信验证码"
+    },
+    "sendEmail": {
+      "notification": {
+        "description": "已发送到邮箱:",
+        "message": "验证码发送成功"
+      }
+    },
+    "sendSms": {
+      "notification": {
+        "description": "已发送到手机:",
+        "message": "验证码发送成功"
+      }
+    },
+    "title": "提币确认"
+  },
+  "withdrawPage": {
+    "addressList": {
+      "link": "提币地址本\n",
+      "noExtData": "未备注",
+      "title": "地址本",
+      "tooltip": {
+        "content": "添加白名单，提币仅需一步验证",
+        "title": "新功能上线"
+      }
+    },
+    "asset": {
+      "Title": "资产明细"
+    },
+    "assets": {
+      "balance": "可用余额",
+      "freeze": "在途中",
+      "freezeTip": "在途中的资产包含：转入中或转出中的资产",
+      "title": "资产明细"
+    },
+    "form": {
+      "address": "收款地址",
+      "address_placeholder": "收款方地址",
+      "address_required": "请输入收款地址",
+      "address_validator": "请输入有效的钱包地址",
+      "fees": "手续费",
+      "message": "温馨提示：",
+      "message_24hwithdraw": "24 小时最大累计提币数量: ",
+      "message_24hwithdraw2": "，超过额度请联系客服",
+      "message_minExtractAmount": "单笔提币的最小数量: ",
+      "note": "备注",
+      "note_placeholder": "选填",
+      "trueSendValue": "实际到账",
+      "value": "提币数量",
+      "value_all": "全部",
+      "value_maxValue": "最多可用: ",
+      "value_placeholder": "提币数量",
+      "value_required": "请输入提币数量",
+      "value_validator_limit": "提币数量超出可用余额",
+      "value_validator_min": "单笔提币的最小数量: ",
+      "value_validator_trueSendvalue": "实际到账数量需要大于等于"
+    },
+    "noData": "暂无数据",
+    "text": {
+      "agoD": "天前",
+      "agoH": "小时前",
+      "agoM": "月前",
+      "agoMin": "分钟前",
+      "agoS": "秒前",
+      "agoW": "周前",
+      "agoY": "年前"
+    },
+    "whitelist": "白名单",
+    "withdraw": {
+      "title": "提币"
+    }
+  }
+}

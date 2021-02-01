@@ -1,0 +1,452 @@
+{
+  "LedgerPage": {
+    "alert": "请使用高版本的 Chrome 或者 Opera 浏览器打开本页面，否则无法检测到您的设备",
+    "table": {
+      "address": "钱包地址",
+      "balance": "钱包余额(Atom)",
+      "id": "ID",
+      "option": "操作"
+    },
+    "text": {
+      "checked": "已经成功检测到您的设备",
+      "checking": "正在检测",
+      "installapp": "安装 Cosmos App",
+      "keyways": "硬件推导路径",
+      "select": "选择",
+      "walletlists": "钱包路径列表"
+    },
+    "text1": "1. 将 Ledger Live app 升级到最新版本",
+    "text2": "2. 在 Ledger 中导入 Cosmos 助记词（可能需要删除原来的助记词）",
+    "text3": "3. 将您的 Ledger 插入到电脑 USB 接口",
+    "text4": "4. 在 Ledger 设备中，打开 Cosmos App"
+  },
+  "StartDelegated": {
+    "haveAtom": {
+      "address": "委托地址：",
+      "commandLine": {
+        "Title": "官方命令行钱包",
+        "text": "Cosmos 官方推荐，代码已审计"
+      },
+      "download": "下载",
+      "gui": {
+        "Title": "Ledger 硬件钱包",
+        "text": "安全可靠的委托方式"
+      },
+      "imToken": {
+        "Title": "imToken",
+        "text": "全球知名数字货币钱包，支持 Cosmos、ETH、BTC、EOS"
+      },
+      "message": "感谢您选择星火矿池！为了您资产的安全，请尽量使用官方钱包工具",
+      "recommend": "推荐",
+      "sparkhub": {
+        "Title": "星火钱包 APP",
+        "text": "星火矿池倾力打造，代码已审计"
+      },
+      "sparkpool": {
+        "Title": "网页钱包",
+        "importkey": "导入钱包",
+        "text": "快捷方便，但是不推荐，仅供测试使用"
+      },
+      "title1": "验证者地址",
+      "title2": "委托方式",
+      "view": "开始"
+    },
+    "idonthave": "我没有",
+    "ihave": "我有",
+    "noAtom": {
+      "text1": "Cosmos 暂时没有开启转账功能，未参加首次代币发行的用户无法获得 Atom",
+      "text2": "等主网升级支持转账后，再购买参与委托，请保持关注",
+      "title": "很抱歉，您暂时不能参与委托"
+    },
+    "prevStep": "上一步",
+    "question": "您是否有 Cosmos 的代币 Atom（原子币）？"
+  },
+  "common": {
+    "delegate": {
+      "title": "开始委托"
+    }
+  },
+  "commonHeader": {
+    "addUser": "导入钱包",
+    "help": "帮助中心",
+    "intro": "简介",
+    "logout": "登出",
+    "sparkpool": "选择星火",
+    "startDelegrate": "主页"
+  },
+  "homePage": {
+    "button": {
+      "delegated": "开始委托",
+      "downloadApp": "下载钱包 App",
+      "ledger": "连接 Ledger",
+      "search": "搜索"
+    },
+    "chartText": {
+      "networkAnnualized": "全网收益率",
+      "sparkAnnualized": "星火收益率"
+    },
+    "delegated": {
+      "tutorial": "委托教程"
+    },
+    "help": {
+      "qq": "QQ 群",
+      "qqText": "群号：688726721",
+      "telegram": "Telegram",
+      "telegramText": "EtherSparkPool",
+      "title": "委托帮助",
+      "tutorial": {
+        "text": "详细教程教您开始委托，开启 PoS 挖矿之旅"
+      },
+      "wechat": "微信客服",
+      "wechatText": "专业人工客服为您服务"
+    },
+    "intro": {
+      "income": {
+        "text": "Cosmos 官方预计年通货膨胀率 7%-20%，产出的 Atom 将分给所有的委托者，如果参与委托的总量少，您的收益也将更高。",
+        "title": "收益规则"
+      },
+      "punishment": {
+        "text1": "安全稳定的验证者会产生稳定的收益，有问题的节点导致您",
+        "text2": "损失本金。",
+        "text3": "1. 验证者双签会损失 5% 的本金。2. 验证者掉线会损失 0.01% 本金。",
+        "title": "惩罚机制"
+      },
+      "text": "我们支持 Cosmos 用户通过 Ledger/web/wap 等方式进行委托，同时提供收益提取、更换委托、收益复投等服务。",
+      "text2": "选择星火矿池为受托人，无需转账，轻松赚取 PoS 收益，让您的 Atom 数量不断增长。",
+      "title": "COSMOS",
+      "title2": "Cosmos（互联链）是由多条链组成的链网。核心链被称为 Cosmos Hub，其它链通过与Cosmos Hub 连接，实现链与链之间的互通。Cosmos Hub 采用 PoS 机制挖矿，用户通过抵押 Atom（原子币）获得挖矿奖励。",
+      "validator": {
+        "text1": "在验证者同等服务水平的情况下，将同等数量的 Atom 委托给不同验证者，收益差别几乎仅受",
+        "text2": "「佣金」",
+        "text3": "的影响。强烈建议您选择佣金低且服务好的验证者！",
+        "title": "验证者选择"
+      },
+      "wallet": "钱包",
+      "website": "Cosmos 官网"
+    },
+    "link": {
+      "more": "了解更多 >"
+    },
+    "network": {
+      "test": "主网：cosmoshub-2"
+    },
+    "placeholder": {
+      "search": "钱包地址 / 交易 ID"
+    },
+    "question": {
+      "a1": "Cosmos 是一个分散的独立并行区块链网络，每个网络都由经典的拜占庭容错（BFT）共识算法提供支持，如 Tendermint。Cosmos 网络中的第一块区块是 Cosmos Hub，其原生代币是Atom。 Cosmos 是一个自由权限的网络，意味着任何人都可以在其上构建区块链。",
+      "a10": "我们的节点遍布全球。",
+      "a11": "有。我们和广大委托人利益紧密相连。",
+      "a12": "在主网刚上线阶段，我们强烈建议您不要交易 Atom，因为在这个阶段主网可能会不太稳定，也许会出现暂停或其他故障，仍然存在状态回滚的风险。",
+      "a13": "在主网刚上线时，请勿使用Voyager。目前该钱包为alpha版，尚未经过完整的测试。钱包可以使用时，我们会第一时间通知大家。",
+      "a14": "主网刚上线时我们收4%手续费。",
+      "a15": "https://cosmos.network/",
+      "a16": "不会，您委托的 Atom 只是被锁仓，您可以随时申请解除委托，但需要等待三周才能取回您的 Atom。",
+      "a17": "从申请时刻算起，解除委托的的 Atom 需要等待三周才能到账，更换验证者则不需要等待3周的锁仓期。",
+      "a2": "委托人是那些不能或不想自己运行验证节点的 Atom 持有者。 用户可以将 Atom 委托给验证人并获得部分收入。一旦下了委托订单，委托人与验证人将分享收入，同时也一起承担责任。 如果验证者行为不当，每个委托 Atom 的人，将被根据投入的代币数量比例进行惩罚。所以请做好评判，选择靠谱的验证节点。",
+      "a3": "Cosmos Hub 是基于 Tendermint，它依靠一组验证者来保护网络。 验证者的角色是运行一个完整的节点，并通过广播包含由其私钥签署的加密投票参与共识。 验证者在区块链中打包提交新块并获得收入，以奖励他们的的工作成果。 参与治理方面，他们还必须对网络中的提案进行投票。 投票权重根据每一位验证者存放的总权益进行加权。",
+      "a4": "区块增发奖励：只有委托 Atom 才会获得新区块产生的奖励。那些持币但不参与委托的人，手中的 Atom 会面临贬值。区块奖励： 对于 Ethermint 分区，区块奖励会以 Photon 来支付。交易手续费：新区块中含有的所有交易手续费也是收入的一部分。",
+      "a5": "如果你参加了最早期的筹款活动，您可以登陆您的账户查看。如果没有，您只能等到 Cosmos 正式上线之后，从交易所购买 Atom。",
+      "a6": "由于整个 Cosmos 网络的安全是建立在权益证明（PoS）上面的，所以 Cosmos Hub 的验证者需要在节点抵押 Atom 来维护网络安全与稳定。一旦有人作恶，那么他们的 Atom 就会被撤销以示惩戒。从全网安全意义上来说，抵押的 Atom 越多，线上的权益就越多；更多的人加入，安全系数就越大。",
+      "a7": "最大区别是验证者可以参与投票生产新的区块。 验证人还必须拥有一定的 Atom 作为保证金。 由于成为验证者数量有限，只有股权最高的前100个候选者会成为验证人，其他 Atom 持有者可以把自己的币委托给验证者。",
+      "a8": "在所有表明竞选意愿的候选者中，股权最多的100名候选者被任命为验证者。如果某个验证者的股权总量跌出了前100名，他就会失去验证者权利。随着时间的推移，限制将被放宽，最终将会到300个。",
+      "a9": "可以，需自己运行全节点且总股权进入前100，并拥有一定的 Atom 作为保证金。",
+      "more": "更多",
+      "q1": "什么是 Cosmos？",
+      "q10": "你们的节点在哪里？",
+      "q11": "你们有自己的 Atom 存在里面吗？",
+      "q12": "Atom 可以进行交易吗？",
+      "q13": "Voyager 现在可以使用吗？",
+      "q14": "你们收费是怎样的？",
+      "q15": "Cosmos 官网是什么？",
+      "q16": "把 Atom 委托给验证者，我会失去对 Atom 的控制权吗？",
+      "q17": "申请从验证者处提取部分或全部已委托的 Atom,需要多久才能到账？",
+      "q2": "什么是委托人？",
+      "q3": "什么是验证者？",
+      "q4": "委托 Atom 有什么奖励？",
+      "q5": "我如何获得 Atom（原子币）？",
+      "q6": "Atom 有什么用？",
+      "q7": "委托人和验证者有什么区别？",
+      "q8": "Cosmos 中验证者有多少？",
+      "q9": "委托人也可以成为验证者吗？",
+      "title": "常见问题"
+    },
+    "search": {
+      "error": "请输入正确的钱包地址！",
+      "tooltip": "无需输入，点击「搜索」快速体验"
+    },
+    "sparkpool": {
+      "text": "星火矿池从 2016 年开始提供以太坊 PoW 矿池服务，凭借专业的技术实力、公正的分配方式和优良的社区声誉，成长为全球第二大矿池。在挖矿 2.0 时代，星火矿池将利用积累的经验，为用户提供最好的 Cosmos PoS 矿池服务。",
+      "text1": "安全、可靠的企业级机房\n",
+      "text2": "多地理位置多机房灾备",
+      "text3": "KMS 硬件级加密",
+      "text4": "商业 DDoS 攻击防护",
+      "text5": "定期第三方渗透测试",
+      "text6": "专业客服 7x24 在线",
+      "title": "选择星火矿池"
+    },
+    "stats": {
+      "annualized": "万份收益(Atom)/日",
+      "annualized2": "年化收益率",
+      "annualized_tooltip": "根据过去 24 小时实际收益计算，预计年化收益率 {{value}}",
+      "commissionRate": "佣金",
+      "selfDelegation": "自有资金",
+      "tokens": "委托量"
+    },
+    "success": {
+      "copy": "复制成功！"
+    },
+    "text": {
+      "cosmosfeature": "无需转账一键委托，轻松赚取 PoS 收益，让您的 Atom 数量不断增长",
+      "datareference": "* 数据仅供参考",
+      "day": "日",
+      "delegate": "ledger/web/wap 一键委托",
+      "quickstart": "快速体验 >",
+      "redelegate": "更换委托等服务"
+    },
+    "text1": "我们为 Cosmos 用户提供转账、收益提取、更换委托、收益复投等服务",
+    "text2": "选择星火矿池为委托人，轻松赚取 PoS 收益，让您的 Atom 数量不断增长",
+    "title": {
+      "computincome": "计算我的收益",
+      "dailyincome": "查询每日收益",
+      "delegateAtom": "委托您的 Atom，轻松赚取收益",
+      "forcosmosuser": "我们为 Cosmos 用户提供",
+      "sparknode": "星火节点",
+      "sparkvalidator": "Cosmos",
+      "sparkvalidator2": "矿池"
+    }
+  },
+  "page": {
+    "description": "星火 Cosmos 验证者官网支持一键委托，选择 SparkPool，轻松简单赚取收益",
+    "keywords": "COSMOS节点,COSMOS验证者,星火COSMOS节点,ATOM委托,PoS挖矿",
+    "title": "Cosmos 验证者 - 星火矿池"
+  },
+  "txIdPage": {
+    "basic": {
+      "faile": "失败",
+      "fees": "手续费：",
+      "gas": "Gas(used/wanted)：",
+      "height": "高度：",
+      "status": "状态：",
+      "success": "成功",
+      "time": "区块时间：",
+      "title": "基本信息",
+      "txhash": "交易 ID："
+    },
+    "search": {
+      "placeholder": "钱包地址 / 交易 ID",
+      "warning": {
+        "txhash": "钱包地址 / 交易ID",
+        "validaotraddress": "钱包地址 / 交易ID"
+      }
+    },
+    "txData": {
+      "action": "类型",
+      "rawData": "RAW 数据"
+    }
+  },
+  "walletPage": {
+    "account": {
+      "atomBalance": "可用余额：",
+      "atomReward": "收益：",
+      "delegated": "已委托：",
+      "photinoBalance": "可用余额：",
+      "photinoReward": "收益：",
+      "totalAtom": "总余额(Atom)",
+      "totalPhotino": "总光子(Photino)",
+      "unbonding": "赎回中："
+    },
+    "alert": {
+      "btn": "备份私钥",
+      "text": "您的私钥和密码仅存储在浏览器本地，不会传回星火的服务器。请确认您已经备份了私钥或助记词！",
+      "title": "Cosmos 的代币包含原子（Atom）和 光子（Photino），1 Atom =  1000000 uatom"
+    },
+    "annualized": {
+      "text": "预计收益(Atom)/天",
+      "title": "年化收益率:",
+      "tooltip": "根据过去 24 小时实际收益计算"
+    },
+    "button": {
+      "changeValidator": "更换委托",
+      "withdraw": "提取收益"
+    },
+    "confirm": {
+      "cancel": "取消",
+      "loginContent": "导入助记词、私钥登录或连接 Ledger",
+      "loginOk": "登录",
+      "loginTitle": "请先登录",
+      "logoutContent": "您可以先登出，然后登录该钱包进行操作",
+      "logoutOk": "登出",
+      "logoutTitle": "您没有当前账户的权限"
+    },
+    "dailyReward": "每日收益",
+    "dailyRewardHasDelegateData": "请耐心等待，每日 0 点开始统计收益",
+    "dailyRewardNoDelegateData": "暂无数据。委托给 SparkPool 后开始统计每日收益",
+    "dailyRewardStart": "从 {{time}} 开始统计",
+    "delegated": {
+      "atomReward": "收益",
+      "history": "委托历史",
+      "title": "委托中",
+      "unbonding": "赎回中",
+      "validator": "验证者地址"
+    },
+    "forReference": "* 数据仅供参考",
+    "forReferenceMore": "了解更多>",
+    "incomeDetail": "收益详情",
+    "mywallet": "我的钱包",
+    "sumReward": "累计收益(Atom)",
+    "table": {
+      "amount": "数量",
+      "endTime": "到账时间",
+      "fee": "手续费",
+      "hash": "交易 ID",
+      "height": "高度",
+      "time": "委托时间",
+      "txList": {
+        "action": "类型",
+        "time": "时间",
+        "title": "交易列表"
+      }
+    },
+    "text": {
+      "commission": "佣金"
+    },
+    "title": {
+      "otherDelegate": "我的其它委托"
+    },
+    "tooltip": {
+      "changeValidator": "委托给 SparkPool 收益更高。更换委托时，可提取的收益将自动转入余额",
+      "withdraw": "提取收益到钱包"
+    },
+    "txList": {
+      "processing": "处理中",
+      "staus": "状态"
+    }
+  },
+  "webWallet": {
+    "button": {
+      "selectWallet": "选择钱包",
+      "sure": "确定",
+      "unbonding": "赎回本金"
+    },
+    "delegatedList": {
+      "text": "委托 Atom 给验证者可以获得分红，代币不会转移，您还拥有资产的控制权。可以随时赎回，赎回周期大约 21 天"
+    },
+    "delegation": {
+      "account": "委托数量",
+      "accountUnit": "Atom",
+      "button": "确定",
+      "delegate": "我的钱包",
+      "fee": "手续费",
+      "feeMax": "可用手续费：{{fee}}",
+      "gotoValidate": "继续操作",
+      "input": "导入",
+      "maxDelegation": "最大委托数量：{{count}}",
+      "myWallet": "我的钱包",
+      "oldValidator": "原验证者",
+      "title": "委托",
+      "tooltip": "用户通过抵押 Atom（原子币）获得挖矿奖励，您还是拥有资产的控制权，可以随时赎回，赎回周期大约 21 天",
+      "validator": "验证者地址"
+    },
+    "header": {
+      "mnemonic": "导入助记词",
+      "privateKey": "导入私钥",
+      "simple": "极简模式",
+      "words12": "12位",
+      "words24": "24位"
+    },
+    "message": {
+      "alert": "请确认您正在访问 https://cosmos.sparkpool.com。星火不会存储和传输您的私钥和助记词、密码，请注意保密。推荐您使用浏览器隐私模式，使用信任的WIFI和私人电脑，勿使用公用电脑；手动输入助记词（剪切板可能被其他软件监听）",
+      "delegateFailed": "委托失败",
+      "delegateSuccess": "设置成功！",
+      "delegateSuccessMsg": "您的交易已广播，等待上链，请勿重复操作！",
+      "inputFailed": "导入失败",
+      "inputFee": "推荐手续费：0.0001",
+      "inputInt": "为了方便赎回，委托后账户最好保留 1 Atom",
+      "inputSuccess": "导入成功",
+      "noAccount": "委托数量不能为空",
+      "noBalance": "该账户没有足够的余额！",
+      "noFee": "手续费不能为空",
+      "noPassword": "请输入密码",
+      "noPasswordAndRemark": "备注或密码不能为空！",
+      "noRemark": "请输入备注！",
+      "password": "密码",
+      "pickupFailed": "提取失败",
+      "pickupSuccess": "提取广播成功",
+      "pickupSuccessMsg": "您的收益提取已经广播，需要等待区块链确认",
+      "privateKeyTip": "请输入私钥",
+      "pwdAlert": "设置私钥加密的密码，为了账号安全，关闭浏览器后，该密码会失效，您需要再次导入助记词或私钥。",
+      "remark": "备注",
+      "remarkAndPwdSuccess": "设置备注密码成功",
+      "simpleTip": "请输入助记词，用空格隔开",
+      "tooltip": "按顺序输入您的助记词，或将助记词复制到输入框",
+      "unMnemonic": "请输入完整的助记词！",
+      "validAccount": "委托数量必须大于 0",
+      "validFee": "手续费必须大于 0",
+      "validFeeAndAccount": "委托数量必须为整数！",
+      "validMnemonic": "助记词不合法，请尝试检查大小写",
+      "validPassword": "密码长度不能小于8位",
+      "validPrivateKey": "私钥不合法",
+      "wrongPassword": "密码不正确",
+      "wrongSign": "签名失败！请检查您的金额或密码是否输入正确"
+    },
+    "modal": {
+      "alert": "助记词可以推导出无数个钱包地址，每个地址各自独立，请选择一个进行操作",
+      "balance": "余额",
+      "select": "选择",
+      "title": "选择钱包",
+      "wallet": "钱包"
+    },
+    "pickup": {
+      "alert": "提取收益后，您可以再委托，可以获得更高的收益",
+      "pickAll": "提取所有节点收益",
+      "reward": "可提取收益",
+      "title": "提取收益",
+      "tooltip": "提取收益后，您可以再委托，可以获得更高的收益"
+    },
+    "redelegate": {
+      "maxDelegation": "最多可委托：{{count}}",
+      "title": "更换委托",
+      "tooltip": "验证者更换实时生效。更换后，您的收益也将提取到可用余额中"
+    },
+    "redelivery": {
+      "reValidator": "复投地址",
+      "reward": "可复投收益",
+      "title": "复投收益",
+      "tooltip": "提取收益后再次委托，可以获得更高的收益",
+      "validator": "原验证者"
+    },
+    "reward": {
+      "title": "复投收益"
+    },
+    "sign": {
+      "content": "请打开Ledger完成签名...",
+      "title": "等待签名"
+    },
+    "step": {
+      "first": "导入钱包",
+      "second": "设置密码",
+      "third": "完成"
+    },
+    "transfer": {
+      "address": "收款地址",
+      "addressTip": "请输入收款地址",
+      "amount": "出售数量",
+      "balance": "可用: {{value}}",
+      "button": "下一步",
+      "buttonLedger": "我已确认无误",
+      "confirmTip": "请确认信息无误后，再输入密码！",
+      "confirmTipLedger": "请确认信息无误后，打开Ledger完成签名！",
+      "confirmTitle": "确认信息",
+      "memo": "memo",
+      "title": "转账"
+    },
+    "unbonding": {
+      "maxUnbond": "最多可赎回{{value}}",
+      "noUnbond": "赎回数量不能为空",
+      "title": "赎回本金",
+      "tooltip": "您可以赎回任意数量的 Atom，但被赎回的 Atom 需要 21 天才能到账，在此期间没有收益。或许您可以选择「更换委托」",
+      "unbond": "赎回数量"
+    }
+  }
+}

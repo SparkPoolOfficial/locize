@@ -1,0 +1,19 @@
+{
+  "BeginRedelegate": "BeginRedelegate",
+  "Delegate": "Delegate",
+  "EditValidator": "EditValidator",
+  "ModifyWithdrawAddress": "ModifyWithdrawAddress",
+  "Send": "Send",
+  "Undelegate": "Undelegate",
+  "WithdrawDelegationReward": "Withdraw Income",
+  "WithdrawDelegationRewardDelegate": "Reinvest income",
+  "WithdrawValidatorCommission": "WithdrawValidatorCommission",
+  "amount": "Amount",
+  "delegator_address": "Delegator Address",
+  "delegator_amount": "Delegator Amount",
+  "from_address": "From",
+  "memo": "Memo",
+  "shares_amount": "Amount",
+  "to_address": "To",
+  "validator_address": "Validator Address"
+}
